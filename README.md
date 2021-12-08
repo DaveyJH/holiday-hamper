@@ -21,4 +21,10 @@ Really looking forward to working with you all and hope we have a great time
 creating something together! Oh, I suppose if we get a good place - that is a
 bonus!!
 
+## Application/Site Idea
+
+A resource for information on holidays around the globe, from all walks of life
+and all times of the year.  Hopefully with search features, possibly a random
+holiday 'generator' to encourage education and diversity.
+
 :santa:
