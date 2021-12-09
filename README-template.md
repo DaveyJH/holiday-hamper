@@ -129,9 +129,9 @@ F2
 
 ## Languages Used
 
-*  [HTML5](https://en.wikipedia.org/wiki/HTML5)
-*  [CSS3](https://en.wikipedia.org/wiki/CSS)
-* [JavaScript](https://pl.wikipedia.org/wiki/JavaScript)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://pl.wikipedia.org/wiki/JavaScript)
 
 ## Testing
 
