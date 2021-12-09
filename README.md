@@ -11,6 +11,17 @@ etc.
 - File naming convention is:  
   `meaningful-hyphenated-names.extension`
 
+- Please add all attribution/credits to the README column in the project board,
+  ie:  
+  Header image with bright flowers - `https://someURLhere.example`
+  - **We will not use images that have legal issues**...please try and use our
+    own images or stock images from free resources.
+  - If multiple images come from the same resource, we may be able to do a
+    mass-attribution to the site as a whole but please add the info in case
+    we don't do that.
+  - It is a lot easier to do when you get the image than trawling through your
+    history!
+
 ---
 
 If something is really important:
