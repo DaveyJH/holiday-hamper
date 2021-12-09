@@ -28,6 +28,7 @@
     - [Existing Features](#existing-features)
     - [Features Left to Implement](#features-left-to-implement)
   - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
   - [Testing](#testing)
   - [Bugs](#bugs)
     - [Current](#current)
@@ -125,6 +126,12 @@ F2
        - Description -->
 <!-- - *[techNameTwo](techURL)*
        - Description -->
+
+## Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://pl.wikipedia.org/wiki/JavaScript)
 
 ## Testing
 
