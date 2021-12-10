@@ -29,37 +29,56 @@ a {
     color: var(--black);
 }
 
+/* ---------------------------------------------------------------- Hover / Focus */
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: burlywood;
+    cursor: pointer;
+}
+
 /* ---------------------------------------------------------------- Header */
 
 .header {
     width: 100%;
-    padding: 0 20px;
-    height: 17vh;
+    height: 10vh;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-areas: "logo nav-menu mav-menu" "logo subheading subheading";
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: "logo nav-menu";
     justify-items: center;
     align-items: center;
+    border-bottom: 2px solid black;
+    background-color: bisque;
 }
 
 .logo {
     grid-area: logo;
-    margin-left: 20px;
     max-height: 100px;
+    padding: 10px 0;
 }
 
-.subheading {
-    grid-area: subheading;
+nav {
+    height: 100%;
 }
 
 .nav-menu {
     grid-area: nav-menu;
-    margin-left: 20px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    justify-items: center;
-    align-items: center;
+    height: 10vh;
+}
+
+.nav-link {
+    list-style: none;
+    width: 100%;
+    height: 9.8vh;
+    padding: 0 10px;
+}
+
+.nav-link a {
+    height: 10vh;
+    line-height: 10vh;
 }
 
 /* ---------------------------------------------------------------- Images holiday cards */
