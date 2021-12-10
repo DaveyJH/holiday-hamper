@@ -2,14 +2,42 @@
 
 Hi `Team 9`,
 
-Thought I would write a basic doc for us as a first port of call. Any major
-updates and/or changes could be added to this doc as well as the issues board
-etc.
-
-## ***Remember:***
+- Issues assigned but flexible. Hopefully everyone has something they can
+  make a start on.
 
 - File naming convention is:  
   `meaningful-hyphenated-names.extension`
+
+- General design based on https://decemberinmadeira.madeirabelongstoall.com/en/
+- Header with logo/title?
+  - Menu icon for quick navigation?
+  - Maintained throughout site
+- Welcome page with stary night image
+  - Individual stars for links to main content
+  - Very short text welcome
+  - Eye catching and emotive
+  - Small margin below for space for down arrow/show content below fold
+- Brief section for each holiday
+  - Holiday related image
+  - Name of holiday and very brief info
+  - Button linking to main content information
+  - Small margin below for space for down arrow/show content below fold
+- Send in your holiday form
+  - A few input fields for info
+    (decided when we have better idea of main content pages)
+  - Emailjs?
+  - Modal on valid completion/send?
+- Quiz syle questions (no score - more of a fact revealer)
+- Footer with github links/copyright
+  
+
+## Application/Site Idea
+
+A resource for information on holidays around the globe, from all walks of life
+and all times of the year.  Hopefully with search features, possibly a random
+holiday 'generator' to encourage education and diversity.
+
+---
 
 - Please add all attribution/credits to the README column in the project board,
   ie:  
@@ -23,19 +51,5 @@ etc.
     history!
 
 ---
-
-If something is really important:
-
-## ***make it really stand out***
-
-Really looking forward to working with you all and hope we have a great time
-creating something together! Oh, I suppose if we get a good place - that is a
-bonus!!
-
-## Application/Site Idea
-
-A resource for information on holidays around the globe, from all walks of life
-and all times of the year.  Hopefully with search features, possibly a random
-holiday 'generator' to encourage education and diversity.
 
 :santa:
