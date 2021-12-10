@@ -5,7 +5,7 @@
 :root {
     --black: #000000;
     --white: #ffffff;
-    --red: #962D32;
+    --header-red: #962D32;
     --yellow: #EED55F;
 }
 
@@ -56,19 +56,14 @@ a {
     top: 5px;
 } */
 
-#more-info {
+.more-info {
     width: fit-content;
     padding: 1rem;
-    background-color: var(--red);
+    background-color: var(--header-red);
     color: var(--white);
     box-shadow: inset 0 0 .75rem 0 var(--yellow), 0 0 .75rem 0 var(--yellow);
     border-radius: 8px;
     font-size: 20px;
-}
-
-#more-info:hover {
-    background-color: var(--white);
-    color: var(--red);
 }
 
 /* ---------------------------------------------------------------- Hover / Focus */
@@ -77,6 +72,12 @@ a {
 .nav-link:focus {
     background-color: burlywood;
     cursor: pointer;
+}
+
+.more-info:hover,
+.more-info:focus {
+    background-color: var(--white);
+    color: var(--header-red);
 }
 
 /* ---------------------------------------------------------------- Header */
@@ -94,7 +95,7 @@ a {
     justify-items: center;
     align-items: center;
     border-bottom: 2px solid black;
-    background-color: var(--red);
+    background-color: var(--header-red);
     color: var(--white);
 }
 
@@ -202,12 +203,6 @@ nav {
     background-image: url('../../research/images/christmas/pexels-susanne-jutzeler-1603607.jpg');
 }
 
-a span {
-    color: white;
-    background-color: black;
-    padding: .2em;
-}
-
 /* ---------------------------------------------------------------- Form */
 
 #form-container {
@@ -256,13 +251,18 @@ input[type=text], textarea {
 
 footer {
     width: 100%;
-    background: bisque;
+    background: var(--header-red);
+    color: var(--white);
     height: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+footer a {
+    color: var(--white);
 }
 
 /* -------------------------------------------------------------------- 404 */
@@ -291,13 +291,6 @@ footer {
 
 .overlay-404 p {
     padding-bottom: 20px;
-}
-
-.overlay-404 a {
-    color: white;
-    background-color: red;
-    border-radius: 5px;
-    padding: 10px;
 }
 
 /* -------------------------------------------------------------------- Accessibility */
