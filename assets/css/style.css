@@ -57,6 +57,9 @@ a {
 /* ---------------------------------------------------------------- Header */
 
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 10vh;
     text-align: center;
@@ -90,12 +93,15 @@ nav {
     list-style: none;
     width: 100%;
     height: 9.8vh;
-    padding: 0 10px;
 }
 
 .nav-link a {
     height: 10vh;
     line-height: 10vh;
+}
+
+.menu-bar {
+    display: none;
 }
 
 /* ---------------------------------------------------------------- Images holiday cards */
@@ -142,6 +148,7 @@ nav {
     align-self: start;
     justify-self: center;
 }
+
 .grid-item-4 {
     grid-row:5;
     grid-column: 3;
@@ -219,8 +226,8 @@ input[type=text], textarea {
 /* -------------------------------------------------------------------- Accessibility */
 
 .tap-target {
-    width: 48px;
-    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
 }
 
 .sr-only {
@@ -241,20 +248,81 @@ input[type=text], textarea {
     /* Animation styling here */
 }
 
+@media screen and (max-width: 1140px) {
+    .header {
+        grid-template-columns: 1.25fr 3fr;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .header {
+        grid-template-columns: 6fr 1fr;
+    }
+
+    .menu-bar {
+        display: inline;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .navbar-toggle {
+        background-color: bisque;
+        display: inline;
+        width: 25%;
+        height: 40%;
+        position: fixed;
+        top: 9.7vh;
+        right: 0;
+        border: 2px solid var(--black);
+    }
+
+    #burger-icon {
+        position: absolute;
+        top: 19px;
+        right: 15px;
+    }
+
+    #close-icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .close-icon {
+        padding-top: 7px;
+    }
+    
+    .nav-menu {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        padding-top: 50px;
+    }
+
+    .nav-link {
+        height: 5vh;
+    }
+    
+    .nav-link a {
+        line-height: 2.5;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-toggle {
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 627px) {
     .grid-item-4 {
         grid-column: 2/3;
         justify-self: center;
     }
 }
-
-a span {
-    color: #fff;
-    background-color: black;
-    padding: .2em;
-
-}
-
-a {
-    text-decoration: none;
+@media screen and (max-width: 450px) {
+    .navbar-toggle {
+        width: 100%;
+    }
 }
