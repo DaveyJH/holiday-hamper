@@ -9,7 +9,7 @@
 
 [Here is a link to the final project](https://daveyjh.github.io/christmas-hackathon)
 
-This site is a resource for information on holidays around the globe, from all walks of life and all times of the year. Due to the time constraints of the Hackathon, we will be focusing on the holidays around December for now. It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through. This site was built by team TEAMNAME for the [Code Institute](https://codeinstitute.net/) December 2021 Hackathon, with the theme of Happy Holidays.
+This site was built by team TEAMNAME for the [Code Institute](https://codeinstitute.net/) December 2021 Hackathon, with the theme of Happy Holidays. It was built to be a resource for information on holidays around the globe, from all walks of life and all times of the year. Due to the time constraints of the Hackathon, we will be focusing on the holidays around December for now. It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through.
 
 ![Final project image home page](docs/finalpage.png)
 
@@ -102,8 +102,8 @@ We wanted this project to be as inclusive as possible. As the main holidays in e
 
 ### Wireframes
 
-[Here are the wireframes for mobile for this project](docs/wireframes-mobile.png).
-[Here are the wireframes for desktop for this project](docs/wireframes-desktop.pdf).
+* [Here are the wireframes for mobile for this project](docs/wireframes-mobile.png).
+* [Here are the wireframes for desktop for this project](docs/wireframes-desktop.pdf).
 
 ### Features
 
@@ -193,7 +193,7 @@ This site was deployed to GitHub Pages by following these steps:
 1. Login or Sign Up to [GitHub](www.github.com).
 2. Create a new repository named "christmas-hackathon".
 3. Once created, click on "Settings" on the navigation bar under the repository title.
-4. Scroll down to "GitHub Pages".
+4. Scroll down to "Pages".
 5. Under "Source", choose which branch to deploy. We chose "main", but this is sometimes shown as "master".
 6. Choose which folder to deploy from, usually "/root".
 7. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
@@ -388,7 +388,6 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 * [Font Awesome](https://fontawesome.com/): Library of icons used for social media and download links.
 * [Autoprefixer CSS online](https://autoprefixer.github.io/): To aid in the CSS prefixing.
-* ANY CODE WE USED FROM OTHER PEOPLE OR SITES AND WHO IT'S FROM, INCLUDING CREDITING ANYONE WHO HELPED US FIX BUGS
 
 ### Content
 
