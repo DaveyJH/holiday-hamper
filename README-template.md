@@ -13,7 +13,7 @@ BASIC DESCRIPTION OF PROJECT
 It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through.
 WHY DID WE CHOOSE THIS PROJECT
 
-![Final project image home page](assets/docs/finalpage.png)
+![Final project image home page](docs/finalpage.png)
 
 ## Contents
 
@@ -104,8 +104,8 @@ WHAT WE WANTED FROM THIS PROJECT
 
 ### Wireframes
 
-[Here are the wireframes for mobile for this project](assets/docs/wireframes-mobile.png).
-[Here are the wireframes for desktop for this project](assets/docs/wireframes-desktop.pdf).
+[Here are the wireframes for mobile for this project](docs/wireframes-mobile.png).
+[Here are the wireframes for desktop for this project](docs/wireframes-desktop.pdf).
 
 ### Features
 
@@ -341,11 +341,11 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 #### Desktop Lighthouse
 
-![Lighthouse desktop first try](assets/docs/lighthouse.png)
+![Lighthouse desktop first try](docs/lighthouse.png)
 
 #### Mobile Lighthouse
 
-![Lighthouse mobile first try](assets/docs/lighthousemobile.png)
+![Lighthouse mobile first try](docs/lighthousemobile.png)
 
 #### Performance
 
