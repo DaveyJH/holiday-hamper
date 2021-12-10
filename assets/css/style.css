@@ -119,7 +119,7 @@ a span {
     width: 60%;
     height: 80%;
     margin: 0 auto;
-    background-image: url(../images/suggestion_image.jpg);
+    background-image: url(../images/suggestion-image.jpg);
     background-size: cover;
     position: absolute;
     border-radius: 5px;
@@ -130,7 +130,7 @@ a span {
 }
 
 .form-header {
-    color:black;
+    color: var(--black);
     background-color: bisque;
 }
 
