@@ -19,15 +19,51 @@ html {
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif;
     height: calc(100vh - 48px);
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+/* ---------------------------------------------------------------- Header */
+
+.header {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "logo nav-menu mav-menu" "logo subheading subheading";
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    grid-area: logo;
+    margin-left: 20px;
+    max-height: 100px;
+}
+
+.subheading {
+    grid-area: subheading;
+}
+
+.nav-menu {
+    grid-area: nav-menu;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
 }
 
 /* ---------------------------------------------------------------- Images holiday cards */
 
 .grid-container {
-    
     background-size: 100%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -42,16 +78,16 @@ body {
 }
 
 .grid-item-2 {
-    grid-row:3;
+    grid-row: 3;
     grid-column: 3;
 }
 .grid-item-3 {
-    grid-row:4;
+    grid-row: 4;
     grid-column: 4;
 }
 
 .grid-item-3 a {
-    color: #fff;
+    color: var(--white);
     font-size: 2.5em;
 }
 
@@ -69,6 +105,12 @@ body {
 
 #img-2 {
     background-image: url('../../research/images/christmas/pexels-susanne-jutzeler-1603607.jpg');
+}
+
+a span {
+    color: var(--white);
+    background-color: var(--black);
+    padding: .2em;
 }
 
 /* -------------------------------------------------------------------- Accessibility */
@@ -94,14 +136,4 @@ body {
 
 @media screen and (prefers-reduced-motion: no-preference) {
     /* Animation styling here */
-}
-a span {
-    color: #fff;
-    background-color: black;
-    padding: .2em;
-
-}
-
-a {
-    text-decoration: none;
 }
