@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="ADD DESCRIPTION HERE">
+        <meta name="keywords" content="ADD KEYWORDS HERE">
+        <link rel="canonical" href="ADD SITE HERE">
+        <!-- Facebook, LinkedIn, Google -->
+        <meta property="og:type" content="article" />
+        <meta property="og:title" name="title" content="ADD TITLE HERE" />
+        <meta property="og:description" content="ADD DESCRIPTION HERE" />
+        <meta property="og:url" content="ADD SITE HERE" />
+        <meta property="og:site_name" content="ADD TITLE HERE" />
+        <meta property="og:image" name="image" content="ADD FINALSITE PNG FILEPATH HERE" />
+        <meta property="og:image:alt" content="ADD FINALSITE IMAGE ALT TEXT HERE">
+        <!--    Twitter      -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="ADD TITLE HERE">
+        <meta name="twitter:description" content="ADD DESCRIPTION HERE">
+        <meta name="twitter:image" content="ADD FINALSITE PNG FILEPATH HERE">
+        <meta name="twitter:image:alt" content="ADD FINALSITE IMAGE ALT TEXT HERE">
+        <!--    Favicon      -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest" crossorigin="use-credentials">
+        <!-- Local stylesheet -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/c65630dc42.js" crossorigin="anonymous"></script>
+        <title>SUGGESTION FORM</title>
+</head>
+
+<body>
+        <!--    ADD CONTENT    -->
+
+        <form class="suggestion-content" action="assets/js/sendEmail.js" method="post">
+                <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                title="Close Modal">&times;</span>
+                        <img src="assets/images/suggestion_image.jpg" alt="Suggestion Image">
+                </div>
+                <div>
+                        Your suggestion for additional festive holidays is welcome
+                </div>
+                <!-- Name of holiday
+                        requires time of year (not calendar input, too restrictive), who celebrates, where (not needed)?
+                -->
+                <div class="container">
+                        <label for="holiday-name"><b>Name of Holiday</b></label>
+                        <input type="text" placeholder="Enter Holiday Name" name="holiday-name" required>
+                        <label for="month-choice">What Month of the Year?</label>
+                        <input list="months" id="month-choice" name="month-choice" type="text" />
+                        <datalist id="months">
+                                <option value="January"></option>
+                                <option value="February"></option>
+                                <option value="March"></option>
+                                <option value="April"></option>
+                                <option value="May"></option>
+                                <option value="June"></option>
+                                <option value="July"></option>
+                                <option value="August"></option>
+                                <option value="September"></option>
+                                <option value="October"></option>
+                                <option value="November"></option>
+                                <option value="December"></option>
+                        </datalist>
+                        <label for="who-celebrates">Who Celebrates this Holiday</label>
+                        <input type="text" placeholder="Who celebrates" name="who-celebrates" required>
+                        <label for="holiday-description">Describe this Holiday</label>
+                        <input type="text" placeholder="Describe this celebration" name="holiday-description" required>
+                        <button type="submit">Submit Holiday</button>
+                </div>
+
+                <div class="container">
+                        <button class="cancel-btn">Cancel</button>
+                </div>
+        </form>
+        <script src="assets/js/form.js"></script>
+</body>
+
+</html>
