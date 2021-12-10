@@ -9,9 +9,7 @@
 
 [Here is a link to the final project](https://daveyjh.github.io/christmas-hackathon)
 
-BASIC DESCRIPTION OF PROJECT
-It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through.
-WHY DID WE CHOOSE THIS PROJECT
+This site is a resource for information on holidays around the globe, from all walks of life and all times of the year. Due to the time constraints of the Hackathon, we will be focusing on the holidays around December for now. It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through. This site was built by team TEAMNAME for the [Code Institute](https://codeinstitute.net/) December 2021 Hackathon, with the theme of Happy Holidays.
 
 ![Final project image home page](docs/finalpage.png)
 
@@ -64,7 +62,7 @@ WHY DID WE CHOOSE THIS PROJECT
 
 ### Initial Discussion
 
-WHAT WE WANTED FROM THIS PROJECT
+We wanted this project to be as inclusive as possible. As the main holidays in each country are often related to religion, and we wanted to ensure that we were creating a site that was inclusive for people of all faiths, including atheists and agnostics. We wanted to create a resource for information on holidays around the globe, from all walks of life and all times of the year. We discussed the scope of this, and decided that, due to the time contraints of a Hackathon, we'd focus on the holidays that take place around December to start with, with the plan to expand this once the Hackathon has finished. We also want to add an interactive element to encourage education across a wide variety of cultures.
 
 ### User Stories
 
@@ -109,7 +107,24 @@ WHAT WE WANTED FROM THIS PROJECT
 
 ### Features
 
-* WHAT FEATURES ARE ONE THE SITE, LIKE SCOREBOARD, FUNCTIONS, SCROLLING ALERT BAR, ETC.
+* Header
+  * Logo / Title
+  * Menu icon for quick navigation
+  * Constistant throughout site
+* Welcome page with stary night image
+  * Individual stars for links to main content
+  * Short text welcome
+  * Eye catching and emotive
+  * Small margin below for space for down arrow/show content below fold
+* Brief section for each holiday
+  * Holiday related image
+  * Name of holiday and brief info
+  * Button linking to main content information
+  * Small margin below for space for down arrow/show content below fold
+* Send in your holiday form
+  * A few input fields for info (decided when we have better idea of main content pages)
+  * EmailJS
+  * Modal on valid completion
 
 ### Audio
 
@@ -386,7 +401,7 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 ### Acknowledgements
 
 * The team at [Code Institute](https://codeinstitute.net/), for teaching us the necessary skills to create this site.
-* Team 9
+* All members of team TEAMNAME
   * [Abi Harrison](https://github.com/Abibubble)
   * [Dave Horrocks](https://github.com/daveyjh)
   * [Karol Miles](https://github.com/KarMiles)
