@@ -32,21 +32,22 @@ a {
     text-decoration: none;
     color: var(--black);
 }
+
 /* --------------------------------------------------------------- Buttons */
+
 .link-info {
-    background-color: rgba(255, 0,0);
+    background-color: rgba(255,0,0);
     box-shadow: 0 5px 0 #992c1d;
     color: #fafafa;
     padding: 1em;
     text-transform: uppercase;
-
-  }
+}
   
-.link-info:hover {
+.link-info:hover,
+.link-info:focus {
     background-color: #da5746;
     color: #fafafa;
-  }
-
+}
 
 /* ---------------------------------------------------------------- Hover / Focus */
 
@@ -156,7 +157,7 @@ nav {
 .grid-item-4 {
     grid-row:5;
     grid-column: 3;
-    color: #fff;
+    color: white;
     font-size: 2.5em;
     align-self: end;
     justify-self: start;
@@ -178,8 +179,8 @@ nav {
 }
 
 a span {
-    color: var(--white);
-    background-color: var(--black);
+    color: white;
+    background-color: black;
     padding: .2em;
 }
 
@@ -200,7 +201,7 @@ a span {
 }
 
 .form-header {
-    color: var(--black);
+    color: black;
     background-color: bisque;
 }
 
@@ -279,7 +280,7 @@ input[type=text], textarea {
         position: fixed;
         top: 9.7vh;
         right: 0;
-        border: 2px solid var(--black);
+        border: 2px solid black;
     }
 
     #burger-icon {
