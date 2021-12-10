@@ -24,8 +24,51 @@ body {
     margin: 0;
 }
 
-a {
-    text-decoration: none;
+/* ---------------------------------------------------------------- Images holiday cards */
+
+.grid-container {
+    
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+    height: 100vh 
+}
+
+.grid-item-1 {
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+.grid-item-2 {
+    grid-row:3;
+    grid-column: 3;
+}
+.grid-item-3 {
+    grid-row:4;
+    grid-column: 4;
+}
+
+.grid-item-3 a {
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.holiday-description {
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 1em;
+    color: #fafafa;
+    border-radius: 0.2em;
+    text-shadow: pink 0 0 10px;
+ }
+
+#img-1 {
+    background-image: url('../../research/images/christmas/pexels-ylanite-koppens-1693653.jpg');
+}
+
+#img-2 {
+    background-image: url('../../research/images/christmas/pexels-susanne-jutzeler-1603607.jpg');
 }
 
 /* -------------------------------------------------------------------- Accessibility */
@@ -51,4 +94,14 @@ a {
 
 @media screen and (prefers-reduced-motion: no-preference) {
     /* Animation styling here */
+}
+a span {
+    color: #fff;
+    background-color: black;
+    padding: .2em;
+
+}
+
+a {
+    text-decoration: none;
 }
