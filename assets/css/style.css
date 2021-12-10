@@ -47,6 +47,10 @@ a {
     color: #fafafa;
   }
 
+.link-info:active {
+        box-shadow: none;
+        top: 5px;
+}
 
 /* ---------------------------------------------------------------- Hover / Focus */
 
