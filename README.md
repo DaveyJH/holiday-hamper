@@ -7,7 +7,7 @@
 ![Font Awesome version](https://img.shields.io/badge/Font%20Awesome-v5.15.1-blue)
 ![GitHub forks](https://img.shields.io/github/forks/daveyjh/christmas-hackathon?style=social)
 
-[Here is a link to the final project](https://daveyjh.github.io/christmas-hackathon)
+[Here is a link to the final project](https://daveyjh.github.io/holiday-hamper/)
 
 This site was built by team TEAMNAME for the [Code Institute](https://codeinstitute.net/) December 2021 Hackathon, with the theme of Happy Holidays. It was built to be a resource for information on holidays around the globe, from all walks of life and all times of the year. Due to the time constraints of the Hackathon, we will be focusing on the holidays around December for now. It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through.
 

@@ -1,126 +1,122 @@
 <!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        <meta name="description" content="Holiday Hamper, a website created to raise awareness of different holidays throughout the year." />
+        <meta name="keywords" content="holidays, hackathon, code, institute, christmas, hamper, easter, holiday, 404" />
+        <link rel="canonical" href="https://daveyjh.github.io/holiday-hamper/">
+        <!-- Facebook, LinkedIn, Google -->
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" name="title" content="Holiday Hamper"/>
+        <meta property="og:description" content="Holiday Hamper, a website created to raise awareness of different holidays throughout the year."/>
+        <meta property="og:url" content="https://daveyjh.github.io/holiday-hamper/"/>
+        <meta property="og:site_name" content="Holiday Hamper"/>
+        <meta property="og:image" name="image" content="docs/finalpage.png"/>
+        <meta property="og:image:alt" content="An image of the final Holiday Hamper site on a range of devices">
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Holiday Hamper">
+        <meta name="twitter:description" content="Holiday Hamper, a website created to raise awareness of different holidays throughout the year.">
+        <meta name="twitter:image" content="docs/finalpage.png">
+        <meta name="twitter:image:alt" content="An image of the final Holiday Hamper site on a range of devices">
+        <!-- Local stylesheet -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <title>Holiday Hamper Suggest a Holiday</title>
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="robots" content="index, follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="ADD DESCRIPTION HERE">
-    <meta name="keywords" content="ADD KEYWORDS HERE">
-    <link rel="canonical" href="ADD SITE HERE">
-    <!-- Facebook, LinkedIn, Google -->
-    <meta property="og:type" content="article" />
-    <meta property="og:title" name="title" content="Holiday Hamper - Suggest a Holiday" />
-    <meta property="og:description" content="ADD DESCRIPTION HERE" />
-    <meta property="og:url" content="Holiday Hamper - ADD SITE HERE" />
-    <meta property="og:site_name" content="Suggest a Holiday" />
-    <meta property="og:image" name="image" content="ADD FINALSITE PNG FILEPATH HERE" />
-    <meta property="og:image:alt" content="ADD FINALSITE IMAGE ALT TEXT HERE">
-    <!--    Twitter      -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Holiday Hamper - Suggest a Holiday">
-    <meta name="twitter:description" content="ADD DESCRIPTION HERE">
-    <meta name="twitter:image" content="ADD FINALSITE PNG FILEPATH HERE">
-    <meta name="twitter:image:alt" content="ADD FINALSITE IMAGE ALT TEXT HERE">
-    <!-- Local stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/c65630dc42.js" crossorigin="anonymous"></script>
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <!-- Email js -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-    <title>Holiday Hamper - Suggest a Holiday</title>
-</head>
+    <body>
+        <header class="header">
+            <h1 class="logo">Holiday Hamper</h1>
+            <nav class="menu" id="menu">
+                <div class="menu-bar tap-target" role="button" id="close-icon">
+                    <span class="sr-only">Close the navigation menu</span>
+                    <i class="fas fa-times fa-2x tap-target close-icon"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-link">
+                        <a href="">Christmas</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="">Hanukkah</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="">Diwali</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="">Yuletide</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="">Suggest a Holiday</a>
+                    </li>
+                </ul>
+            </nav>
 
-<body>
-    <header class="header">
-        <h1 class="logo">Holiday Hamper</h1>
-        <nav class="menu" id="menu">
-            <div class="menu-bar tap-target" role="button" id="close-icon">
-                <span class="sr-only">Close the navigation menu</span>
-                <i class="fas fa-times fa-2x tap-target close-icon"></i>
+            <div class="menu-bar tap-target" role="button" id="burger-icon">
+                <span class="sr-only">Open the navigation menu</span>
+                <i class="fas fa-bars fa-2x tap-target bar-icon"></i>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-link">
-                    <a href="">Christmas</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">Hanukkah</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">Diwali</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">Yuletide</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">Suggest a Holiday</a>
-                </li>
-            </ul>
-        </nav>
+        </header>
+        <!--    ADD CONTENT    -->
+        <main id="form-container">
+            <form id="suggestion-content" action="assets/js/sendEmail.js" method="post">
+                <!-- <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                            title="Close Modal">&times;</span>
+                        <img src="assets/images/suggestion_image.jpg" alt="Suggestion Image">
+                    </div> -->
+                <!-- Name of holiday
+                        requires time of year (not calendar input, too restrictive), who celebrates, where (not needed)?
+                    -->
+                <div class="container">
+                    <h2 class="form-header">Your suggestion for additional festive holidays is welcome</h2>
+                    <label for="holiday-name">Name of Holiday</label>
+                    <input type="text" placeholder="Enter Holiday Name" name="holiday-name" required>
 
-        <div class="menu-bar tap-target" role="button" id="burger-icon">
-            <span class="sr-only">Open the navigation menu</span>
-            <i class="fas fa-bars fa-2x tap-target bar-icon"></i>
-        </div>
-    </header>
-    <!--    ADD CONTENT    -->
-    <main id="form-container">
-        <form id="suggestion-content" action="assets/js/sendEmail.js" method="post">
-            <!-- <div class="imgcontainer">
-                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
-                        title="Close Modal">&times;</span>
-                    <img src="assets/images/suggestion_image.jpg" alt="Suggestion Image">
-                </div> -->
-            <!-- Name of holiday
-                    requires time of year (not calendar input, too restrictive), who celebrates, where (not needed)?
-                -->
-            <div class="container">
-                <h2 class="form-header">Your suggestion for additional festive holidays is welcome</h2>
-                <label for="holiday-name">Name of Holiday</label>
-                <input type="text" placeholder="Enter Holiday Name" name="holiday-name" required>
+                    <label for="holiday-month">Month of Holiday</label>
+                    <input list="holiday-months" name="holiday-month" id="holiday-month" type="text" required>
+                    <!-- <input list="holiday-month" placeholder="Enter Holiday Month" name="holiday-month" id="holiday-month" required> -->
+                    <datalist id="holiday-months">
+                        <option value="January"></option>
+                        <option value="February"></option>
+                        <option value="March"></option>
+                        <option value="April"></option>
+                        <option value="May"></option>
+                        <option value="June"></option>
+                        <option value="July"></option>
+                        <option value="August"></option>
+                        <option value="September"></option>
+                        <option value="October"></option>
+                        <option value="November"></option>
+                        <option value="December"></option>
+                    </datalist>
 
-                <label for="holiday-month">Month of Holiday</label>
-                <input list="holiday-months" name="holiday-month" id="holiday-month" type="text" required>
-                <!-- <input list="holiday-month" placeholder="Enter Holiday Month" name="holiday-month" id="holiday-month" required> -->
-                <datalist id="holiday-months">
-                    <option value="January"></option>
-                    <option value="February"></option>
-                    <option value="March"></option>
-                    <option value="April"></option>
-                    <option value="May"></option>
-                    <option value="June"></option>
-                    <option value="July"></option>
-                    <option value="August"></option>
-                    <option value="September"></option>
-                    <option value="October"></option>
-                    <option value="November"></option>
-                    <option value="December"></option>
-                </datalist>
+                    <label for="who-celebrates">Who Celebrates this Holiday</label>
+                    <input type="text" placeholder="Who celebrates" name="who-celebrates" required>
 
-                <label for="who-celebrates">Who Celebrates this Holiday</label>
-                <input type="text" placeholder="Who celebrates" name="who-celebrates" required>
-
-                <label for="holiday-description">Describe this Holiday</label>
-                <textarea name="holiday-description" required id="holiday-description"
-                    placeholder="Describe this holiday celebration" rows="10" cols="50">
-                </textarea>
-                <button type="submit">Submit Holiday</button>
-                <button class="cancel-btn">Cancel</button>
-            </div>
-        </form>
-    </main>
-    <footer>
-        <a href="https://abibubble.github.io/icecapades/">Fancy a festive game?</a>
-        <a href="https://abibubble.github.io/undead-choices/">How about something spooky?</a>
-        <p class="copyright">Copyright &copy; Team 9 <span id="copyright"></span></p>
-    </footer>
-    <script src="assets/js/form.js"></script>
-    <script src="assets/js/script.js"></script>
-</body>
-
+                    <label for="holiday-description">Describe this Holiday</label>
+                    <textarea name="holiday-description" required id="holiday-description"
+                        placeholder="Describe this holiday celebration" rows="10" cols="50">
+                    </textarea>
+                    <button type="submit">Submit Holiday</button>
+                    <button class="cancel-btn">Cancel</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <a href="https://abibubble.github.io/icecapades/">Fancy a festive game?</a>
+            <a href="https://abibubble.github.io/undead-choices/">How about something spooky?</a>
+            <p class="copyright">Copyright &copy; Team 9 <span id="copyright"></span></p>
+        </footer>
+        <script src="assets/js/form.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
 </html>
