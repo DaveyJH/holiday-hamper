@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
-/* -------------------------------------------------------------------- Variables */
-
-:root {
-    --black: #000000;
-    --white: #ffffff;
-}
-
 /* -------------------------------------------------------------------- Resets */
 
 * {
@@ -30,13 +23,13 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--black);
+    color: black;
 }
 
 /* --------------------------------------------------------------- Buttons */
 
 .link-info {
-    background-color: rgba(255,0,0);
+    background-color: red;
     box-shadow: 0 5px 0 #992c1d;
     color: #fafafa;
     padding: 1em;
@@ -47,6 +40,11 @@ a {
 .link-info:focus {
     background-color: #da5746;
     color: #fafafa;
+}
+
+.link-info:active {
+    box-shadow: none;
+    top: 5px;
 }
 
 /* ---------------------------------------------------------------- Hover / Focus */
