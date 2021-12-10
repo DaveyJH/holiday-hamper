@@ -34,6 +34,7 @@ a {
 .header {
     width: 100%;
     padding: 0 20px;
+    height: 17vh;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -63,36 +64,58 @@ a {
 
 /* ---------------------------------------------------------------- Images holiday cards */
 
-.grid-container {
-    background-size: 100%;
+.grid-container-1st {
+    background-size: cover;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: minmax(150px, 250px);
     grid-gap: 5px;
-    height: 100vh 
+    height: 83vh; 
+}
+
+.grid-containers-rest {
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: minmax(150px, 250px);
+    grid-gap: 5px;
+    height: 100vh;
 }
 
 .grid-item-1 {
-    grid-column: 2/4;
+    justify-self: center;
+    margin-bottom: 1em;
+    font-size: 3em;
+    grid-column: 2/3;
     grid-row: 2;
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(0, 0, 0) 0 0 50px;
 }
 
 .grid-item-2 {
-    grid-row: 3;
-    grid-column: 3;
-}
-.grid-item-3 {
-    grid-row: 4;
-    grid-column: 4;
+    margin-top: 3em;
+    margin-left: 2em;
+    font-size: 1.5em;
+    grid-column: 2;
+    grid-row: 2;
 }
 
-.grid-item-3 a {
-    color: var(--white);
+.grid-item-3 {
+    grid-row:3;
+    grid-column: 2;
+    align-self: start;
+    justify-self: center;
+}
+.grid-item-4 {
+    grid-row:5;
+    grid-column: 3;
+    color: #fff;
     font-size: 2.5em;
+    align-self: end;
+    justify-self: start;
 }
 
 .holiday-description {
-    /* background: rgba(0, 0, 0, 0.5); */
     padding: 1em;
     color: #fafafa;
     border-radius: 0.2em;
@@ -180,4 +203,22 @@ input[type=text], textarea {
 
 @media screen and (prefers-reduced-motion: no-preference) {
     /* Animation styling here */
+}
+
+@media screen and (max-width: 627px) {
+    .grid-item-4 {
+        grid-column: 2/3;
+        justify-self: center;
+    }
+}
+
+a span {
+    color: #fff;
+    background-color: black;
+    padding: .2em;
+
+}
+
+a {
+    text-decoration: none;
 }
