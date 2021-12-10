@@ -226,6 +226,41 @@ input[type=text], textarea {
     margin: 4px 10%;
 }
 
+/* -------------------------------------------------------------------- 404 */
+
+.main-404 {
+    height: 100vh;
+    background-image: url('../../research/images/christmas/pexels-ylanite-koppens-1693653.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-404 {
+    padding-top: 20vh;
+    margin: auto;
+    width: fit-content;
+}
+
+.overlay-404 {
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    line-height: 2;
+    text-align: center;
+}
+
+.overlay-404 p {
+    padding-bottom: 20px;
+}
+
+.overlay-404 a {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 /* -------------------------------------------------------------------- Accessibility */
 
 .tap-target {
