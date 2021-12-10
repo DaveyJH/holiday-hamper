@@ -1,4 +1,4 @@
-# Title
+# Holiday Hamper
 
 ![GitHub contributors](https://img.shields.io/github/contributors/daveyjh/christmas-hackathon)
 ![GitHub last commit](https://img.shields.io/github/last-commit/daveyjh/christmas-hackathon)
@@ -84,7 +84,7 @@ WHAT WE WANTED FROM THIS PROJECT
 
 * WHY SOMEONE WOULD COME BACK REPEATEDLY, AND WHAT THEY'D WANT, LIKE EASY TO BOOK SOMETHING, OR A SCOREBOARD, ETC.
 
-[Back to Top](#title)
+[Back to Top](#holiday-hamper)
 
 ---
 
@@ -115,7 +115,7 @@ WHAT WE WANTED FROM THIS PROJECT
 
 * WHAT AUDIO IS USED (IF ANY) AND WHY.
 
-[Back to Top](#title)
+[Back to Top](#holiday-hamper)
 
 ---
 
@@ -214,7 +214,7 @@ This site was deployed to GitHub Pages by following these steps:
 
 For a more detailed version of these steps, go to the [Github Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) page on this topic.
 
-[Back to Top](#title)
+[Back to Top](#holiday-hamper)
 
 ---
 
@@ -233,7 +233,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 3. JSHint
     * [JSHint](https://jshint.com/)
 
-[Back to Top](#title)
+[Back to Top](#holiday-hamper)
 
 ### Testing User Stories
 
@@ -261,7 +261,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 
 * HOW THE SITE COMPLETES EACH GOAL
 
-[Back to Top](#title)
+[Back to Top](#holiday-hamper)
 
 ### Full Testing
 
@@ -324,7 +324,7 @@ The website was viewed on a variety of devices, including:
 A large amount of testing was done to ensure that all pages were visible or hidden correctly, all buttons worked as they should, and the site worked as it should.
 Friends, family members, and other developers were asked to review the site and documentation to point out any bugs and/or user experience issues that they came across.
 
-[Back to Top](#title)
+[Back to Top](#holiday-hamper)
 
 ### Solved Bugs
 
@@ -363,7 +363,7 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 * EXPLAIN SCORE AND HOW WE IMPROVED IT IF NECESSARY
 
-[Back to Top](#title)
+[Back to Top](#holiday-hamper)
 
 ---
 
@@ -394,4 +394,4 @@ We tested our website using DevTools Lighthouse feature, and got these results:
   * [Mateusz Niechwiej](https://github.com/mateuszniechwiej)
   * [Polycarp](https://github.com/Polyanyanwu/)
 
-[Back to Top](#title)
+[Back to Top](#holiday-hamper)
