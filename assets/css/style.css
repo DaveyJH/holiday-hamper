@@ -1,3 +1,120 @@
+/* -------------------------------------------------------------------- Variables */
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+}
+
+/* -------------------------------------------------------------------- Resets */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    height: calc(100vh - 48px);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+/* ---------------------------------------------------------------- Header */
+
+.header {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "logo nav-menu mav-menu" "logo subheading subheading";
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    grid-area: logo;
+    margin-left: 20px;
+    max-height: 100px;
+}
+
+.subheading {
+    grid-area: subheading;
+}
+
+.nav-menu {
+    grid-area: nav-menu;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+/* ---------------------------------------------------------------- Images holiday cards */
+
+.grid-container {
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+    height: 100vh 
+}
+
+.grid-item-1 {
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+.grid-item-2 {
+    grid-row: 3;
+    grid-column: 3;
+}
+.grid-item-3 {
+    grid-row: 4;
+    grid-column: 4;
+}
+
+.grid-item-3 a {
+    color: var(--white);
+    font-size: 2.5em;
+}
+
+.holiday-description {
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 1em;
+    color: #fafafa;
+    border-radius: 0.2em;
+    text-shadow: pink 0 0 10px;
+ }
+
+#img-1 {
+    background-image: url('../../research/images/christmas/pexels-ylanite-koppens-1693653.jpg');
+}
+
+#img-2 {
+    background-image: url('../../research/images/christmas/pexels-susanne-jutzeler-1603607.jpg');
+}
+
+a span {
+    color: var(--white);
+    background-color: var(--black);
+    padding: .2em;
+}
+
+/* ---------------------------------------------------------------- Form */
+
 #form-container {
     width: 60%;
     height: 80%;
@@ -7,7 +124,8 @@
     position: absolute;
     border-radius: 5px;
 }
-#form-container form{
+
+#form-container form {
     margin-top: 4%;
 }
 
@@ -15,6 +133,7 @@
     color:black;
     background-color: bisque;
 }
+
 input[type=text], textarea {
     width: 80%;
     padding: 12px 20px;
@@ -23,15 +142,42 @@ input[type=text], textarea {
     border: 1px solid #ccc;
     box-sizing: border-box;
     border-radius: 5px;
-  }
-  .container {
-      position: relative;
-      left: 40%;
-      background-color: bisque;
-      padding: 1rem;
-      border-radius: 2%;
-  }
-  .container label{
-      display: block;
-      margin: 4px 10%;
-  }
+}
+
+.container {
+    position: relative;
+    left: 40%;
+    background-color: bisque;
+    padding: 1rem;
+    border-radius: 2%;
+}
+
+.container label {
+    display: block;
+    margin: 4px 10%;
+}
+
+/* -------------------------------------------------------------------- Accessibility */
+
+.tap-target {
+    width: 48px;
+    height: 48px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* -------------------------------------------------------------------- Media queries */
+
+@media screen and (prefers-reduced-motion: no-preference) {
+    /* Animation styling here */
+}
