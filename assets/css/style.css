@@ -202,6 +202,11 @@ nav {
     color: var(--header-red);
 }
 
+footer a:hover,
+footer a:focus {
+    color: var(--yellow);
+}
+
 /* ---------------------------------------------------------------- Form */
 
 #form-container {
