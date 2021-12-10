@@ -62,7 +62,7 @@ This site is a resource for information on holidays around the globe, from all w
 
 ### Initial Discussion
 
-WHAT WE WANTED FROM THIS PROJECT
+We wanted this project to be as inclusive as possible. As the main holidays in each country are often related to religion, and we wanted to ensure that we were creating a site that was inclusive for people of all faiths, including atheists and agnostics. We wanted to create a resource for information on holidays around the globe, from all walks of life and all times of the year. We discussed the scope of this, and decided that, due to the time contraints of a Hackathon, we'd focus on the holidays that take place around December to start with, with the plan to expand this once the Hackathon has finished. We also want to add an interactive element to encourage education across a wide variety of cultures.
 
 ### User Stories
 
@@ -107,7 +107,24 @@ WHAT WE WANTED FROM THIS PROJECT
 
 ### Features
 
-* WHAT FEATURES ARE ONE THE SITE, LIKE SCOREBOARD, FUNCTIONS, SCROLLING ALERT BAR, ETC.
+* Header
+  * Logo / Title
+  * Menu icon for quick navigation
+  * Constistant throughout site
+* Welcome page with stary night image
+  * Individual stars for links to main content
+  * Short text welcome
+  * Eye catching and emotive
+  * Small margin below for space for down arrow/show content below fold
+* Brief section for each holiday
+  * Holiday related image
+  * Name of holiday and brief info
+  * Button linking to main content information
+  * Small margin below for space for down arrow/show content below fold
+* Send in your holiday form
+  * A few input fields for info (decided when we have better idea of main content pages)
+  * EmailJS
+  * Modal on valid completion
 
 ### Audio
 
