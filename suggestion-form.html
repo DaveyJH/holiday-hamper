@@ -37,20 +37,23 @@
 
 <body>
         <!--    ADD CONTENT    -->
+<div id="form-container">
 
-        <form class="suggestion-content" action="assets/js/sendEmail.js" method="post">
-                <div class="imgcontainer">
+        <form id="suggestion-content" action="assets/js/sendEmail.js" method="post">
+                <!-- <div class="imgcontainer">
                         <span onclick="document.getElementById('id01').style.display='none'" class="close"
                                 title="Close Modal">&times;</span>
                         <img src="assets/images/suggestion_image.jpg" alt="Suggestion Image">
-                </div>
-                <div>
-                        Your suggestion for additional festive holidays is welcome
-                </div>
+                </div> -->
+
                 <!-- Name of holiday
                         requires time of year (not calendar input, too restrictive), who celebrates, where (not needed)?
                 -->
+
                 <div class="container">
+                        <div class="form-header">
+                                <h2>Your suggestion for additional festive holidays is welcome</h2>
+                        </div>
                         <label for="holiday-name"><b>Name of Holiday</b></label>
                         <input type="text" placeholder="Enter Holiday Name" name="holiday-name" required>
                         <label for="month-choice">What Month of the Year?</label>
@@ -72,7 +75,8 @@
                         <label for="who-celebrates">Who Celebrates this Holiday</label>
                         <input type="text" placeholder="Who celebrates" name="who-celebrates" required>
                         <label for="holiday-description">Describe this Holiday</label>
-                        <input type="text" placeholder="Describe this celebration" name="holiday-description" required>
+                        <textarea name="holiday-description" required id="holiday-description" placeholder="Describe this holiday celebration" rows="10" cols="50">
+                        </textarea>
                         <button type="submit">Submit Holiday</button>
                 </div>
 
@@ -80,6 +84,7 @@
                         <button class="cancel-btn">Cancel</button>
                 </div>
         </form>
+</div>
         <script src="assets/js/form.js"></script>
 </body>
 

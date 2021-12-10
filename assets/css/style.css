@@ -1,0 +1,35 @@
+#form-container {
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
+    background-image: url(../images/suggestion_image.jpg);
+    background-size: cover;
+    position: absolute;
+}
+#form-container form{
+    margin-top: 3%;
+}
+
+.form-header {
+    color:black;
+    background-color: bisque;
+}
+input[type=text], textarea {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 4px 10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5%;
+  }
+  .container {
+      position: relative;
+      left: 40%;
+      background-color: bisque;
+      padding: 1rem;
+  }
+  .container label{
+      display: block;
+      margin: 4px 10%;
+  }
