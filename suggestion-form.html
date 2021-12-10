@@ -39,51 +39,57 @@
 
 <body>
         <!--    ADD CONTENT    -->
-<div id="form-container">
+        <div id="form-container">
 
-        <form id="suggestion-content" action="assets/js/sendEmail.js" method="post">
-                <!-- <div class="imgcontainer">
+                <form id="suggestion-content" action="assets/js/sendEmail.js" method="post">
+                        <!-- <div class="imgcontainer">
                         <span onclick="document.getElementById('id01').style.display='none'" class="close"
                                 title="Close Modal">&times;</span>
                         <img src="assets/images/suggestion_image.jpg" alt="Suggestion Image">
                 </div> -->
 
-                <!-- Name of holiday
+                        <!-- Name of holiday
                         requires time of year (not calendar input, too restrictive), who celebrates, where (not needed)?
                 -->
 
-                <div class="container">
-                        <div class="form-header">
-                                <h2>Your suggestion for additional festive holidays is welcome</h2>
-                        </div>
-                        <label for="holiday-name"><b>Name of Holiday</b></label>
-                        <input type="text" placeholder="Enter Holiday Name" name="holiday-name" required>
-                        <label for="month-choice">What Month of the Year?</label>
-                        <input list="months" id="month-choice" name="month-choice" type="text" required />
-                        <datalist id="months">
-                                <option value="January"></option>
-                                <option value="February"></option>
-                                <option value="March"></option>
-                                <option value="April"></option>
-                                <option value="May"></option>
-                                <option value="June"></option>
-                                <option value="July"></option>
-                                <option value="August"></option>
-                                <option value="September"></option>
-                                <option value="October"></option>
-                                <option value="November"></option>
-                                <option value="December"></option>
-                        </datalist>
-                        <label for="who-celebrates">Who Celebrates this Holiday</label>
-                        <input type="text" placeholder="Who celebrates" name="who-celebrates" required>
-                        <label for="holiday-description">Describe this Holiday</label>
-                        <textarea name="holiday-description" required id="holiday-description" placeholder="Describe this holiday celebration" rows="10" cols="50">
+                        <div class="container">
+                                <div class="form-header">
+                                        <h2>Your suggestion for additional festive holidays is welcome</h2>
+                                </div>
+                                <label for="holiday-name">Name of Holiday</label>
+                                <input type="text" placeholder="Enter Holiday Name" name="holiday-name" required>
+
+                                <label for="holiday-month">Month of Holiday</label>
+                                <input list="holiday-months" name="holiday-month" id="holiday-month" type="text"
+                                        required>
+                                <!-- <input list="holiday-month" placeholder="Enter Holiday Month" name="holiday-month" id="holiday-month" required> -->
+                                <datalist id="holiday-months">
+                                        <option value="January"></option>
+                                        <option value="February"></option>
+                                        <option value="March"></option>
+                                        <option value="April"></option>
+                                        <option value="May"></option>
+                                        <option value="June"></option>
+                                        <option value="July"></option>
+                                        <option value="August"></option>
+                                        <option value="September"></option>
+                                        <option value="October"></option>
+                                        <option value="November"></option>
+                                        <option value="December"></option>
+                                </datalist>
+
+                                <label for="who-celebrates">Who Celebrates this Holiday</label>
+                                <input type="text" placeholder="Who celebrates" name="who-celebrates" required>
+
+                                <label for="holiday-description">Describe this Holiday</label>
+                                <textarea name="holiday-description" required id="holiday-description"
+                                        placeholder="Describe this holiday celebration" rows="10" cols="50">
                         </textarea>
-                        <button type="submit">Submit Holiday</button>
-                        <button class="cancel-btn">Cancel</button>
-                </div>
-        </form>
-</div>
+                                <button type="submit">Submit Holiday</button>
+                                <button class="cancel-btn">Cancel</button>
+                        </div>
+                </form>
+        </div>
         <script src="assets/js/form.js"></script>
 </body>
 
