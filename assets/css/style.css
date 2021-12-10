@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
+/* -------------------------------------------------------------------- Variables */
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --red: #962D32;
+    --yellow: #EED55F;
+}
+
 /* -------------------------------------------------------------------- Resets */
 
 * {
@@ -28,7 +37,7 @@ a {
 
 /* --------------------------------------------------------------- Buttons */
 
-.link-info {
+/* .link-info {
     background-color: red;
     box-shadow: 0 5px 0 #992c1d;
     color: #fafafa;
@@ -45,6 +54,21 @@ a {
 .link-info:active {
     box-shadow: none;
     top: 5px;
+} */
+
+#more-info {
+    width: fit-content;
+    padding: 1rem;
+    background-color: var(--red);
+    color: var(--white);
+    box-shadow: inset 0 0 .75rem 0 var(--yellow), 0 0 .75rem 0 var(--yellow);
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+#more-info:hover {
+    background-color: var(--white);
+    color: var(--red);
 }
 
 /* ---------------------------------------------------------------- Hover / Focus */
@@ -70,7 +94,8 @@ a {
     justify-items: center;
     align-items: center;
     border-bottom: 2px solid black;
-    background-color: bisque;
+    background-color: var(--red);
+    color: var(--white);
 }
 
 .logo {
@@ -101,6 +126,7 @@ nav {
 .nav-link a {
     height: 10vh;
     line-height: 10vh;
+    color: var(--white);
 }
 
 .menu-bar {
