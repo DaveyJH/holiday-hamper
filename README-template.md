@@ -1,234 +1,412 @@
-# Name of project
-<!-- ![Multiple Device Demo](./readme-content/images/multi-device.png) -->
-## Live Site
-<!-- [nameOfSite](siteURL)) -->
-## Repository
+# Holiday Hamper
 
-[View Repository Here](https://github.com/daveyjh/christmas-hackathon)
+![GitHub contributors](https://img.shields.io/github/contributors/daveyjh/christmas-hackathon)
+![GitHub last commit](https://img.shields.io/github/last-commit/daveyjh/christmas-hackathon)
+![GitHub language count](https://img.shields.io/github/languages/count/daveyjh/christmas-hackathon)
+![GitHub top language](https://img.shields.io/github/languages/top/daveyjh/christmas-hackathon)
+![Font Awesome version](https://img.shields.io/badge/Font%20Awesome-v5.15.1-blue)
+![GitHub forks](https://img.shields.io/github/forks/daveyjh/christmas-hackathon?style=social)
 
-***
+[Here is a link to the final project](https://daveyjh.github.io/christmas-hackathon)
 
-## Table of Contents
+This site is a resource for information on holidays around the globe, from all walks of life and all times of the year. Due to the time constraints of the Hackathon, we will be focusing on the holidays around December for now. It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through. This site was built by team TEAMNAME for the [Code Institute](https://codeinstitute.net/) December 2021 Hackathon, with the theme of Happy Holidays.
 
-- [Name of project](#name-of-project)
-  - [Live Site](#live-site)
-  - [Repository](#repository)
-  - [Table of Contents](#table-of-contents)
-  - [Objective](#objective)
-  - [Brief](#brief)
-    - [nameOfSite](#nameofsite)
-  - [UX &#8722; User Experience Design](#ux--user-experience-design)
-    - [User Requirements](#user-requirements)
-    - [Initial Concept](#initial-concept)
-      - [Wireframes](#wireframes)
-      - [Colour Scheme](#colour-scheme)
-      - [Typography](#typography)
-      - [Imagery](#imagery)
-  - [Features](#features)
-    - [Existing Features](#existing-features)
-    - [Features Left to Implement](#features-left-to-implement)
-  - [Technologies Used](#technologies-used)
-    - [Languages Used](#languages-used)
-  - [Testing](#testing)
-  - [Bugs](#bugs)
-    - [Current](#current)
-    - [Resolved](#resolved)
-  - [Development](#development)
-  - [Deployment](#deployment)
-  - [Credits](#credits)
-    - [Content](#content)
-    - [Media](#media)
-    - [Acknowledgements](#acknowledgements)
-    - [Personal Development](#personal-development)
+![Final project image home page](docs/finalpage.png)
 
-***
+## Contents
 
-## Objective
+* [User Experience (UX)](#user-experience-(ux))
+  * [Initial Discussion](#initial-discussion)
+  * [User Stories](#user-stories)
 
-Some text here
-<!-- objective description here -->
-***The needs within this project are not genuine and are made purely for the purpose of completing my Code Institute project***
+* [Design](#design)
+  * [Color Scheme](#color-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+  * [Audio](#audio)
 
-***
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
 
-## Brief
+* [Deployment](#deployment)
+  * [Initial Deployment](#initial-deployment)
+  * [How to Fork it](#how-to-fork-it)
+  * [How to Clone it](#how-to-clone-it)
+  * [Making a Local Clone](#making-a-local-clone)
 
-### nameOfSite
-<!-- brief description of goals and requirements -->
-***
+* [Testing](#testing)
+  * [W3C Validator](#w3c-validator)
+  * [Testing User Stories](#testing-user-stories)
+  * [Full Testing](#full-testing)
+  * [Further Testing](#further-testing)
+  * [Solved Bugs](#solved-bugs)
+  * [Known Bugs](#known-bugs)
+  * [Lighthouse](#lighthouse)
+    * [Performance](#performance)
+    * [Accessibility](#accessibility)
+    * [Best Practices](#best-practices)
+    * [SEO](#seo)
 
-## UX &#8722; User Experience Design
+* [Credits](#credits)
+  * [Code](#code)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
 
-### User Requirements
+---
 
-Some example user stories which will affect the design
+## User Experience (UX)
 
-<!-- user stories here -->
-***
+### Initial Discussion
 
-### Initial Concept
+We wanted this project to be as inclusive as possible. As the main holidays in each country are often related to religion, and we wanted to ensure that we were creating a site that was inclusive for people of all faiths, including atheists and agnostics. We wanted to create a resource for information on holidays around the globe, from all walks of life and all times of the year. We discussed the scope of this, and decided that, due to the time contraints of a Hackathon, we'd focus on the holidays that take place around December to start with, with the plan to expand this once the Hackathon has finished. We also want to add an interactive element to encourage education across a wide variety of cultures.
 
-<!-- concept here -->
-#### Wireframes
-<!-- wireframes here -->
-<!-- *See [here](./readme-content/wireframes.md#tablet) for other device types* -->
-***
+### User Stories
 
-#### Colour Scheme
+#### Client Goals
 
-<!-- colour scheme, remember to contrast check!!! -->
-***
+* WHAT THE CLIENT WANTS, NOT THE USER
 
-#### Typography
+#### First Time Visitor Goals
 
-<!-- typography -->
-***
+* WHAT A FIRST TIME VISITOR WANTS, LIKE EASY TO UNDERSTAND, EASY TO NAVIGATE
 
-#### Imagery
+#### Returning Visitor Goals
 
-<!-- imagery -->
-***
+* LIKE REPLAYABILITY, WHY THEY WANT TO RETURN TO THE SITE, EXTRA FEATURES
 
-## Features
+#### Frequent Visitor Goals
 
-### Existing Features
+* WHY SOMEONE WOULD COME BACK REPEATEDLY, AND WHAT THEY'D WANT, LIKE EASY TO BOOK SOMETHING, OR A SCOREBOARD, ETC.
 
-<!-- - Feature 1 - allows users X to achieve Y, by having them fill out Z -->
-<!-- 1. feature1
->*"User... **story quote**"*
-- *explanation*-->
-F1
-***
-<!-- - Feature 2 - allows users X to achieve Y, by having them fill out Z -->
-<!-- 1. feature2
->*"User... **story quote**"*
-- *explanation*
-  ![imgName](imgURL)
--->
-F2
-***
+[Back to Top](#holiday-hamper)
 
-### Features Left to Implement
+---
 
-<!-- features left to implement -->
-<!-- 1. Explain desired feature 1
-  - *Notes regarding feature*
-  - Explanation of feature need etc. -->
-<!-- 2. Explain desired feature 2
-  - *Notes regarding feature*
-  - Explanation of feature need etc. -->
-***
+## Design
+
+### Color Scheme
+
+* WHAT COLORS USED AND WHY
+
+### Typography
+
+* WHAT FONT AND WHY
+
+### Imagery
+
+* WHAT IMAGES ARE USED AND WHY
+
+### Wireframes
+
+[Here are the wireframes for mobile for this project](docs/wireframes-mobile.png).
+[Here are the wireframes for desktop for this project](docs/wireframes-desktop.pdf).
+
+### Features
+
+* Header
+  * Logo / Title
+  * Menu icon for quick navigation
+  * Constistant throughout site
+* Welcome page with stary night image
+  * Individual stars for links to main content
+  * Short text welcome
+  * Eye catching and emotive
+  * Small margin below for space for down arrow/show content below fold
+* Brief section for each holiday
+  * Holiday related image
+  * Name of holiday and brief info
+  * Button linking to main content information
+  * Small margin below for space for down arrow/show content below fold
+* Send in your holiday form
+  * A few input fields for info (decided when we have better idea of main content pages)
+  * EmailJS
+  * Modal on valid completion
+
+### Audio
+
+* WHAT AUDIO IS USED (IF ANY) AND WHY.
+
+[Back to Top](#holiday-hamper)
+
+---
 
 ## Technologies Used
 
-<!-- tech used -->
-<!-- - *[techNameOne](techURL)*
-       - Description -->
-<!-- - *[techNameTwo](techURL)*
-       - Description -->
+### Languages Used
 
-## Languages Used
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3#:~:text=CSS3%20is%20the%20latest%20evolution,flexible%20box%20or%20grid%20layouts.)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/CSS)
-- [JavaScript](https://pl.wikipedia.org/wiki/JavaScript)
+### Frameworks Libraries and Programs Used
 
-## Testing
+#### Font Awesome
 
-<!-- explain testing
-? item tested
-? expected result
-? how test was performed
-? actual result
-? differences
-? action required
-? re-test
-- more detail and better format required compared with project 1
-look at daisy's testing documentation and [webinar](https://us02web.zoom.us/rec/play/9FIKllHX2ZiQNFRhYPn_hBh_ZeA8964ZvIDLnhpKGAf1NLVc3_hBJ6zSL8Hv5Hx7ALnPtDmbg8CmFAs.YVsZ9LR_uI7OjEwH)-->
+[Font Awesome](https://fontawesome.com/) was used to add the icons.
 
-<!-- validation of html, css and script. -->
-<!-- lighthouse testing -->
+#### Git
 
-## Bugs
+Git was used for version control by utilizing the Gitpod terminal to add and commit to Git and push to GitHub.
 
-### Current
+#### GitHub
 
-<!-- current bugs -->
+GitHub is used to store the code for this project after being pushed from Git.
 
-<!-- - bugOne explanation
+#### Balsamiq
 
-*notes on explanation* -->
-***
-<!-- - bugTwo explanation
+Balsamiq was used to create the wireframes during the design process.
 
-*notes on explanation* -->
-***
+#### Responsinator
 
-### Resolved
+[Responsinator](http://www.responsinator.com/) was used to help improve the responsive design on a variety of devices.
 
-<!-- resolved bugs -->
-<!-- 1. bugOne
+#### Google DevTools
 
-![bugOneImg](bugOneImgURL)
+Google DevTools was used to help us find which code correlated to which feature.
 
-*Commit - **[sha](commit link with highlighted lines)** - explanation of fix* -->
-***
-<!-- 1. bugTwo
+#### Am I Responsive Design
 
-![bugTwoImg](bugTwoImgURL)
+[Am I Responsive Design](http://ami.responsivedesign.is/#) was used to check the responsive design of the quiz.
 
-*Commit - **[sha](commit link with highlighted lines)** - explanation of fix* -->
-***
+#### Shields.io
 
-## Development
+[Shields.io](https://shields.io/) was used to create the GitHub badges for this README.md file.
 
-<!-- section missed in first project. 
-!describe development process -->
+#### Autoprefixer CSS online
+
+[Autoprefixer CSS online](https://autoprefixer.github.io/) was used to ensure all prefixes for browsers were included correctly.
+
+[Back to Top](#title)
+
+---
 
 ## Deployment
 
-<!-- !check this section, may need adjusting as using additional languages -->
+### Initial Deployment
 
-<!-- **Github Pages**
-- Navigate to the relevant GitHub Repository [here](github repo URL)
-- Select "Settings" from the options below the name of the repository
+This site was deployed to GitHub Pages by following these steps:
 
-![Settings Snip](./readme-content/images/github-settings.png)
-- Select "Pages" from the left hand menu
+1. Login or Sign Up to [GitHub](www.github.com).
+2. Create a new repository named "christmas-hackathon".
+3. Once created, click on "Settings" on the navigation bar under the repository title.
+4. Scroll down to "GitHub Pages".
+5. Under "Source", choose which branch to deploy. We chose "main", but this is sometimes shown as "master".
+6. Choose which folder to deploy from, usually "/root".
+7. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
+8. Your URL will be displayed above "Source".
 
-![Pages Snip](./readme-content/images/pages-select.png)
-- Select "Branch: main" as the source and leave the directory as "/(root)"
+### How to Fork it
 
-![Source Snip](./readme-content/images/pages-source.png)
+1. Login or Sign Up to [GitHub](www.github.com).
+2. On GitHub, go to [daveyjh/christmas-hackathon](https://github.com/Abibubble/christmas-hackathon).
+3. In the top right, click "Fork".
 
-- Click the Save button
+### How to Clone it
 
-- Take note of the URL provided
+1. Login or Sign Up to [GitHub](www.github.com).
+2. Fork the repository daveyjh/christmas-hackathon using the steps above in [How to Fork it](#how-to-fork-it).
+3. Above the file list, click "Code".
+4. Choose if you want to clone using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
+5. Open Git Bash.
+6. Change the directory to where you want your clone to go.
+7. Type git clone and then paste the URL you copied in step 4.
+8. Press Enter to create your clone.
 
-![URL Snip](./readme-content/images/pages-url.png)
+### Making a Local Clone
 
-- GitHub takes a short while to publish the page. The bar turns green if you refresh the pages tab and the page has been deployed
+1. Log in to [GitHub](www.github.com) and locate the [Repository](https://github.com/Abibubble/REPO) for this site.
+2. Under the repository name, above the list of files, click "Code".
+3. Here you can either Clone or Download the repository.
+4. You should clone the repository using HTTPS, clicking on the icon to copy the link.
+5. Open Git Bash.
+6. Change the current working directory to the new location, where you want the cloned directory to be.
+7. Type git clone, and then paste the URL that was copied in Step 4.
+8. Press Enter, and your local clone will be created.
 
-![Confirmed Deployment Snip](./readme-content/images/pages-deployed.png)
-- Click the link or copy the URL to a browser to reach the deployed page
-https://daveyjh.github.io/ci-portfolio-one-v4/
+For a more detailed version of these steps, go to the [Github Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) page on this topic.
 
-The site is now live and operational -->
-***
+[Back to Top](#holiday-hamper)
+
+---
+
+## Testing
+
+### W3C Validator
+
+The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the project to ensure there were no syntax errors within the site.
+
+1. W3C Markup Validator
+    * [HTML Results](LINK)
+
+2. W3C CSS Validator
+    * [CSS Results](LINK)
+
+3. JSHint
+    * [JSHint](https://jshint.com/)
+
+[Back to Top](#holiday-hamper)
+
+### Testing User Stories
+
+#### Client Goals Testing
+
+##### GOAL 1
+
+* HOW THE SITE COMPLETES EACH GOAL
+
+#### First Time Visitor Goals Testing
+
+##### GOAL 2
+
+* HOW THE SITE COMPLETES EACH GOAL
+
+#### Returning Visitor Goals Testing
+
+##### GOAL 3
+
+* HOW THE SITE COMPLETES EACH GOAL
+
+#### Frequent Visitor Goals Testing
+
+##### GOAL 4
+
+* HOW THE SITE COMPLETES EACH GOAL
+
+[Back to Top](#holiday-hamper)
+
+### Full Testing
+
+#### Desktop / Laptop
+
+1. Google Chrome
+    * All tested and working correctly.
+
+2. Microsoft Edge
+    * All tested and working correctly.
+
+3. Mozilla Firefox
+    * All tested and working correctly.
+
+4. Internet Explorer
+    * All tested and working correctly.
+
+5. Safari
+    * All tested and working correctly.
+
+#### Tablet
+
+1. Safari
+    * All tested and working correctly.
+
+#### Mobile
+
+1. Google Chrome
+    * All tested and working correctly.
+
+2. Safari
+    * All tested and working correctly.
+
+3. Samsung Internet
+    * All tested and working correctly.
+
+### Further Testing
+
+The website was tested on Google Chrome, Firefox, Internet Explorer, Microsoft Edge, Safari and Samsung Internet browsers.
+The website was viewed on a variety of devices, including:
+
+* Custom built desktop PC, running Windows 10
+* Acer Aspire V Nitro Laptop, running Windows 10
+* Lenovo B51 IntelCore i7 Laptop, running Ubuntu 16.04 LTS
+* MacBook Pro (15-inch, 2017), running macOS Catalina
+* MacBookAir7,2 (13-inch, 2017)
+* iPad 6,11 5th generation, running iOS 10.3
+* Amazon Fire tablet 7
+* iPhone 7
+* iPhone X
+* iPhone 12
+* OPPO Find X2
+* OPPO Find X2 Lite
+* Samsung Galaxy A70
+* Samsung Galaxy S9
+* Samsung Galaxy S10+
+* Samsung A20
+* xBox One
+
+A large amount of testing was done to ensure that all pages were visible or hidden correctly, all buttons worked as they should, and the site worked as it should.
+Friends, family members, and other developers were asked to review the site and documentation to point out any bugs and/or user experience issues that they came across.
+
+[Back to Top](#holiday-hamper)
+
+### Solved Bugs
+
+1. WHAT THE BUG IS
+    * WHAT STEPS WE TOOK TO FIX IT
+
+### Known Bugs
+
+* ANY BUGS LEFT IN THE CODE AFTER FINAL DEPLOYMENT, FOR FIXING IN FUTURE RELEASES
+
+### Lighthouse
+
+We tested our website using DevTools Lighthouse feature, and got these results:
+
+#### Desktop Lighthouse
+
+![Lighthouse desktop first try](docs/lighthouse.png)
+
+#### Mobile Lighthouse
+
+![Lighthouse mobile first try](docs/lighthousemobile.png)
+
+#### Performance
+
+* EXPLAIN SCORE AND HOW WE IMPROVED IT IF NECESSARY
+
+#### Accessibility
+
+* EXPLAIN SCORE AND HOW WE IMPROVED IT IF NECESSARY
+
+#### Best Practices
+
+* EXPLAIN SCORE AND HOW WE IMPROVED IT IF NECESSARY
+
+#### SEO
+
+* EXPLAIN SCORE AND HOW WE IMPROVED IT IF NECESSARY
+
+[Back to Top](#holiday-hamper)
+
+---
 
 ## Credits
 
+### Code
+
+* [Font Awesome](https://fontawesome.com/): Library of icons used for social media and download links.
+* [Autoprefixer CSS online](https://autoprefixer.github.io/): To aid in the CSS prefixing.
+* ANY CODE WE USED FROM OTHER PEOPLE OR SITES AND WHO IT'S FROM, INCLUDING CREDITING ANYONE WHO HELPED US FIX BUGS
+
 ### Content
-<!-- - the a comes from b -->
-<!-- - the c comes from d -->
+
+* WHO OWNS THE CONTENT OF THE SITE
+
 ### Media
-<!-- - the a comes from b -->
-<!-- - the c comes from d -->
+
+* WHO OWNS ANY MEDIA ON THE SITE, SUCH AS IMAGES AND VIDEOS
+
 ### Acknowledgements
-<!-- - acknowledge a, found at [b](bURL), for c -->
-<!-- - acknowledge d, found at [e](eURL), for f -->
-***
 
-### Personal Development
+* The team at [Code Institute](https://codeinstitute.net/), for teaching us the necessary skills to create this site.
+* All members of team TEAMNAME
+  * [Abi Harrison](https://github.com/Abibubble)
+  * [Dave Horrocks](https://github.com/daveyjh)
+  * [Karol Miles](https://github.com/KarMiles)
+  * [Mike Avgeros](https://github.com/MikeAvgeros)
+  * [Mateusz Niechwiej](https://github.com/mateuszniechwiej)
+  * [Polycarp](https://github.com/Polyanyanwu/)
 
-<!-- notes -->
+[Back to Top](#holiday-hamper)
