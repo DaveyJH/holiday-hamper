@@ -18,6 +18,8 @@
 html {
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -30,6 +32,21 @@ a {
     text-decoration: none;
     color: var(--black);
 }
+/* --------------------------------------------------------------- Buttons */
+.link-info {
+    background-color: rgba(255, 0,0);
+    box-shadow: 0 5px 0 #992c1d;
+    color: #fafafa;
+    padding: 1em;
+    text-transform: uppercase;
+
+  }
+  
+.link-info:hover {
+    background-color: #da5746;
+    color: #fafafa;
+  }
+
 
 /* ---------------------------------------------------------------- Hover / Focus */
 
@@ -117,7 +134,7 @@ nav {
     font-size: 3em;
     grid-column: 2/3;
     grid-row: 2;
-    color: rgb(255, 0, 0);
+    color: red;
     text-shadow: rgb(0, 0, 0) 0 0 50px;
 }
 
