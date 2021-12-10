@@ -5,9 +5,10 @@
     background-image: url(../images/suggestion_image.jpg);
     background-size: cover;
     position: absolute;
+    border-radius: 5px;
 }
 #form-container form{
-    margin-top: 3%;
+    margin-top: 4%;
 }
 
 .form-header {
@@ -21,13 +22,14 @@ input[type=text], textarea {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    border-radius: 5%;
+    border-radius: 5px;
   }
   .container {
       position: relative;
       left: 40%;
       background-color: bisque;
       padding: 1rem;
+      border-radius: 2%;
   }
   .container label{
       display: block;

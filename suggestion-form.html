@@ -33,6 +33,8 @@
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/c65630dc42.js" crossorigin="anonymous"></script>
         <title>SUGGESTION FORM</title>
+        <!-- Email js -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 </head>
 
 <body>
@@ -57,7 +59,7 @@
                         <label for="holiday-name"><b>Name of Holiday</b></label>
                         <input type="text" placeholder="Enter Holiday Name" name="holiday-name" required>
                         <label for="month-choice">What Month of the Year?</label>
-                        <input list="months" id="month-choice" name="month-choice" type="text" />
+                        <input list="months" id="month-choice" name="month-choice" type="text" required />
                         <datalist id="months">
                                 <option value="January"></option>
                                 <option value="February"></option>
@@ -78,9 +80,6 @@
                         <textarea name="holiday-description" required id="holiday-description" placeholder="Describe this holiday celebration" rows="10" cols="50">
                         </textarea>
                         <button type="submit">Submit Holiday</button>
-                </div>
-
-                <div class="container">
                         <button class="cancel-btn">Cancel</button>
                 </div>
         </form>
