@@ -9,9 +9,7 @@
 
 [Here is a link to the final project](https://daveyjh.github.io/christmas-hackathon)
 
-BASIC DESCRIPTION OF PROJECT
-It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through.
-WHY DID WE CHOOSE THIS PROJECT
+This site is a resource for information on holidays around the globe, from all walks of life and all times of the year. Due to the time constraints of the Hackathon, we will be focusing on the holidays around December for now. It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through. This site was built by team TEAMNAME for the [Code Institute](https://codeinstitute.net/) December 2021 Hackathon, with the theme of Happy Holidays.
 
 ![Final project image home page](docs/finalpage.png)
 
@@ -386,7 +384,7 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 ### Acknowledgements
 
 * The team at [Code Institute](https://codeinstitute.net/), for teaching us the necessary skills to create this site.
-* Team 9
+* All members of team TEAMNAME
   * [Abi Harrison](https://github.com/Abibubble)
   * [Dave Horrocks](https://github.com/daveyjh)
   * [Karol Miles](https://github.com/KarMiles)
