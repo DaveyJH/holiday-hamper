@@ -35,51 +35,6 @@ a {
     color: black;
 }
 
-/* --------------------------------------------------------------- Buttons */
-
-/* .link-info {
-    background-color: red;
-    box-shadow: 0 5px 0 #992c1d;
-    color: #fafafa;
-    padding: 1em;
-    text-transform: uppercase;
-}
-  
-.link-info:hover,
-.link-info:focus {
-    background-color: #da5746;
-    color: #fafafa;
-}
-
-.link-info:active {
-    box-shadow: none;
-    top: 5px;
-} */
-
-.more-info {
-    width: fit-content;
-    padding: 1rem;
-    background-color: var(--header-red);
-    color: var(--white);
-    box-shadow: inset 0 0 .75rem 0 var(--yellow), 0 0 .75rem 0 var(--yellow);
-    border-radius: 8px;
-    font-size: 20px;
-}
-
-/* ---------------------------------------------------------------- Hover / Focus */
-
-.nav-link:hover,
-.nav-link:focus {
-    background-color: burlywood;
-    cursor: pointer;
-}
-
-.more-info:hover,
-.more-info:focus {
-    background-color: var(--white);
-    color: var(--header-red);
-}
-
 /* ---------------------------------------------------------------- Header */
 
 .header {
@@ -201,6 +156,51 @@ nav {
 
 #img-2 {
     background-image: url('../../research/images/christmas/pexels-susanne-jutzeler-1603607.jpg');
+}
+
+/* --------------------------------------------------------------- Buttons */
+
+/* .link-info {
+    background-color: red;
+    box-shadow: 0 5px 0 #992c1d;
+    color: #fafafa;
+    padding: 1em;
+    text-transform: uppercase;
+}
+  
+.link-info:hover,
+.link-info:focus {
+    background-color: #da5746;
+    color: #fafafa;
+}
+
+.link-info:active {
+    box-shadow: none;
+    top: 5px;
+} */
+
+.more-info {
+    width: fit-content;
+    padding: 1rem;
+    background-color: var(--header-red);
+    color: var(--white);
+    box-shadow: inset 0 0 .75rem 0 var(--yellow), 0 0 .75rem 0 var(--yellow);
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+/* ---------------------------------------------------------------- Hover / Focus */
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.more-info:hover,
+.more-info:focus {
+    background-color: var(--white);
+    color: var(--header-red);
 }
 
 /* ---------------------------------------------------------------- Form */
