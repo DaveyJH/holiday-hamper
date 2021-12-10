@@ -2,6 +2,21 @@
 
 Hi `Team 9`,
 
+
+## Application/Site Idea
+
+A resource for information on holidays around the globe, from all walks of life
+and all times of the year (due to time constraints, focussing on holidays around
+new year/xmas).  
+Brief intro for each holiday with link to main content.  
+Contact form for users to suggest holidays to add.  
+Mini quiz/fact revealer to add interactive element and encourage education
+across diverse cultures.
+
+Hopefully with search features, possibly a random holiday
+'generator' to encourage education and diversity.
+
+
 - Issues assigned but flexible. Hopefully everyone has something they can
   make a start on.
 
@@ -29,13 +44,6 @@ Hi `Team 9`,
   - Modal on valid completion/send?
 - Quiz syle questions (no score - more of a fact revealer)
 - Footer with github links/copyright
-  
-
-## Application/Site Idea
-
-A resource for information on holidays around the globe, from all walks of life
-and all times of the year.  Hopefully with search features, possibly a random
-holiday 'generator' to encourage education and diversity.
 
 ---
 
