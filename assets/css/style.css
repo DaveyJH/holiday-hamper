@@ -185,13 +185,17 @@ nav {
     color: var(--white);
 }
 
+.fa-chevron-down:hover {
+    color: var(--yellow);
+}
+
 .next-arrow-black {
     color: var(--black);
 }
 
 .holiday-name {
     justify-self: center;
-    color: red;
+    color: var(--yellow);
     text-shadow: rgb(0, 0, 0) 0 0 50px;
     font-size: 3em;
 }
@@ -225,7 +229,7 @@ nav {
 }
 
 #chinese-ny {
-    background-image: url('../img/chinese-new-year/chinese-ny-5.jpg');
+    background-image: url('../img/chinese-new-year/chinese-ny-3.jpg');
 }
 
 /* --------------------------------------------------------------- Buttons */
@@ -269,15 +273,30 @@ nav {
 
 /* ---------------------------------------------------------------- Hover / Focus */
 
+#burger-icon:hover,
+#burger-icon:focus {
+    color: var(--yellow);
+}
+
+.btt-btn:hover,
+.btt-btn:focus {
+    color: var(--yellow);
+}
+
 .nav-link:hover,
 .nav-link:focus {
-    background-color: burlywood;
+    background-color: var(--yellow);
     cursor: pointer;
+}
+
+.nav-link:hover a,
+.nav-link:focus a {
+    color: var(--black);
 }
 
 .more-info:hover,
 .more-info:focus {
-    background-color: burlywood;;
+    background-color: var(--yellow);
     color: var(--red);
 }
 
@@ -418,9 +437,11 @@ input[type=text], textarea {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: red;
+    background-color: var(--red);
+    color: var(--white);
     text-align: center;
-    padding: 5px 0;
+    padding: 2.5px 0;
+    border-radius: 8px;
 
     /* Position the tooltip text */
     position: absolute;
@@ -471,7 +492,7 @@ input[type=text], textarea {
 /* -------------------------------------------------------------------- Footer */
 
 footer {
-    padding-top: 20px;
+    padding-top: 20px 20px;
     width: 100%;
     background: var(--red);
     height: 50px;
@@ -479,7 +500,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     text-align: center;
-    align-items: center;
+    align-content: center;
     position: relative;
     font-size: 20px;
 }
@@ -512,7 +533,7 @@ footer a {
 @keyframes star-spin {
     0%,
     100% {
-        transform: scale(0.5) rotate(0deg);
+        transform: scale(0) rotate(0deg);
     }
 
     50% {
