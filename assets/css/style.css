@@ -339,9 +339,8 @@ input[type=text], textarea {
 
 .christmas-star {
     position: absolute;
-    top: 34.5vh;
-    left: 13vh;
     cursor: pointer;
+    opacity: 0;
 }
 
 .star {
