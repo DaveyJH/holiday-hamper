@@ -34,6 +34,22 @@ a {
     color: black;
 }
 
+/* -------------------------------------------------------------------- Resets */
+
+@-webkit-keyframes fadetobottom {
+    0% {opacity: 0;}
+    0% {transform: translateY(-50%);}
+    100% {opacity: 1;}
+    100% {transform: translateY(0);}
+}
+
+@keyframes fadetobottom {
+    0% {opacity: 0;}
+    0% {transform: translateY(-50%);}
+    100% {opacity: 1;}
+    100% {transform: translateY(0);}
+}
+
 /* ---------------------------------------------------------------- Header */
 
 .header {
@@ -86,7 +102,7 @@ nav {
     width: 25%;
     height: 100%;
     position: fixed;
-    top: 10vh;
+    top: 11vh;
     right: 0;
     box-shadow: -2px 9px 10px 2px darkred;
 }
@@ -95,16 +111,7 @@ nav {
     position: absolute;
     top: 25px;
     right: 15px;
-}
-
-#close-icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.close-icon {
-    padding-top: 7px;
+    cursor: pointer;
 }
 
 /* ---------------------------------------------------------------- Landing Page */
@@ -129,10 +136,14 @@ nav {
 }
 
 .scroll-arrow {
-    margin-bottom: 10px;
-    font-size: 2em;
+    font-size: 2.5em;
     color: var(--white);
     place-self: end center;
+}
+
+.fa-chevron-down {
+    -webkit-animation: fadetobottom 1.5s ease-in-out infinite;
+            animation: fadetobottom 1.5s ease-in-out infinite;
 }
 
 /* ---------------------------------------------------------------- Images holiday cards */
@@ -231,25 +242,6 @@ nav {
 }
 
 /* --------------------------------------------------------------- Buttons */
-
-/* .link-info {
-    background-color: red;
-    box-shadow: 0 5px 0 #992c1d;
-    color: #fafafa;
-    padding: 1em;
-    text-transform: uppercase;
-}
-  
-.link-info:hover,
-.link-info:focus {
-    background-color: #da5746;
-    color: #fafafa;
-}
-
-.link-info:active {
-    box-shadow: none;
-    top: 5px;
-} */
 
 .more-info {
     width: fit-content;
