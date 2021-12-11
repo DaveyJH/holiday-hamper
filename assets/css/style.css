@@ -283,19 +283,29 @@ footer a:focus {
 /* ---------------------------------------------------------------- Form */
 
 #form-container {
+    /* background-image: url(../images/suggestion-image.jpg);
+    background-size: cover; */
+    position: relative;
+    background-color: bisque;
+    padding: 1rem;
+    border-radius: 2%;
     width: 60%;
-    height: 80%;
+    top: 90px;
     margin: 0 auto;
-    background-image: url(../images/suggestion-image.jpg);
-    background-size: cover;
-    position: absolute;
-    border-radius: 5px;
 }
-
+/* 
 #form-container form {
     margin-top: 4%;
+} */
+
+#form-footer {
+    bottom: -70px;
 }
 
+.form-btn{
+    margin: 0 auto;
+    width: 40%;
+}
 .form-header {
     color: black;
     background-color: bisque;
@@ -313,10 +323,14 @@ input[type=text], textarea {
 
 .container {
     position: relative;
-    left: 40%;
     background-color: bisque;
     padding: 1rem;
     border-radius: 2%;
+    width: 100%;
+    margin: 90px 0 1rem 0 auto;
+}
+.container h2 {
+    text-align: center;
 }
 
 .container label {
