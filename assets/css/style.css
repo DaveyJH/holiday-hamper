@@ -45,6 +45,7 @@ a {
     box-shadow: 0px 2px 10px 2px darkred;
     background-color: var(--red);
     color: var(--white);
+    z-index: 99;
 }
 
 .header img {
