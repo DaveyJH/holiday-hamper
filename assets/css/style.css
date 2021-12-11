@@ -252,7 +252,7 @@ nav {
     border-radius: 4px;
     transition: 0.5s;
 }
-  
+
 .btt-btn.active {
     visibility: visible;
     opacity: 1;

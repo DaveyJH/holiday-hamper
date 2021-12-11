@@ -31,6 +31,13 @@ function closeNavBar() {
     `;
 }
 
+// -------------------------------------------------------------------- Got To Top Button
+
+window.addEventListener('scroll', function () {
+    const scroll = document.querySelector('.btt-btn');
+    scroll.classList.toggle('active', window.scrollY > 500);
+});
+
 // -------------------------------------------------------------------- Christmas Stars
 
 function getRandomElement(array) {
@@ -53,10 +60,8 @@ function randomPosition(element) {
 
 // -------------------------------------------------------------------- Copyright
 
-function copyrightYear() {
+(function copyrightYear() {
     var d = new Date();
     var y = d.getFullYear();
     document.getElementById("copyright").innerHTML = y;
-}
-
-copyrightYear();
+})();
