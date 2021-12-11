@@ -200,12 +200,13 @@ nav {
     background: url("../images/landing-page.jpg") no-repeat center center/cover;
 }
 
+
 #img-1 {
-    background-image: url('../../research/images/christmas/pexels-ylanite-koppens-1693653.jpg');
+    background-image: url('../img/christmas/christmas-2.jpg');
 }
 
 #img-2 {
-    background-image: url('../../research/images/christmas/pexels-susanne-jutzeler-1603607.jpg');
+    background-image: url('../img/general-celebrations/general-celebration-4.jpg') ;
 }
 
 /* --------------------------------------------------------------- Buttons */
