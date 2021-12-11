@@ -1,139 +1,139 @@
-{
-    "Christmas": {
+data = {
+    "Christmas": [{
         "question1": {
-            "question": "",
-            "answer": ""
+            "question": "Christmas Day not on Christmas day?",
+            "answer": "In Eritrea, like in its neighbour Ethiopia, Christmas is celebrated on January 7th, rather than December 25th. This is because the Eritrean Orthodox Tewahedo Church uses the Geez Calendar that is somewhat similar to the Julian Calendar followed by Eastern Orthodox Church."
         },
         "question2": {
-            "question": "",
-            "answer": ""
+            "question": "Where is giving apples a Christmas tradition?",
+            "answer": "China! And also, some Chinese call the Chrismas tree “a tree of light"
         },
         "question3": {
-            "question": "",
-            "answer": ""
+            "question": "Giant paper lanterns as Christmas decoration?",
+            "answer": "On Christmas Eve, Christians in Goa, India, hang out giant paper lanterns, in the shape of stars, between the houses so that the stars float above you as you walk down the road!"
         },
         "question4": {
-            "question": "",
-            "answer": ""
+            "question": "Where Christmas Eve is not a very 'silent night'?",
+            "answer": "In Haiti lots of houses are open with all lights on until about 3.00am! Children are normally allowed to go out and often the parents don't know were they are in the early morning - the older children are expected to look after the younger ones! And children of all ages are also allowed to drink 'Anisette', which is a slightly alcoholic drink that's made by soaking 'anise' leaves (the spice where star anise comes from) in rum and sweetening it with sugar."
         },
         "question5": {
-            "question": "",
-            "answer": ""
+            "question": "Parades, stret parties and bull runs for Christmas?",
+            "answer": "During December and into January, there are lots of fiestas, parades, rodeos, street parties, bull runs and choral and dance festivals in Costa Rica. On 26th December (Boxing Day) there is an important horseback parade called the Tope. The next on the next day (27th), many towns and cities have 'Carnaval' with a big parade featuring dancing and big floats."
+        },
+        "question6": {
+            "question": "A very romantic Christmas Eve? ",
+            "answer": "In Japan Christmas Eve is thought of as a romantic day, in which couples spend together and exchange presents. In many ways it resembles Valentine's Day celebrations in the UK and the USA. Young couples like to go for walks to look at the Christmas lights and have a romantic meal in a restaurant."
         }
-    },
-    "Hannukah": {
+    }],
+    "Hannukah": [{
         "question1": {
-            "question": "",
-            "answer": ""
+            "question": "Donut anyone?",
+            "answer": "Throughout Hanukkah over 17.5 million (!) jelly donuts are consumed in Israel which is home to just over 9 million people. This is part of celebrating the miracle of the oil lasting eight days, many of the holiday's festive foods are prepared in oil, particularly: the family favorite sufganiyot (or jelly donuts)."
         },
         "question2": {
-            "question": "",
-            "answer": ""
+            "question": "Why the spinning Dreidel?",
+            "answer": "The famous dreidel, or four-sided spinning top, was invented as a distraction! When the Greek-Syrians had outlawed Jewish studies, the Jews spun dreidels to pretend they were just playing games while they actually engaged with their scripture."
         },
         "question3": {
-            "question": "",
-            "answer": ""
+            "question": "Golden traditions",
+            "answer": "The word hanukkah comes from the Hebrew word Hinuch, or to teach. Many Jews follow a tradition of rewarding their children for learning Torah with golden-wrapped chocolates resembling coins called gelt. They can also be won in the game of Dreidel."
         },
         "question4": {
-            "question": "",
-            "answer": ""
+            "question": "qyiz4",
+            "answer": "ans 4"
         },
         "question5": {
-            "question": "",
-            "answer": ""
+            "question": "quiz 5",
+            "answer": "answer 5"
         }
+    }],
 
-    },
-    "Yuletide": {
+    "Yuletide": [{
         "question1": {
-            "question": "",
-            "answer": ""
+            "question": "The Kissing Bough anyone?",
+            "answer": "At Yuletide, the Pagan tradition, it has often been customary to make a decoration using two hoops, one thrust through the other, bound with evergreens and colourfully decorated. At the bottom of the decoration a bunch of mistletoe is carefully tied, and the whole tableau is suspended in the middle of the room, the centre of attention. Every berry on the mistletoe bears the promise of a kiss, and for every kiss given or taken a berry is removed. When all the berries are gone, the kissing has to stop!"
         },
         "question2": {
-            "question": "",
-            "answer": ""
+            "question": "Where do believes intertwine with astronomy?",
+            "answer": "With the end of the longest night the dark is defeated with the Return of the Sun, the return of light, hope and promise. The Goddess gives birth to the Sun/Sun God. The Sun begins to wax and the days grow longer. All that is hidden will begin to emerge. This is the Sun's birthday! And it really is time to celebrate! Thus Yuletide begins."
         },
         "question3": {
-            "question": "",
-            "answer": ""
+            "question": "yul 3",
+            "answer": "yul 3"
         },
         "question4": {
-            "question": "",
-            "answer": ""
+            "question": "yul4",
+            "answer": "yul 4"
         },
         "question5": {
-            "question": "",
-            "answer": ""
+            "question": "ul5",
+            "answer": "yul 5"
         }
-
-    },
-    "NewYearEve": {
+    }],
+    "NewYearEve": [{
         "question1": {
-            "question": "",
-            "answer": ""
+            "question": "new y1",
+            "answer": "new y 1"
         },
         "question2": {
-            "question": "",
-            "answer": ""
+            "question": "nye 2",
+            "answer": "new y 2"
         },
         "question3": {
-            "question": "",
-            "answer": ""
+            "question": "new y 3",
+            "answer": "new y 3"
         },
         "question4": {
-            "question": "",
-            "answer": ""
+            "question": "new y 4",
+            "answer": "new y 4"
         },
         "question5": {
-            "question": "",
-            "answer": ""
+            "question": "new y 5",
+            "answer": "new y 5"
         }
-
-    },
-    "ChineseNewYear": {
+    }],
+    "ChineseNewYear":[{
         "question1": {
-            "question": "",
-            "answer": ""
+            "question": "Is your boyfriend/girlfriend a fake?",
+            "answer": "To avoid ackward questions during family visits in the Chinese New Year, some desperate singles resort to hire a fake boyfriend or girlfriend to take home."
         },
         "question2": {
-            "question": "",
-            "answer": ""
+            "question": "So when is the Chinese New Year exactly?",
+            "answer": "There’s no set date for Chinese New Year, or The Spring Festival. Unlike western holidays such as Thanksgiving or Christmas, celebration is based on Lunar calendar and can range from January 21 to February 20."
         },
         "question3": {
-            "question": "",
-            "answer": ""
+            "question": "ch 3",
+            "answer": "ch 3"
         },
         "question4": {
-            "question": "",
-            "answer": ""
+            "question": "ch 4",
+            "answer": "ch 4"
         },
         "question5": {
-            "question": "",
-            "answer": ""
+            "question": "ch 5",
+            "answer": "ch 5"
         }
-
-    },
-    "Diwali": {
+    }],
+    "Diwali": [{
         "question1": {
-            "question": "",
-            "answer": ""
+            "question": "A ‘cracker’ of a time!",
+            "answer": "A popular and ubiquitous tradition associated with Diwali is the bursting of firecrackers. However, this is a recent addition to Diwali celebrations, since until the 1900s firecrackers and pyrotechnics were very expensive and were only used by the royals."
         },
         "question2": {
-            "question": "",
-            "answer": ""
+            "question": "Bet you’d also call it fun?",
+            "answer": "While Diwali is supposed to be a festival that signifies piety and purity, it is also the one day most associated with ‘fun’ for many Indian families. A popular tradition during Diwali in Northern India is that of playing cards and gambling with money in the evening. Only on this day, the family’s elders and youngsters all get together to take part in this fun activity."
         },
         "question3": {
-            "question": "",
-            "answer": ""
+            "question": "dw 3",
+            "answer": "dw 3"
         },
         "question4": {
-            "question": "",
-            "answer": ""
+            "question": "dw 4",
+            "answer": "dw 4"
         },
         "question5": {
-            "question": "",
-            "answer": ""
+            "question": "dw 5",
+            "answer": "dw 5"
         }
-
-    }
+    }]
 }
