@@ -45,23 +45,25 @@ const init = () => {
 // after document has loaded, call the init function
 document.addEventListener("DOMContentLoaded", init);
 
-const totalQuiz = quizData.length;
+const totalQuiz = 5 ; //quiz.length;
 const quizQuestion = document.getElementById("question-text");
 const quizAnswer = document.getElementById("quiz-answer");
 const slideNumber = document.getElementById("slide-number");
 
 
 const displayQuiz = function (quizToDisplay) {
-    quizQuestion.textContent = quizData[quizToDisplay].question;
-    quizAnswer.textContent =quizData[quizToDisplay].answer;
-    slideNumber.textContent = `Fun Fact: ${quizToDisplay+1} of ${totalQuiz}`;
+    // quizQuestion.textContent = quiz[quizToDisplay].question;
+    // quizAnswer.textContent =quiz[quizToDisplay].answer;
+    // slideNumber.textContent = `Fun Fact: ${quizToDisplay+1} of ${totalQuiz}`;
 }
 
 const fetchQuiz = async () => {
     try {
         const response = await fetch("./quizData.json");
         const quizData = await response.json();
+        console.log("response=="+quizData);
         quiz = quizData;
+        console.log(quiz);
     } catch (err) {
         console.error(`Couldn't fetch quiz data: ${err}`)
     }
