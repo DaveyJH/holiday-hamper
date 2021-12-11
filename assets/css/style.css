@@ -29,6 +29,7 @@ body {
     height: calc(100vh - 48px);
     margin: 0;
     background-color: whitesmoke;
+    color: var(--white);
 }
 
 a {
@@ -45,7 +46,6 @@ a {
     display: grid;
     box-shadow: 0px 2px 10px 2px darkred;
     background-color: var(--red);
-    color: var(--white);
     z-index: 99;
 }
 
@@ -116,7 +116,12 @@ nav {
 
 .grid-container-welcome {
     display: grid;
-    height: 100vh; 
+    height: 100vh;
+    background: url("../img/landing-page.jpg") no-repeat center center/cover;
+}
+
+.landing-overlay h1 {
+    line-height: 1.6;
 }
 
 .welcome {
@@ -126,9 +131,8 @@ nav {
 }
 
 .sub-heading {
-    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 2em;
-    color: var(--white);
     place-self: center center;
 }
 
@@ -142,78 +146,53 @@ nav {
     place-self: end center;
 }
 
-/* ---------------------------------------------------------------- Images holiday cards */
+/* ---------------------------------------------------------------- Holiday cards */
 
 .grid-container {
     background-size: cover;
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: minmax(150px, 250px);
+    grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
 }
 
-.grid-containers-holidays {
+.grid-odds {
+    grid-template-areas: ". holiday-content" "next-arrow next-arrow";
+}
+
+.grid-evens {
+    grid-template-areas: "holiday-content ." "next-arrow next-arrow";
+}
+
+.holiday-landing-overlay {
+    grid-area: holiday-content;
+    align-self: end;
+    margin-top: 32% !important;
+}
+
+.grid-container-holidays {
     height: 100vh;
 }
 
-.grid-containers-last {
+.grid-container-last {
     height: 95vh;
 }
 
-.grid-item-1-left {
-    grid-column: 2/8;
-    grid-row: 2;
-}
-
-.grid-item-1-right {
-    grid-column: 9/15;
-    grid-row: 2;
-}
-
-.grid-item-2-left {
-    margin-top: 3em;
-    margin-left: 2em;
-    font-size: 1.5em;
-    grid-column: 2/8;
-    grid-row: 2;
-}
-
-.grid-item-2-right {
-    margin-top: 3em;
-    margin-left: 2em;
-    font-size: 1.5em;
-    grid-column: 9/15;
-    grid-row: 2;
-}
-
-.grid-item-3-left {
-    grid-row: 3;
-    grid-column: 2/8;
-    align-self: start;
-    justify-self: center;
-}
-
-.grid-item-3-right {
-    grid-row: 3;
-    grid-column: 9/15;
-    align-self: start;
-    justify-self: center;
-}
-
-.grid-item-4 {
-    grid-row: 5;
-    grid-column: 9;
-    color: white;
+.next-arrow {
     font-size: 2.5em;
+    grid-area: next-arrow;
+    justify-self: center;
     align-self: end;
-    justify-self: start;
+    color: var(--white);
+}
+
+.next-arrow-black {
+    color: var(--black);
 }
 
 .holiday-name {
     justify-self: center;
     color: red;
     text-shadow: rgb(0, 0, 0) 0 0 50px;
-    margin-bottom: 1em;
     font-size: 3em;
 }
 
@@ -222,37 +201,30 @@ nav {
     color: #fafafa;
     border-radius: 0.2em;
     text-shadow: pink 0 0 10px;
+    margin-bottom: 20px;
 }
 
-#img-0 {
-    background: url("../img/landing-page.jpg") no-repeat center center/cover;
-}
-
-#img-1 {
+#christmas {
     background-image: url('../img/christmas/christmas-2.jpg');
 }
 
-#img-2 {
+#new-years-eve {
     background-image: url('../img/general-celebrations/general-celebration-5.jpg');
 }
 
-#img-3 {
+#diwali {
     background-image: url('../img/diwali/diwali-2.jpg');
 }
 
-#img-4 {
+#hanukkah {
     background-image: url('../img/hanukkah/hanukkah-5.jpg');
 }
 
-#img-5 {
+#yuletide {
     background-image: url('../img/yuletide/yuletide-1.jpg');
 }
 
-#img-6 {
-    background-image: url('../img/chinese-new-year/chinese-ny-5.jpg');
-}
-
-#img-6 {
+#chinese-ny {
     background-image: url('../img/chinese-new-year/chinese-ny-5.jpg');
 }
 
@@ -262,11 +234,11 @@ nav {
     width: fit-content;
     padding: 1rem;
     background-color: var(--red);
-    color: var(--white);
     box-shadow: inset 0 0 .75rem 0 var(--yellow), 0 0 .75rem 0 var(--yellow);
     border-radius: 8px;
     font-size: 20px;
     letter-spacing: 1px;
+    color: var(--white);
 }
 
 .btt-btn {
@@ -324,11 +296,12 @@ footer a:focus {
     top: 90px;
     background: url(../img/suggestion-image.jpg) left / 80% auto no-repeat;
     border-radius: 5px;
+    color: var(--black);
 }
 
 #suggestion-content {
     width: 60%;
-    position:relative;
+    position: relative;
     left: 35%;
     margin-bottom: 20px;
 }
@@ -401,6 +374,7 @@ input[type=text], textarea {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    background-color: var(--yellow);
 }
 
 #quiz-question a {
@@ -444,14 +418,12 @@ input[type=text], textarea {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color:red;
-    color: #fff;
+    background-color: red;
     text-align: center;
     padding: 5px 0;
-    /* border-radius: 6px; */
 
     /* Position the tooltip text */
-    position:absolute;
+    position: absolute;
     z-index: 1;
     bottom: 125%;
     left: 50%;
@@ -489,7 +461,6 @@ input[type=text], textarea {
 .overlay {
     padding: 30px;
     border-radius: 10px;
-    color: white;
     line-height: 2;
     text-align: center;
     max-width: 90%;
@@ -503,7 +474,6 @@ footer {
     padding-top: 20px;
     width: 100%;
     background: var(--red);
-    color: var(--white);
     height: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -551,7 +521,7 @@ footer a {
 }
 
 @keyframes bounce {
-	  0%,
+	0%,
     20%,
     40%,
     60%,
@@ -560,7 +530,7 @@ footer a {
         transform: translateY(0);
     }
 
-	  10%,
+	10%,
     30%,
     50%,
     70%,
@@ -604,13 +574,6 @@ footer a {
 @media screen and (max-width: 768px) {
     .navbar-toggle {
         width: 50%;
-    }
-}
-
-@media screen and (max-width: 627px) {
-    .grid-item-4 {
-        grid-column: 2/3;
-        justify-self: center;
     }
 }
 
