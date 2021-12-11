@@ -7,6 +7,7 @@
     --white: #ffffff;
     --red: #962D32;
     --yellow: #EED55F;
+    --header-height: 80px;
 }
 
 /* -------------------------------------------------------------------- Resets */
@@ -32,23 +33,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
-}
-
-/* -------------------------------------------------------------------- Resets */
-
-@-webkit-keyframes fadetobottom {
-    0% {opacity: 0;}
-    0% {transform: translateY(-50%);}
-    100% {opacity: 1;}
-    100% {transform: translateY(0);}
-}
-
-@keyframes fadetobottom {
-    0% {opacity: 0;}
-    0% {transform: translateY(-50%);}
-    100% {opacity: 1;}
-    100% {transform: translateY(0);}
+    color: var(--black);
 }
 
 /* ---------------------------------------------------------------- Header */
@@ -56,11 +41,19 @@ a {
 .header {
     position: fixed;
     width: 100%;
-    height: 80px;
+    height: var(--header-height);
     display: grid;
     box-shadow: 0px 2px 10px 2px darkred;
     background-color: var(--red);
     color: var(--white);
+    z-index: 99;
+}
+
+.header img {
+    height: calc(var(--header-height) * 1.25);
+    position: fixed;
+    top: 5px;
+    left: 30px;
 }
 
 .logo {
@@ -107,7 +100,7 @@ nav {
     width: 25%;
     height: 100%;
     position: fixed;
-    top: 11vh;
+    top: 80px;
     right: 0;
     box-shadow: -2px 9px 10px 2px darkred;
 }
@@ -115,7 +108,7 @@ nav {
 #burger-icon {
     position: absolute;
     top: 25px;
-    right: 15px;
+    right: 25px;
     cursor: pointer;
 }
 
@@ -146,72 +139,79 @@ nav {
     place-self: end center;
 }
 
-.fa-chevron-down {
-    -webkit-animation: fadetobottom 1.5s ease-in-out infinite;
-            animation: fadetobottom 1.5s ease-in-out infinite;
-}
-
 /* ---------------------------------------------------------------- Images holiday cards */
 
-.grid-container-1st {
+.grid-container {
     background-size: cover;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(16, 1fr);
     grid-template-rows: minmax(150px, 250px);
     grid-gap: 5px;
-    height: 100vh; 
 }
 
 .grid-containers-holidays {
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: minmax(150px, 250px);
-    grid-gap: 5px;
     height: 100vh;
 }
 
 .grid-containers-last {
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: minmax(150px, 250px);
-    grid-gap: 5px;
-    height:95vh;
+    height: 95vh;
 }
 
-.grid-item-1 {
-    justify-self: center;
-    margin-bottom: 1em;
-    font-size: 3em;
-    grid-column: 2/3;
+.grid-item-1-left {
+    grid-column: 2/8;
     grid-row: 2;
-    color: red;
-    text-shadow: rgb(0, 0, 0) 0 0 50px;
 }
 
-.grid-item-2 {
+.grid-item-1-right {
+    grid-column: 9/15;
+    grid-row: 2;
+}
+
+.grid-item-2-left {
     margin-top: 3em;
     margin-left: 2em;
     font-size: 1.5em;
-    grid-column: 2;
+    grid-column: 2/8;
     grid-row: 2;
 }
 
-.grid-item-3 {
-    grid-row:3;
-    grid-column: 2;
+.grid-item-2-right {
+    margin-top: 3em;
+    margin-left: 2em;
+    font-size: 1.5em;
+    grid-column: 9/15;
+    grid-row: 2;
+}
+
+.grid-item-3-left {
+    grid-row: 3;
+    grid-column: 2/8;
+    align-self: start;
+    justify-self: center;
+}
+
+.grid-item-3-right {
+    grid-row: 3;
+    grid-column: 9/15;
     align-self: start;
     justify-self: center;
 }
 
 .grid-item-4 {
-    grid-row:5;
-    grid-column: 3;
+    grid-row: 5;
+    grid-column: 9;
     color: white;
     font-size: 2.5em;
     align-self: end;
     justify-self: start;
+}
+
+.holiday-name {
+    justify-self: center;
+    color: red;
+    text-shadow: rgb(0, 0, 0) 0 0 50px;
+    margin-bottom: 1em;
+    font-size: 3em;
 }
 
 .holiday-description {
@@ -238,10 +238,18 @@ nav {
 }
 
 #img-4 {
-    background-image: url('../img/hannukkah/hannukkah-5.jpg');
+    background-image: url('../img/hanukkah/hanukkah-5.jpg');
 }
 
 #img-5 {
+    background-image: url('../img/yuletide/yuletide-1.jpg');
+}
+
+#img-6 {
+    background-image: url('../img/chinese-new-year/chinese-ny-5.jpg');
+}
+
+#img-6 {
     background-image: url('../img/chinese-new-year/chinese-ny-5.jpg');
 }
 
@@ -255,6 +263,33 @@ nav {
     box-shadow: inset 0 0 .75rem 0 var(--yellow), 0 0 .75rem 0 var(--yellow);
     border-radius: 8px;
     font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.btt-btn {
+    visibility: hidden;
+    opacity:0;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    padding: 1px; 
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.btt-btn i {
+    font-size: 3em;
+    
+}
+.btt-btn.active {
+    visibility: visible;
+    opacity: 1;
 }
 
 /* ---------------------------------------------------------------- Hover / Focus */
@@ -267,7 +302,7 @@ nav {
 
 .more-info:hover,
 .more-info:focus {
-    background-color: var(--white);
+    background-color: burlywood;;
     color: var(--red);
 }
 
@@ -291,23 +326,24 @@ footer a:focus {
     position: absolute; */
     border-radius: 5px;
 }
+
 #suggestion-content {
     width: 60%;
     position:relative;
     left: 35%;
 }
 
-
 #form-footer {
     bottom: -80px;
 }
 
-.form-btn{
+.form-btn {
     margin: 0 auto;
     width: 40%;
 }
+
 .form-header {
-    color: black;
+    color: var(--black);
     background-color: bisque;
 }
 
@@ -329,6 +365,7 @@ input[type=text], textarea {
     width: 100%;
     margin: 90px 0 1rem 0 auto;
 }
+
 .container h2 {
     text-align: center;
 }
@@ -338,70 +375,82 @@ input[type=text], textarea {
     margin: 4px 10%;
 }
 
-/********************************************************************Quiz */
+/* -------------------------------------------------------------------- Quiz */
+
 .quizshow-container {
-width: 100%;
-text-align: center;
+    width: 100%;
+    text-align: center;
 }
-#quiz-question{
+
+#quiz-question {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    background-color: var( --yellow);
-    color: white;
+    background-color: var(--yellow);
+    color: var(--white);
 }
+
 #quiz-question a {
     cursor: pointer;
 }
+
 #quiz-question a:hover {
     color: var(--white);
-    background-color: var( --yellow);
+    background-color: var(--yellow);
 }
+
 .slideNumber {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: relative;
     top: 0;
-  }
+}
 
 /* -------------------------------------------------------------------- Stars */
 
 .christmas-star {
     position: absolute;
-    top: 34.5vh;
-    left: 13vh;
     cursor: pointer;
+    opacity: 0;
 }
 
 .star {
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!-- Created with Inkscape (http://www.inkscape.org/) --%3E%3Csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' width='197.55556mm' height='197.55556mm' viewBox='0 0 700.00001 700' id='svg2' version='1.1' inkscape:version='0.91 r13725' sodipodi:docname='Star.svg'%3E%3Cdefs id='defs4' /%3E%3Csodipodi:namedview id='base' pagecolor='%23000000' bordercolor='%23ffffff' borderopacity='1.0' inkscape:pageopacity='0.0' inkscape:pageshadow='2' inkscape:zoom='0.95714285' inkscape:cx='350' inkscape:cy='350' inkscape:document-units='px' inkscape:current-layer='layer1' showgrid='false' fit-margin-top='0' fit-margin-left='0' fit-margin-right='0' fit-margin-bottom='0' inkscape:window-width='1600' inkscape:window-height='837' inkscape:window-x='-8' inkscape:window-y='-8' inkscape:window-maximized='1' /%3E%3Cmetadata id='metadata7'%3E%3Crdf:RDF%3E%3Ccc:Work rdf:about=''%3E%3Cdc:format%3Eimage/svg+xml%3C/dc:format%3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3E%3Cdc:title%3E%3C/dc:title%3E%3C/cc:Work%3E%3C/rdf:RDF%3E%3C/metadata%3E%3Cg inkscape:label='Layer 1' inkscape:groupmode='layer' id='layer1' transform='translate(1252.3164,-304.67969)'%3E%3Cpath style='opacity:1;fill:%23ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1' d='m -902.3164,304.67969 -28.04007,302.41272 -115.18233,-95.63509 95.63512,115.1823 -302.41272,28.04007 302.41348,28.03931 -95.63588,115.1823 115.18233,-95.63433 28.04007,302.41273 28.03931,-302.41349 115.1823,95.63509 -95.63509,-115.1823 302.41348,-28.03931 -302.41272,-28.04007 95.63433,-115.1823 -115.1823,95.63586 -28.03931,-302.41349 z' id='path4140' inkscape:connector-curvature='0' /%3E%3C/g%3E%3C/svg%3E%0A");    background-size: contain;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!-- Created with Inkscape (http://www.inkscape.org/) --%3E%3Csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' width='197.55556mm' height='197.55556mm' viewBox='0 0 700.00001 700' id='svg2' version='1.1' inkscape:version='0.91 r13725' sodipodi:docname='Star.svg'%3E%3Cdefs id='defs4' /%3E%3Csodipodi:namedview id='base' pagecolor='%23000000' bordercolor='%23ffffff' borderopacity='1.0' inkscape:pageopacity='0.0' inkscape:pageshadow='2' inkscape:zoom='0.95714285' inkscape:cx='350' inkscape:cy='350' inkscape:document-units='px' inkscape:current-layer='layer1' showgrid='false' fit-margin-top='0' fit-margin-left='0' fit-margin-right='0' fit-margin-bottom='0' inkscape:window-width='1600' inkscape:window-height='837' inkscape:window-x='-8' inkscape:window-y='-8' inkscape:window-maximized='1' /%3E%3Cmetadata id='metadata7'%3E%3Crdf:RDF%3E%3Ccc:Work rdf:about=''%3E%3Cdc:format%3Eimage/svg+xml%3C/dc:format%3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3E%3Cdc:title%3E%3C/dc:title%3E%3C/cc:Work%3E%3C/rdf:RDF%3E%3C/metadata%3E%3Cg inkscape:label='Layer 1' inkscape:groupmode='layer' id='layer1' transform='translate(1252.3164,-304.67969)'%3E%3Cpath style='opacity:1;fill:%23ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1' d='m -902.3164,304.67969 -28.04007,302.41272 -115.18233,-95.63509 95.63512,115.1823 -302.41272,28.04007 302.41348,28.03931 -95.63588,115.1823 115.18233,-95.63433 28.04007,302.41273 28.03931,-302.41349 115.1823,95.63509 -95.63509,-115.1823 302.41348,-28.03931 -302.41272,-28.04007 95.63433,-115.1823 -115.1823,95.63586 -28.03931,-302.41349 z' id='path4140' inkscape:connector-curvature='0' /%3E%3C/g%3E%3C/svg%3E%0A");
+    background-size: contain;
     background-repeat: no-repeat;
     width: 48px;
     height: 48px;
 }
 
-@keyframes star-spin {
-    0%,
-    100% {
-        transform: scale(0.5) rotate(0deg);
-    }
-
-    50% {
-        transform: scale(1) rotate(90deg);
-    }
-}
-
 /* -------------------------------------------------------------------- Holiday pages */
 
-.holiday-img {
-    width: 40%;
-    height: auto;
+.holiday-grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
 }
 
-.holiday-p {
-    width: 60%;
-    display: inline;
+.holiday-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.holiday-main {
+    background-image: url('../img/stars.jpg');
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+.overlay {
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    line-height: 2;
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    background: rgba(0,0,0,0.6);
 }
 
 /* -------------------------------------------------------------------- Footer */
@@ -438,19 +487,40 @@ footer a {
     width: fit-content;
 }
 
-.overlay {
-    padding: 30px;
-    border-radius: 10px;
-    background: rgba(0,0,0,0.6);
-    color: white;
-    line-height: 2;
-    text-align: center;
-    max-width: 90%;
-    margin: auto;
+.p-404 {
+    padding-bottom: 20px;
 }
 
-.overlay-404 p {
-    padding-bottom: 20px;
+/* -------------------------------------------------------------------- Animations */
+
+@keyframes star-spin {
+    0%,
+    100% {
+        transform: scale(0.5) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(1) rotate(90deg);
+    }
+}
+
+@keyframes bounce {
+	  0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+	  10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateY(-15px);
+    }
 }
 
 /* -------------------------------------------------------------------- Accessibility */
@@ -479,6 +549,10 @@ footer a {
         will-change: transform;
         animation: star-spin 8s ease-in-out infinite;
     }
+
+    .fa-chevron-down {
+        animation: bounce 5s ease-in-out infinite;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -493,6 +567,7 @@ footer a {
         justify-self: center;
     }
 }
+
 @media screen and (max-width: 450px) {
     .navbar-toggle {
         width: 100%;

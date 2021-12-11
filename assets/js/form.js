@@ -7,7 +7,6 @@ const suggestionForm = document.querySelector('#suggestion-content');
 const howCelebrated = document.querySelector('#how-celebrated');
 const textAreas = document.getElementsByTagName('textarea');
 
-
 // SEnd email when user clicks submit button
 suggestionForm.addEventListener('submit', function (e) {
     e.preventDefault();
