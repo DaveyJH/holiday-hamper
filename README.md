@@ -9,7 +9,7 @@
 
 [Here is a link to the final project](https://daveyjh.github.io/holiday-hamper/)
 
-This site was built by team TEAMNAME for the [Code Institute](https://codeinstitute.net/) December 2021 Hackathon, with the theme of Happy Holidays. It was built to be a resource for information on holidays around the globe, from all walks of life and all times of the year. Due to the time constraints of the Hackathon, we will be focusing on the holidays around December for now. It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through.
+This site was built by team Happy Holiday Hackers for the [Code Institute](https://codeinstitute.net/) December 2021 Hackathon, with the theme of Happy Holidays. It was built to be a resource for information on holidays around the globe, from all walks of life and all times of the year. Due to the time constraints of the Hackathon, we will be focusing on the holidays around December for now. It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through.
 
 ![Final project image home page](docs/finalpage.png)
 
@@ -66,21 +66,18 @@ We wanted this project to be as inclusive as possible. As the main holidays in e
 
 ### User Stories
 
-#### Client Goals
-
-* WHAT THE CLIENT WANTS, NOT THE USER
-
 #### First Time Visitor Goals
 
-* WHAT A FIRST TIME VISITOR WANTS, LIKE EASY TO UNDERSTAND, EASY TO NAVIGATE
+* Easy to navigate
+* Easy to understand the site's purpose
+* Find information on different holidays
+* Experience surprise and delight moment across the site
 
 #### Returning Visitor Goals
 
-* LIKE REPLAYABILITY, WHY THEY WANT TO RETURN TO THE SITE, EXTRA FEATURES
-
-#### Frequent Visitor Goals
-
-* WHY SOMEONE WOULD COME BACK REPEATEDLY, AND WHAT THEY'D WANT, LIKE EASY TO BOOK SOMETHING, OR A SCOREBOARD, ETC.
+* Find in-depth information on holidays
+* Submit a request for a holiday to be added to the site
+* See fun facts about the different holidays
 
 [Back to Top](#holiday-hamper)
 
@@ -252,29 +249,44 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 
 ### Testing User Stories
 
-#### Client Goals Testing
-
-##### GOAL 1
-
-* HOW THE SITE COMPLETES EACH GOAL
-
 #### First Time Visitor Goals Testing
 
-##### GOAL 2
+##### Easy to navigate
 
-* HOW THE SITE COMPLETES EACH GOAL
+* The navigation menu is accessible by a click of the burger icon in the top right corner.
+* Other links to pages on the site can be found under seach small section on the landing page.
+* A next holiday arrow is included at the bottom of every minor section on the landing page, to take the user to the next holiday section.
+
+##### Easy to understand the site's purpose
+
+* The first thing that the user sees on the landing page is a description of the purpose of the site.
+
+##### Find information on different holidays
+
+* A short description of each holiday is present on the landing page.
+* From each holiday on the landing page, there is a 'More Info' button to take the user to the page dedicated to that holiday.
+* There is a fun fact section at the bottom of each dedicated page.
+
+##### Experience surprise and delight moment across the site
+
+* There are stars that sparkle at the top of the landing page. These stars also link to the dedicated holiday pages.
+* There is a fun fact section at the bottom of each dedicated page.
 
 #### Returning Visitor Goals Testing
 
-##### GOAL 3
+##### Find in-depth information on holidays
 
-* HOW THE SITE COMPLETES EACH GOAL
+* From each holiday on the landing page, there is a 'More Info' button to take the user to the page dedicated to that holiday.
+* There is a fun fact section at the bottom of each dedicated page.
 
-#### Frequent Visitor Goals Testing
+##### Submit a request for a holiday to be added to the site
 
-##### GOAL 4
+* There is a form that users can use to submit a request to the dev team, to add a new holiday to the site.
+* This request is emailed to the dev team, who can then do further research into that holiday, and add it to the site.
 
-* HOW THE SITE COMPLETES EACH GOAL
+##### See fun facts about the different holidays
+
+* There is a fun fact section at the bottom of each dedicated page.
 
 [Back to Top](#holiday-hamper)
 
@@ -400,7 +412,7 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 ### Acknowledgements
 
 * The team at [Code Institute](https://codeinstitute.net/), for teaching us the necessary skills to create this site.
-* All members of team TEAMNAME
+* All members of team Happy Holiday Hackers
   * [Abi Harrison](https://github.com/Abibubble)
   * [Dave Horrocks](https://github.com/daveyjh)
   * [Karol Miles](https://github.com/KarMiles)
