@@ -213,7 +213,7 @@ Google DevTools was used to help us find which code correlated to which feature.
 This site was deployed to GitHub Pages by following these steps:
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. Create a new repository named "christmas-hackathon".
+2. Create a new repository named "holiday-hamper".
 3. Once created, click on "Settings" on the navigation bar under the repository title.
 4. Scroll down to "Pages".
 5. Under "Source", choose which branch to deploy. We chose "main", but this is sometimes shown as "master".
@@ -224,13 +224,13 @@ This site was deployed to GitHub Pages by following these steps:
 ### How to Fork it
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. On GitHub, go to [daveyjh/christmas-hackathon](https://github.com/Abibubble/christmas-hackathon).
+2. On GitHub, go to [daveyjh/holiday-hamper](https://github.com/Abibubble/holiday-hamper).
 3. In the top right, click "Fork".
 
 ### How to Clone it
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. Fork the repository daveyjh/christmas-hackathon using the steps above in [How to Fork it](#how-to-fork-it).
+2. Fork the repository daveyjh/holiday-hamper using the steps above in [How to Fork it](#how-to-fork-it).
 3. Above the file list, click "Code".
 4. Choose if you want to clone using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
@@ -240,7 +240,7 @@ This site was deployed to GitHub Pages by following these steps:
 
 ### Making a Local Clone
 
-1. Log in to [GitHub](www.github.com) and locate the [Repository](https://github.com/Abibubble/REPO) for this site.
+1. Log in to [GitHub](www.github.com) and locate the [Repository](https://github.com/daveyjh/holiday-hamper) for this site.
 2. Under the repository name, above the list of files, click "Code".
 3. Here you can either Clone or Download the repository.
 4. You should clone the repository using HTTPS, clicking on the icon to copy the link.
