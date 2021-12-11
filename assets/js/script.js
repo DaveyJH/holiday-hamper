@@ -4,7 +4,7 @@ const navbar = document.getElementById("menu");
 const stars = document.getElementsByClassName("christmas-star");
 let open = false;
 
-// -------------------------------------------------------------------- NavBar
+// -------------------------------------------------------------------- NavBar Toggle
 
 toggle.addEventListener("click", toggleNavbar);
 
@@ -31,6 +31,13 @@ function closeNavBar() {
     `;
 }
 
+// -------------------------------------------------------------------- Got To Top Button
+
+window.addEventListener('scroll', function () {
+    const scroll = document.querySelector('.btt-btn');
+    scroll.classList.toggle('active', window.scrollY > 500);
+});
+
 // -------------------------------------------------------------------- Christmas Stars
 
 function getRandomElement(array) {
@@ -40,7 +47,7 @@ function getRandomElement(array) {
 
 function randomPosition(element) {
     element.style.opacity = 1;
-    element.style.top = `${Math.random() * 90}vh`;
+    element.style.top = `${Math.random() * 90 + 10}vh`;
     element.style.left = `${Math.random() * 90}vw`;
 }
 
@@ -48,16 +55,13 @@ function randomPosition(element) {
     setInterval(() => {
         const randomStar = getRandomElement(stars);
         randomPosition(randomStar);
-        console.log(randomStar);
     }, 5000)
 })();
 
 // -------------------------------------------------------------------- Copyright
 
-function copyrightYear() {
+(function copyrightYear() {
     var d = new Date();
     var y = d.getFullYear();
     document.getElementById("copyright").innerHTML = y;
-}
-
-copyrightYear();
+})();

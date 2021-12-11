@@ -50,8 +50,8 @@ a {
 .header img {
     height: calc(var(--header-height) * 1.25);
     position: fixed;
-    top: 10px;
-    left: 25px;
+    top: 5px;
+    left: 30px;
 }
 
 .logo {
@@ -106,7 +106,7 @@ nav {
 #burger-icon {
     position: absolute;
     top: 25px;
-    right: 15px;
+    right: 25px;
     cursor: pointer;
 }
 
@@ -216,10 +216,12 @@ nav {
 }
 
 #img-4 {
-    background-image: url('../img/hannukkah/hannukkah-5.jpg');
+    background-image: url('../img/hanukkah/hanukkah-5.jpg');
 }
-
 #img-5 {
+    background-image: url('../img/yuletide/yuletide-1.jpg');
+}
+#img-6 {
     background-image: url('../img/chinese-new-year/chinese-ny-5.jpg');
 }
 
@@ -237,6 +239,7 @@ nav {
     box-shadow: inset 0 0 .75rem 0 var(--yellow), 0 0 .75rem 0 var(--yellow);
     border-radius: 8px;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .btt-btn {
@@ -249,14 +252,17 @@ nav {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
-    color: white;
+    color: rgb(255, 0, 0);
     cursor: pointer;
-    padding: 15px;
+    padding: 1px; 
     border-radius: 4px;
     transition: 0.5s;
 }
-  
+
+.btt-btn i {
+    font-size: 3em;
+    
+}
 .btt-btn.active {
     visibility: visible;
     opacity: 1;
@@ -272,7 +278,7 @@ nav {
 
 .more-info:hover,
 .more-info:focus {
-    background-color: var(--white);
+    background-color: burlywood;;
     color: var(--red);
 }
 
@@ -305,6 +311,7 @@ footer a:focus {
     margin: 0 auto;
     width: 40%;
 }
+
 .form-header {
     color: black;
     background-color: bisque;
