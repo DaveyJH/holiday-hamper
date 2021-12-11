@@ -246,14 +246,17 @@ nav {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
-    color: white;
+    color: rgb(255, 0, 0);
     cursor: pointer;
-    padding: 15px;
+    padding: 1px; 
     border-radius: 4px;
     transition: 0.5s;
 }
 
+.btt-btn i {
+    font-size: 3em;
+    
+}
 .btt-btn.active {
     visibility: visible;
     opacity: 1;
