@@ -31,23 +31,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
-}
-
-/* -------------------------------------------------------------------- Resets */
-
-@-webkit-keyframes fadetobottom {
-    0% {opacity: 0;}
-    0% {transform: translateY(-50%);}
-    100% {opacity: 1;}
-    100% {transform: translateY(0);}
-}
-
-@keyframes fadetobottom {
-    0% {opacity: 0;}
-    0% {transform: translateY(-50%);}
-    100% {opacity: 1;}
-    100% {transform: translateY(0);}
+    color: var(--black);
 }
 
 /* ---------------------------------------------------------------- Header */
@@ -106,7 +90,7 @@ nav {
     width: 25%;
     height: 100%;
     position: fixed;
-    top: 11vh;
+    top: 10vh;
     right: 0;
     box-shadow: -2px 9px 10px 2px darkred;
 }
@@ -145,48 +129,27 @@ nav {
     place-self: end center;
 }
 
-.fa-chevron-down {
-    -webkit-animation: fadetobottom 1.5s ease-in-out infinite;
-            animation: fadetobottom 1.5s ease-in-out infinite;
-}
-
 /* ---------------------------------------------------------------- Images holiday cards */
 
-.grid-container-1st {
+.grid-container {
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: minmax(150px, 250px);
     grid-gap: 5px;
-    height: 100vh; 
 }
 
 .grid-containers-holidays {
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: minmax(150px, 250px);
-    grid-gap: 5px;
     height: 100vh;
 }
 
 .grid-containers-last {
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: minmax(150px, 250px);
-    grid-gap: 5px;
-    height:95vh;
+    height: 95vh;
 }
 
 .grid-item-1 {
-    justify-self: center;
-    margin-bottom: 1em;
-    font-size: 3em;
     grid-column: 2/3;
     grid-row: 2;
-    color: red;
-    text-shadow: rgb(0, 0, 0) 0 0 50px;
 }
 
 .grid-item-2 {
@@ -198,19 +161,27 @@ nav {
 }
 
 .grid-item-3 {
-    grid-row:3;
+    grid-row: 3;
     grid-column: 2;
     align-self: start;
     justify-self: center;
 }
 
 .grid-item-4 {
-    grid-row:5;
+    grid-row: 5;
     grid-column: 3;
     color: white;
     font-size: 2.5em;
     align-self: end;
     justify-self: start;
+}
+
+.holiday-name {
+    justify-self: center;
+    color: red;
+    text-shadow: rgb(0, 0, 0) 0 0 50px;
+    margin-bottom: 1em;
+    font-size: 3em;
 }
 
 .holiday-description {
@@ -290,16 +261,12 @@ footer a:focus {
     position: absolute;
     border-radius: 5px;
 }
-/* 
-#form-container form {
-    margin-top: 4%;
-} */
 
 #form-footer {
     bottom: -70px;
 }
 
-.form-btn{
+.form-btn {
     margin: 0 auto;
     width: 40%;
 }
@@ -326,6 +293,7 @@ input[type=text], textarea {
     width: 100%;
     margin: 90px 0 1rem 0 auto;
 }
+
 .container h2 {
     text-align: center;
 }
@@ -351,27 +319,16 @@ input[type=text], textarea {
     height: 48px;
 }
 
-@keyframes star-spin {
-    0%,
-    100% {
-        transform: scale(0.5) rotate(0deg);
-    }
-
-    50% {
-        transform: scale(1) rotate(90deg);
-    }
-}
-
 /* -------------------------------------------------------------------- Holiday pages */
 
-.holiday-img {
-    width: 40%;
-    height: auto;
+.holiday-grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
 }
 
-.holiday-p {
-    width: 60%;
-    display: inline;
+.holiday-img {
+    width: 100%;
+    height: auto;
 }
 
 /* -------------------------------------------------------------------- Footer */
@@ -419,8 +376,40 @@ footer a {
     margin: auto;
 }
 
-.overlay-404 p {
+.p-404 {
     padding-bottom: 20px;
+}
+
+/* -------------------------------------------------------------------- Animations */
+
+@keyframes star-spin {
+    0%,
+    100% {
+        transform: scale(0.5) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(1) rotate(90deg);
+    }
+}
+
+@keyframes bounce {
+	0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+	10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateY(-15px);
+    }
 }
 
 /* -------------------------------------------------------------------- Accessibility */
@@ -449,6 +438,10 @@ footer a {
         will-change: transform;
         animation: star-spin 8s ease-in-out infinite;
     }
+
+    .fa-chevron-down {
+        animation: bounce 5s ease-in-out infinite;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -463,6 +456,7 @@ footer a {
         justify-self: center;
     }
 }
+
 @media screen and (max-width: 450px) {
     .navbar-toggle {
         width: 100%;
