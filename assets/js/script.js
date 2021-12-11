@@ -5,7 +5,7 @@ let closeIcon = document.getElementById("close-icon");
 let navbar = document.getElementById("menu");
 
 burgerIcon.addEventListener("click", toggleNavbar);
-closeIcon.addEventListener("click", toggleNavbar);
+// closeIcon.addEventListener("click", toggleNavbar);
 
 function toggleNavbar() {
     if (navbar.classList.contains("navbar-toggle")) {
