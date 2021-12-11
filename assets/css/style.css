@@ -123,13 +123,16 @@ nav {
     font-size: 4em;
     color: var(--yellow);
     place-self: end center;
-    margin-top: 20px;
 }
 
 .sub-heading {
     margin-top: 20px;
     font-size: 2em;
     color: var(--white);
+    place-self: center center;
+}
+
+.suggest-btn {
     place-self: start center;
 }
 
