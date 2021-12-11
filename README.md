@@ -432,7 +432,7 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 ### Media
 
-* WHO OWNS ANY MEDIA ON THE SITE, SUCH AS IMAGES AND VIDEOS
+* All images have been taken from [Pexels]() and [Unsplash]() 
 
 ### Acknowledgements
 
