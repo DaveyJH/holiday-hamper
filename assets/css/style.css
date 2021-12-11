@@ -297,13 +297,6 @@ input[type=text], textarea {
     }
 }
 
-@media screen and (prefers-reduced-motion: no-preference) {
-    .star {
-        will-change: transform;
-        animation: star-spin 8s ease-in-out infinite;
-    }
-}
-
 /* -------------------------------------------------------------------- Footer */
 
 footer {
@@ -373,7 +366,10 @@ footer a {
 /* -------------------------------------------------------------------- Media queries */
 
 @media screen and (prefers-reduced-motion: no-preference) {
-    /* Animation styling here */
+    .star {
+        will-change: transform;
+        animation: star-spin 8s ease-in-out infinite;
+    }
 }
 
 @media screen and (max-width: 768px) {
