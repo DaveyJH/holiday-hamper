@@ -36,9 +36,9 @@ const quizData = [
 
 ];
 
-const init = ()=> {
-     quizToDisplay = 1;
-     displayQuiz(0);
+const init = () => {
+    quizToDisplay = 1;
+    displayQuiz(0);
 }
 
 // after document has loaded, call the init function
@@ -50,10 +50,10 @@ const quizAnswer = document.getElementById("quiz-answer");
 const slideNumber = document.getElementById("slide-number");
 
 
-const displayQuiz = function (quizToDisplay){
+const displayQuiz = function (quizToDisplay) {
     quizQuestion.textContent = quizData[quizToDisplay].question;
     quizAnswer.textContent =quizData[quizToDisplay].answer;
-    slideNumber.textContent = `Question: ${quizToDisplay+1} of ${totalQuiz}`;
+    slideNumber.textContent = `Fun Fact: ${quizToDisplay+1} of ${totalQuiz}`;
 }
 
 const nextQuiz = document.querySelector("#next-quiz");
