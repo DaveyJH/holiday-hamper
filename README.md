@@ -432,7 +432,7 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 ### Media
 
-* All image
+* All images have been taken from [Pexels]() and [Unsplash]() 
 
 ### Acknowledgements
 

@@ -533,7 +533,7 @@ footer a {
 @keyframes star-spin {
     0%,
     100% {
-        transform: scale(0.5) rotate(-90deg);
+        transform: scale(0) rotate(-90deg);
     }
 
     50% {
