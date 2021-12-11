@@ -168,12 +168,13 @@ nav {
     text-shadow: pink 0 0 10px;
  }
 
+
 #img-1 {
-    background-image: url('../../research/images/christmas/pexels-ylanite-koppens-1693653.jpg');
+    background-image: url('../img/christmas/christmas-2.jpg');
 }
 
 #img-2 {
-    background-image: url('../../research/images/christmas/pexels-susanne-jutzeler-1603607.jpg');
+    background-image: url('../img/general-celebrations/general-celebration-4.jpg') ;
 }
 
 /* --------------------------------------------------------------- Buttons */
