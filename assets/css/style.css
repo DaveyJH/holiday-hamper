@@ -28,6 +28,7 @@ body {
     font-family: sans-serif;
     height: calc(100vh - 48px);
     margin: 0;
+    background-color: whitesmoke;
 }
 
 a {
@@ -239,9 +240,11 @@ nav {
 #img-4 {
     background-image: url('../img/hanukkah/hanukkah-5.jpg');
 }
+
 #img-5 {
     background-image: url('../img/yuletide/yuletide-1.jpg');
 }
+
 #img-6 {
     background-image: url('../img/chinese-new-year/chinese-ny-5.jpg');
 }
@@ -315,17 +318,23 @@ footer a:focus {
     background-color: bisque;
     padding: 1rem;
     border-radius: 2%;
-    width: 60%;
+    /* width: 60%; */
     top: 90px;
-    margin: 0 auto;
-    background-image: url(../img/suggestion-image.jpg);
-    background-size: cover;
-    position: absolute;
+    /* margin: 0 auto; */
+    background: url(../img/suggestion-image.jpg) left / 80% auto no-repeat;
+    /* background-size: cover;
+    position: absolute; */
     border-radius: 5px;
 }
 
+#suggestion-content {
+    width: 60%;
+    position:relative;
+    left: 35%;
+}
+
 #form-footer {
-    bottom: -70px;
+    bottom: -80px;
 }
 
 .form-btn {
@@ -334,7 +343,7 @@ footer a:focus {
 }
 
 .form-header {
-    color: black;
+    color: var(--black);
     background-color: bisque;
 }
 
@@ -364,6 +373,38 @@ input[type=text], textarea {
 .container label {
     display: block;
     margin: 4px 10%;
+}
+
+/* -------------------------------------------------------------------- Quiz */
+
+.quizshow-container {
+    width: 100%;
+    text-align: center;
+}
+
+#quiz-question {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    background-color: var(--yellow);
+    color: var(--white);
+}
+
+#quiz-question a {
+    cursor: pointer;
+}
+
+#quiz-question a:hover {
+    color: var(--white);
+    background-color: var(--yellow);
+}
+
+.slideNumber {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: relative;
+    top: 0;
 }
 
 /* -------------------------------------------------------------------- Stars */
@@ -464,7 +505,7 @@ footer a {
 }
 
 @keyframes bounce {
-	0%,
+	  0%,
     20%,
     40%,
     60%,
@@ -473,7 +514,7 @@ footer a {
         transform: translateY(0);
     }
 
-	10%,
+	  10%,
     30%,
     50%,
     70%,
