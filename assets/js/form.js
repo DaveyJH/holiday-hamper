@@ -25,4 +25,3 @@ const init = ()=> {
 
 //after document has loaded, call the init function
 document.addEventListener("DOMContentLoaded", init);
-
