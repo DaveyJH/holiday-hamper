@@ -59,7 +59,7 @@ const displayQuiz = function (quizToDisplay) {
 
 const fetchQuiz = async () => {
     try {
-        const response = await fetch("./quizData.json");
+        const response = await fetch("../assets/quizData.json");
         const quizData = await response.json();
         console.log("response=="+quizData);
         quiz = quizData;
@@ -68,7 +68,6 @@ const fetchQuiz = async () => {
         console.error(`Couldn't fetch quiz data: ${err}`)
     }
 }
-
 // quiz.Christmas.question1.answer
 
 const nextQuiz = document.querySelector("#next-quiz");
