@@ -87,15 +87,26 @@ We wanted this project to be as inclusive as possible. As the main holidays in e
 
 ### Color Scheme
 
-* WHAT COLORS USED AND WHY
+* We have stuck with a fairly minimal colour scheme:
+  * Red
+  * Yellow
+  * Black
+  * White
+* We chose these colours to link with the festive theme of the site, as red and yellow are often used in celebration.
+* Black and white were used to ensure good colour contrast across the site.
+* The entire site has a colour contrast that is AA compliant in accordance with the WCAG Colour Contrast Guidelines.
 
 ### Typography
 
-* WHAT FONT AND WHY
+* We have used sans-serif fonts throughout the site, except for the header logo text. This is because sans-serif is accessibility friendly, as it is easily readable to users with dyslexia.
+* [Dancing Script](https://fonts.google.com/specimen/Dancing+Script) has been used for the header logo text, with a fallback font of sans-serif is used as the default backup font in cases where these fonts have difficulty loading. This font was chosen for it's holiday-feel. We decided to go with a non-sans-serif font for the header logo text, as it's not an important piece of text.
 
 ### Imagery
 
-* WHAT IMAGES ARE USED AND WHY
+* Most images used on the site are from the specific holiday that they're linked to.
+* The holiday pages have a black background with sparkles on it, to link with the festive theme, without requiring a different background for every holiday.
+* The favicon is a gift, wrapped in a sparkly blue wrapping paper with a gold bow, to link with the festive theme.
+* The site logo was made by our team, which consists of a picnic hamper, with various holiday-related items inside it.
 
 ### Wireframes
 
@@ -108,8 +119,8 @@ We wanted this project to be as inclusive as possible. As the main holidays in e
   * Logo / Title
   * Menu icon for quick navigation
   * Constistant throughout site
-* Welcome page with stary night image
-  * Individual stars for links to main content
+* Welcome page with fireworks image
+  * Individual sparkling stars for links to main content
   * Short text welcome
   * Eye catching and emotive
   * Small margin below for space for down arrow/show content below fold
@@ -118,14 +129,16 @@ We wanted this project to be as inclusive as possible. As the main holidays in e
   * Name of holiday and brief info
   * Button linking to main content information
   * Small margin below for space for down arrow/show content below fold
+* Full page for each holiday
+  * Full details of the holiday
+  * Multiple holiday related images
 * Send in your holiday form
-  * A few input fields for info (decided when we have better idea of main content pages)
-  * EmailJS
-  * Modal on valid completion
-
-### Audio
-
-* WHAT AUDIO IS USED (IF ANY) AND WHY.
+  * Input fields to retrieve information
+  * Using EmailJS to send the form to the dev team
+* Footer
+  * Constistant throughout site
+  * Copyright information
+  * Links to holiday-related games
 
 [Back to Top](#holiday-hamper)
 
