@@ -27,6 +27,7 @@ body {
     font-family: sans-serif;
     height: calc(100vh - 48px);
     margin: 0;
+    background-color: whitesmoke;
 }
 
 a {
@@ -282,13 +283,18 @@ footer a:focus {
     background-color: bisque;
     padding: 1rem;
     border-radius: 2%;
-    width: 60%;
+    /* width: 60%; */
     top: 90px;
-    margin: 0 auto;
-    background-image: url(../img/suggestion-image.jpg);
-    background-size: cover;
-    position: absolute;
+    /* margin: 0 auto; */
+    background: url(../img/suggestion-image.jpg) left / 80% auto no-repeat;
+    /* background-size: cover;
+    position: absolute; */
     border-radius: 5px;
+}
+#suggestion-content {
+    width: 60%;
+    position:relative;
+    left: 35%;
 }
 /* 
 #form-container form {
@@ -296,7 +302,7 @@ footer a:focus {
 } */
 
 #form-footer {
-    bottom: -70px;
+    bottom: -80px;
 }
 
 .form-btn{
