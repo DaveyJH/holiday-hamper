@@ -106,7 +106,7 @@ nav {
     width: 25%;
     height: 100%;
     position: fixed;
-    top: 11vh;
+    top: 80px;
     right: 0;
     box-shadow: -2px 9px 10px 2px darkred;
 }
