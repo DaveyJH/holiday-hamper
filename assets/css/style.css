@@ -252,7 +252,7 @@ nav {
     border-radius: 4px;
     transition: 0.5s;
 }
-  
+
 .btt-btn.active {
     visibility: visible;
     opacity: 1;
@@ -338,9 +338,8 @@ input[type=text], textarea {
 
 .christmas-star {
     position: absolute;
-    top: 34.5vh;
-    left: 13vh;
     cursor: pointer;
+    opacity: 0;
 }
 
 .star {
