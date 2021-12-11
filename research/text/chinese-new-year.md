@@ -5,20 +5,41 @@ color red, and honoring ancestors.*
 
 ## What
 
-- Celebration of New Year on traditional Chinese calendar.
-- Major holiday in Greater China.
-- The occasion is also known as the Spring Festival, and an animal is associated
-  with each New Year. The animals rotate and repeat according to a fixed cycle.
-- 20% of the Earth’s population celebrate — using more fireworks than any other
-  day of the year.
-- Traditional for every family to thoroughly clean their house, in order to
-  sweep away any ill fortune and to make way for incoming good luck.
-- The festival is traditionally a time to honor deities as well as ancestors.
+Chinese New Year is a celebration of the New Year according to the traditional
+Chinese calendar - a lunisolar calendar that incorporates the phases of the
+moon as well as Earth's position around the sun.
+
+Traditionally, the celebrations are a time to honor various deities, remember
+your ancestors and be close to you family. With such a huge quantity of people
+celebrating, there are now a wide variety of customs and traditions,  with many
+of these being regional.
+
+A major holiday in Greater China, the occasion is also known as the Spring
+Festival, celebrated by 20% of the Earth's population! More fireworks are used
+on this day than any other.
+
+Celebrations include wonderfully decorative dragons, paper lanterns and the
+sharing of red envelopes. Families will often clean their houses to sweep away
+ill fortune and make room for good luck. They will also come together for a
+feast with dumplings, long noodles, oranges and all sorts of other wonderful
+dishes.
+
+## When
+
+Chinese New Year is a 15 day celebration starting on the day of the new moon
+that occurs between 21st January and 20th February. Some celebrations include
+the eve before this, turning it to a 16 day celebration. Further-more, some
+families will begin the festivities with the Laba Festival, creating a 40 day
+festive period!
+
+## History
 
 ### Animals
 
-Tales say the Jade Emperor held a race to cross a river. The order of crossing
-was:
+Tales say the Jade Emperor held a race between many animals to enter the
+heavenly gate. As with all ancient stories, there are many variations told of
+why and how this occurred. One thing remains consistent throughout, the order in
+which the animals arrived:
 
 - Rat
 - Ox
@@ -33,14 +54,20 @@ was:
 - Dog
 - Pig
 
-## When
+The rat used its cunning ways to win the race and had already ensured one animal
+would not be successful. The cat and the rat were close neighbors, but the rat
+was tired of the cat's bullying ways. When the race was announced the rat took
+an opportunity to scupper the cat's chances. As the cat was a sleepy animal, it
+had asked the rat to wake it on the day of the race. Instead, the rat snuck away
+quietly leaving the cat asleep and so, the cat slept through the entire race.
 
-15-day festival that is celebrated annually depending on the sighting of the new
-moon. It starts the day of the *new moon between 21st Jan and 20th Feb*.
+[a version of the story](https://www.topmarks.co.uk/ChineseNewYear/ZodiacStory.aspx#:~:text=Long%20ago%2C%20in%20China%2C%20the,the%20zodiac%20named%20after%20them.)
 
-## History
+the actual year of the race is disputed and so is the date when the celebrations
+began.
 
-First year is widely disputed
+<!-- Sections below are from
+https://www.travelchinaguide.com/essential/holidays/new-year/history.htm -->
 
 ### Origin Early in Shang Dynasty (17th century BC – 1046 BC)
 
@@ -80,7 +107,7 @@ First year is widely disputed
   and people would dress in tidy to kneel down to senior family members. The
   words Yuandan and Xinnian were created to mark the turn between two years.
 
-- Dragon DanceTowards Tang and Song Dynasties, the celebration was given a name
+- Dragon Dance Towards Tang and Song Dynasties, the celebration was given a name
   Yuanri. In the flourishing Tang Dynasty (618 - 907 AD), the function of
   Chinese New Year had shifted from worshiping and praying to social
   entertainment. People got public holidays for staying with family members. At
@@ -94,9 +121,21 @@ First year is widely disputed
   More interesting activities such as dragon dance, lion dance, walking on
   stilts and Shehuo performance were getting popular in this period.
 
+## Who
+
+Majority of people that celebrate are of Chinese origin or Sinophone
+communities. Many other people enjoy the bright and colourful celebrations too,
+so the tradition is openly celebrated by a wide variety of people from all
+walks of life.
+
 ## Where
 
-Where it is celebrated
+The celebration of Chinese New Year is a huge event in China and Hong Kong. Many
+Sinophone communities are present in other areas of Asia, Thailand and Singapore
+are among the top locations to visit for a thrilling celebration. With a huge
+presence across the globe, celebrations can also be found in Sydney, Australia;
+Paris, France; Las Vegas, USA; London, England; Vancouver, Canada and
+many more.
 
 ## How
 
@@ -111,31 +150,24 @@ vitality, beauty, luck, happiness, and good fortune.
 
 ### CHINESE NEW YEAR ACTIVITIES
 
-- Remember your ancestors
-  - Amid all the celebrations, it's easy to forget that Chinese New Year is
-    really a holiday for the whole family — children and elders alike. Take a
-    moment to appreciate those you love most.
+- Remember your ancestors, celebrate your family
+  - Amid all the celebrations it must be remember that the holiday is for the
+    whole family. Take time to celebrate and enjoy the company of those nearest
+    and dearest to you.
 
-- Eat and be merry
-  - First, consider all the dim sum delights that await for Chinese New Year.
-    Then, remember to enjoy the fireworks, parades, and general merriment.
-    Chinese New Year focuses on creating good luck for the year to come. Take
-    time to enjoy yourself and others around you.
+- Eat and be merry, enjoy the festivities
+  - Enjoy dim sum! A huge variety of delights await people at Chinese New Year.
+    Enjoy the fireworks, parades, and general merriment. Chinese New Year is
+    about creating good fortune for the year to come. Take time to enjoy
+    yourself and others around you.
 
 - Share the traditional red envelopes
-  - The red symbolizes good luck. The monetary gifts are meant to bring the
-    recipient good fortune. Just make sure to gift cash in even numbers and do
-    not have the number four in the amount.
-
-## Who
-
-Majority of people that celebrate are of Chinese origin or Sinophone communities
-
-## Links
-
-[A version of the race - story](https://www.topmarks.co.uk/ChineseNewYear/ZodiacStory.aspx#:~:text=Long%20ago%2C%20in%20China%2C%20the,the%20zodiac%20named%20after%20them.)
+  - Red symbolizes good luck and prosperity and is helpful in warding off evil
+    spirits and negativity. Monetary gifts are often given in the attempt to
+    bring the recipient good fortune. The gifted amount should be an even value
+    and not contain the number 4. Over 8 billion red envelopes are passed around
+    families throughout the celebration every year.
 
 ## Content Attributes
 
-https://www.travelchinaguide.com/essential/holidays/new-year/history.html
 https://nationaltoday.com/chinese-new-year/
