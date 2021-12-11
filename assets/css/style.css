@@ -50,8 +50,8 @@ a {
 .header img {
     height: calc(var(--header-height) * 1.25);
     position: fixed;
-    top: 10px;
-    left: 25px;
+    top: 5px;
+    left: 30px;
 }
 
 .logo {
@@ -106,7 +106,7 @@ nav {
 #burger-icon {
     position: absolute;
     top: 25px;
-    right: 15px;
+    right: 25px;
     cursor: pointer;
 }
 
@@ -233,6 +233,7 @@ nav {
     box-shadow: inset 0 0 .75rem 0 var(--yellow), 0 0 .75rem 0 var(--yellow);
     border-radius: 8px;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .btt-btn {
@@ -268,7 +269,7 @@ nav {
 
 .more-info:hover,
 .more-info:focus {
-    background-color: var(--white);
+    background-color: burlywood;;
     color: var(--red);
 }
 
@@ -301,6 +302,7 @@ footer a:focus {
     margin: 0 auto;
     width: 40%;
 }
+
 .form-header {
     color: black;
     background-color: bisque;
