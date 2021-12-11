@@ -4,7 +4,7 @@ const navbar = document.getElementById("menu");
 const stars = document.getElementsByClassName("christmas-star");
 let open = false;
 
-// -------------------------------------------------------------------- NavBar
+// -------------------------------------------------------------------- NavBar Toggle
 
 toggle.addEventListener("click", toggleNavbar);
 
@@ -40,7 +40,7 @@ function getRandomElement(array) {
 
 function randomPosition(element) {
     element.style.opacity = 1;
-    element.style.top = `${Math.random() * 90}vh`;
+    element.style.top = `${Math.random() * 90 + 10}vh`;
     element.style.left = `${Math.random() * 90}vw`;
 }
 
@@ -48,7 +48,6 @@ function randomPosition(element) {
     setInterval(() => {
         const randomStar = getRandomElement(stars);
         randomPosition(randomStar);
-        console.log(randomStar);
     }, 5000)
 })();
 
