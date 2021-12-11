@@ -74,35 +74,24 @@
                 <i class="fas fa-bars fa-2x tap-target bar-icon"></i>
             </div>
         </header>
-        <!--    ADD CONTENT    -->
-
         <main id="form-container" >
             <form id="suggestion-content" action="assets/js/sendEmail.js" method="post">
                 <div class="container">
-                    <h2 class="form-header">Your suggestion for additional festive holidays is welcome</h2>
-                    <label for="holiday-name">Name of Holiday</label>
-                    <input type="text" placeholder="Enter Holiday Name" name="holiday-name" required>
-
-                    <label for="holiday-month">Time of the Year when Celebrated</label>
-                    <input type="text" placeholder="When Celebrated" name="holiday-month" required>
-
-                    <label for="who-celebrates">Who Celebrates this Holiday</label>
-                    <input type="text" placeholder="Who celebrates" name="who-celebrates" required>
-
-                    <label for="holiday-description">Describe this Holiday</label>
-                    <textarea name="holiday-description" required id="holiday-description"
-                        placeholder="Describe this holiday celebration" rows="4" cols="50">
-                        </textarea>
-                    <label for="holiday-history">History of this Holiday</label>
-                    <textarea name="holiday-history" required id="holiday-history" placeholder="History of this holiday"
-                        rows="4" cols="50">
-                        </textarea>
-                    <label for="how-celebrated">How is it Celebrated</label>
-                    <textarea name="how-celebrated" required id="how-celebrated" placeholder="How is it celebrated?"
-                        rows="4" cols="50">
-                        </textarea>
-                    <label for="links">Links for further information</label>
-                    <input type="text" placeholder="links" name="links" required>
+                    <h2 class="form-header">Are we missing a holiday? Request an addition here</h2>
+                    <label for="holiday-name">Name</label>
+                    <input type="text" placeholder="What's the name of the holiday?" name="holiday-name" required>
+                    <label for="holiday-month">When</label>
+                    <input type="text" placeholder="When is this holiday celebrated?" name="holiday-month" required>
+                    <label for="who-celebrates">Who</label>
+                    <input type="text" placeholder="Who celebrates this holiday?" name="who-celebrates" required>
+                    <label for="holiday-description">Description</label>
+                    <textarea name="holiday-description" id="holiday-description" placeholder="Describe this holiday celebration" rows="4" cols="50" required></textarea>
+                    <label for="holiday-history">History</label>
+                    <textarea name="holiday-history" id="holiday-history" placeholder="What is the history of this holiday?" rows="4" cols="50" required></textarea>
+                    <label for="how-celebrated">Celebration</label>
+                    <textarea name="how-celebrated" id="how-celebrated" placeholder="How is this holiday celebrated?" rows="4" cols="50" required></textarea>
+                    <label for="links">Links</label>
+                    <input type="text" placeholder="Can you give us some links to research this holiday further?" name="links" required>
                     <div class="form-btn">
                         <button class="more-info" type="submit">Submit Holiday</button>
                         <button class="more-info">Cancel</button>
