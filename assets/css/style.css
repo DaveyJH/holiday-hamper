@@ -66,7 +66,11 @@ a {
     display: grid;
     place-self: center;
     font-family: 'Dancing Script', sans-serif;
+}
+
+.logo h1 {
     font-size: 2.5rem;
+    color: var(--white);
 }
 
 nav {
@@ -217,9 +221,8 @@ nav {
 }
 
 #img-0 {
-    background: url("../images/landing-page.jpg") no-repeat center center/cover;
+    background: url("../img/landing-page.jpg") no-repeat center center/cover;
 }
-
 
 #img-1 {
     background-image: url('../img/christmas/christmas-2.jpg');
@@ -275,8 +278,6 @@ footer a:focus {
 /* ---------------------------------------------------------------- Form */
 
 #form-container {
-    /* background-image: url(../images/suggestion-image.jpg);
-    background-size: cover; */
     position: relative;
     background-color: bisque;
     padding: 1rem;
@@ -284,6 +285,10 @@ footer a:focus {
     width: 60%;
     top: 90px;
     margin: 0 auto;
+    background-image: url(../img/suggestion-image.jpg);
+    background-size: cover;
+    position: absolute;
+    border-radius: 5px;
 }
 /* 
 #form-container form {
@@ -357,6 +362,18 @@ input[type=text], textarea {
     }
 }
 
+/* -------------------------------------------------------------------- Holiday pages */
+
+.holiday-img {
+    width: 40%;
+    height: auto;
+}
+
+.holiday-p {
+    width: 60%;
+    display: inline;
+}
+
 /* -------------------------------------------------------------------- Footer */
 
 footer {
@@ -380,7 +397,7 @@ footer a {
 
 .main-404 {
     height: 100vh;
-    background-image: url('../../research/images/christmas/pexels-ylanite-koppens-1693653.jpg');
+    background-image: url('../img/christmas/christmas-8.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -391,13 +408,15 @@ footer a {
     width: fit-content;
 }
 
-.overlay-404 {
+.overlay {
     padding: 30px;
     border-radius: 10px;
     background: rgba(0,0,0,0.6);
     color: white;
     line-height: 2;
     text-align: center;
+    max-width: 90%;
+    margin: auto;
 }
 
 .overlay-404 p {
