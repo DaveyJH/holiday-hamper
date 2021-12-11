@@ -276,7 +276,7 @@ nav {
     font-size: 18px;
     border: none;
     outline: none;
-    color: rgb(255, 0, 0);
+    color: red;
     cursor: pointer;
     padding: 1px; 
     border-radius: 4px;
@@ -285,8 +285,8 @@ nav {
 
 .btt-btn i {
     font-size: 3em;
-    
 }
+
 .btt-btn.active {
     visibility: visible;
     opacity: 1;
@@ -318,12 +318,8 @@ footer a:focus {
     background-color: bisque;
     padding: 1rem;
     border-radius: 2%;
-    /* width: 60%; */
     top: 90px;
-    /* margin: 0 auto; */
     background: url(../img/suggestion-image.jpg) left / 80% auto no-repeat;
-    /* background-size: cover;
-    position: absolute; */
     border-radius: 5px;
 }
 
@@ -331,6 +327,7 @@ footer a:focus {
     width: 60%;
     position:relative;
     left: 35%;
+    margin-bottom: 20px;
 }
 
 #form-footer {
@@ -339,12 +336,15 @@ footer a:focus {
 
 .form-btn {
     margin: 0 auto;
-    width: 40%;
+    width: fit-content;
+    justify-self: center;
+    margin-top: 20px;
 }
 
 .form-header {
     color: var(--black);
     background-color: bisque;
+    margin-bottom: 20px;
 }
 
 input[type=text], textarea {
@@ -355,6 +355,7 @@ input[type=text], textarea {
     border: 1px solid #ccc;
     box-sizing: border-box;
     border-radius: 5px;
+    font-family: sans-serif;
 }
 
 .container {
