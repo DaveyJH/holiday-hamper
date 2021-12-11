@@ -1,7 +1,10 @@
-// -------------------------------------------------------------------- Navbar 
-const toggle = document.querySelector("#burger-icon");
+// -------------------------------------------------------------------- Global State
+const toggle = document.getElementById("burger-icon");
 const navbar = document.getElementById("menu");
+const stars = document.getElementsByClassName("christmas-star");
 let open = false;
+
+// -------------------------------------------------------------------- NavBar
 
 toggle.addEventListener("click", toggleNavbar);
 
@@ -27,6 +30,27 @@ function closeNavBar() {
     <i class="fas fa-times fa-2x tap-target bar-icon"></i>
     `;
 }
+
+// -------------------------------------------------------------------- Christmas Stars
+
+function getRandomElement(array) {
+    let indexer = Math.floor(Math.random() * array.length);
+    return array[indexer];
+}
+
+function randomPosition(element) {
+    element.style.opacity = 1;
+    element.style.top = `${Math.random() * 90}vh`;
+    element.style.left = `${Math.random() * 90}vw`;
+}
+
+(function randomStars() {
+    setInterval(() => {
+        const randomStar = getRandomElement(stars);
+        randomPosition(randomStar);
+        console.log(randomStar);
+    }, 5000)
+})();
 
 // -------------------------------------------------------------------- Copyright
 
