@@ -190,6 +190,18 @@ Google DevTools was used to help us find which code correlated to which feature.
 
 [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to ensure all prefixes for browsers were included correctly.
 
+#### Yoksel
+
+[Yoksel](https://yoksel.github.io/url-encoder/) was used to convert the SVG to a background image for the stars.
+
+#### Favicon.io
+
+[Favicon.io](https://favicon.io/) was used to create the favicon for this site.
+
+#### Remove.bg
+
+[Remove.bg](https://www.remove.bg/) was used to remove the background colour of the image that we used in the favicon.
+
 [Back to Top](#title)
 
 ---
