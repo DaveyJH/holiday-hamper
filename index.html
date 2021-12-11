@@ -70,17 +70,19 @@
                 <i class="fas fa-bars fa-2x tap-target bar-icon"></i>
             </div>
         </header>
-        <!-- Holidays -->
+
         <main>
-            <!-- Landing Page -->
-            <div class="grid-container-welcome" id="img-0">
-                <h1 class="welcome">WELCOME TO HOLIDAY HAMPER</h1>
-                <p class="sub-heading">Discover holidays and celebrations from around the world</p>
-                <a class="more-info suggest-btn" href="suggest.html">Suggest a holiday</a>
-                <a class="scroll-arrow" href="#img-1">
+            <div class="grid-container-welcome">
+                <div class="overlay landing-overlay">
+                    <h1 class="welcome">WELCOME TO HOLIDAY&nbsp;HAMPER</h1>
+                    <p class="sub-heading">Discover holidays and celebrations from around the world</p>
+                    <a class="more-info suggest-btn" href="suggest.html">Suggest a holiday</a>
+                </div>
+                <a class="scroll-arrow" href="#christmas">
                     <span class="sr-only">Scroll to the next holiday</span>
                     <i class="fas fa-chevron-down"></i>
                 </a>
+
                 <a href="/christmas.html" class="christmas-star">
                     <div class="star tap-target tooltip"><span class="tooltiptext">Christmas</span></div>
                 </a>
@@ -100,75 +102,90 @@
                     <div class="star tap-target tooltip"><span class="tooltiptext">Yuletide</span></div>
                 </a>
             </div>
-            <!-- 1st celebration -->
-            <div class="grid-container grid-containers-holidays" id="img-1">
-                <h1 class="holiday-name grid-item-1-right">CHRISTMAS</h1>
-                <p class="holiday-description grid-item-2-right">
-                    The biggest Christian holiday is Christmas. However, 
-                    being the largest religion in the world, they love a 
-                    celebration and there are 18 other holidays that
-                    are more or less recognised amongst Christians.
-                </p>
-                <a class="grid-item-3-right link-info more-info" href="christmas.html">More Info</a>
-                <a class="grid-item-4" href="#img-2">
+
+            <div class="grid-container grid-container-holidays grid-odds" id="christmas">
+                <div class="overlay holiday-landing-overlay">
+                    <h1 class="holiday-name">CHRISTMAS</h1>
+                    <p class="holiday-description">
+                        The biggest Christian holiday is Christmas. However, 
+                        being the largest religion in the world, they love a 
+                        celebration and there are 18 other holidays that
+                        are more or less recognised amongst Christians.
+                    </p>
+                    <a class="link-info more-info" href="christmas.html">More Info</a>
+                </div>
+                <a class="next-arrow" href="#new-years-eve">
                     <span class="sr-only">Scroll to the next holiday</span>
                     <i class="fas fa-chevron-down"></i>
                 </a>
             </div>
-            <!-- 2nd celebration -->
-            <div class="grid-container grid-containers-holidays" id="img-2">
-                <h1 class="holiday-name grid-item-1-left">NEW YEARS EVE</h1>
-                <p class="holiday-description grid-item-2-left">New Year's Eve is the last day of the year and the day before New
-                    Year's Day, which marks the start of a new year according to the Gregorian calendar</p>
-                <a class="grid-item-3-left link-info more-info" href="new-year.html">More Info</a>
-                <a class="grid-item-4" href="#img-3">
+
+            <div class="grid-container grid-container-holidays grid-evens" id="new-years-eve">
+                <div class="overlay holiday-landing-overlay">
+                    <h1 class="holiday-name">NEW YEARS EVE</h1>
+                    <p class="holiday-description">New Year's Eve is the last day of the year and the day before New
+                        Year's Day, which marks the start of a new year according to the Gregorian calendar</p>
+                    <a class="link-info more-info" href="new-year.html">More Info</a>
+                </div>
+                <a class="next-arrow" href="#diwali">
                     <span class="sr-only">Scroll to the next holiday</span>
                     <i class="fas fa-chevron-down"></i>
                 </a>
             </div>
-            <!-- 3rd celebration -->
-            <div class="grid-container grid-containers-holidays" id="img-3">
-                <h1 class="holiday-name grid-item-1-right">DIWALI</h1>
-                <p class="holiday-description grid-item-2-right">Diwali is the five-day Festival of Lights, celebrated by millions of Hindus, Sikhs and Jains across the world. Diwali, which for some also coincides with harvest and new year celebrations, is a festival of new beginnings and the triumph of good over evil and light over darkness</p>
-                <a class="grid-item-3-right link-info more-info" href="diwali.html">More Info</a>
-                <a class="grid-item-4" href="#img-4">
+
+            <div class="grid-container grid-container-holidays grid-odds" id="diwali">
+                <div class="overlay holiday-landing-overlay">
+                    <h1 class="holiday-name">DIWALI</h1>
+                    <p class="holiday-description">Diwali is the five-day Festival of Lights, celebrated by millions of Hindus, Sikhs and Jains across the world. Diwali, which for some also coincides with harvest and new year celebrations, is a festival of new beginnings and the triumph of good over evil and light over darkness</p>
+                    <a class="link-info more-info" href="diwali.html">More Info</a>
+                </div>
+                <a class="next-arrow" href="#hanukkah">
                     <span class="sr-only">Scroll to the next holiday</span>
                     <i class="fas fa-chevron-down"></i>
                 </a>
             </div>
-            <!-- 4th celebration -->
-            <div class="grid-container grid-containers-holidays" id="img-4">
-                <h1 class="holiday-name grid-item-1-left">HANUKKAH</h1>
-                <p class="holiday-description grid-item-2-left">Hanukkah is a Jewish festival that reaffirms the ideals of Judaism and commemorates in particular the rededication of the Second Temple of Jerusalem by the lighting of candles on each day of the festival.</p>
-                <a class="grid-item-3-left link-info more-info" href="hanukkah.html">More Info</a>
-                <a class="grid-item-4" href="#img-5">
+
+            <div class="grid-container grid-container-holidays grid-evens" id="hanukkah">
+                <div class="overlay holiday-landing-overlay">
+                    <h1 class="holiday-name">HANUKKAH</h1>
+                    <p class="holiday-description">Hanukkah is a Jewish festival that reaffirms the ideals of Judaism and commemorates in particular the rededication of the Second Temple of Jerusalem by the lighting of candles on each day of the festival.</p>
+                    <a class="link-info more-info" href="hanukkah.html">More Info</a>
+                </div>
+                <a class="next-arrow" href="#yuletide">
                     <span class="sr-only">Scroll to the next holiday</span>
                     <i class="fas fa-chevron-down"></i>
                 </a>
             </div>
-            <!-- 5th celebration -->
-            <div class="grid-container grid-containers-holidays" id="img-5">
-                <h1 class="holiday-name grid-item-1-right">YULETIDE</h1>
-                <p class="holiday-description grid-item-2-right">Yuletide, a word used as a synonym for Christmas, is a combination of Yule, from the pagan winter festival Jol, and tide, which here refers to an annual festival or the season of said festival.</p>
-                <a class="grid-item-3-right link-info more-info" href="yuletide.html">More Info</a>
-                <a class="grid-item-4" href="#img-6">
+
+            <div class="grid-container grid-container-holidays grid-odds" id="yuletide">
+                <div class="overlay holiday-landing-overlay">
+                    <h1 class="holiday-name">YULETIDE</h1>
+                    <p class="holiday-description">Yuletide, a word used as a synonym for Christmas, is a combination of Yule, from the pagan winter festival Jol, and tide, which here refers to an annual festival or the season of said festival.</p>
+                    <a class="link-info more-info" href="yuletide.html">More Info</a>
+                </div>
+                <a class="next-arrow next-arrow-black" href="#chinese-ny">
                     <span class="sr-only">Scroll to the next holiday</span>
                     <i class="fas fa-chevron-down"></i>
                 </a>
             </div>
-            <!-- 6th celebration -->
-            <div class="grid-container grid-containers-last" id="img-6">
-                <h1 class="holiday-name grid-item-1-left">CHINESE NEW YEAR</h1>
-                <p class="holiday-description grid-item-2-left">Chinese New Year, or the Spring Festival, is the most important celebration observed in China, with cultural and historic significance. The festival signals the beginning of spring, and the start of a new year according to the Chinese lunar calendar.</p>
-                <a class="grid-item-3-left link-info more-info" href="chinese-new-year.html">More Info</a>
+
+            <div class="grid-container grid-container-last grid-evens" id="chinese-ny">
+                <div class="overlay holiday-landing-overlay">
+                    <h1 class="holiday-name">CHINESE&nbsp;NEW&nbsp;YEAR</h1>
+                    <p class="holiday-description">Chinese New Year, or the Spring Festival, is the most important celebration observed in China, with cultural and historic significance. The festival signals the beginning of spring, and the start of a new year according to the Chinese lunar calendar.</p>
+                    <a class="link-info more-info" href="chinese-new-year.html">More Info</a>
+                </div>
             </div>
         </main>
+
         <footer>
             <a href="https://abibubble.github.io/icecapades/">Fancy a festive game?</a>
             <a href="https://abibubble.github.io/undead-choices/">How about something spooky?</a>
             <p class="copyright">Copyright &copy; Team 9 <span id="copyright"></span></p>
         </footer>
+
         <a href="#" class="btt-btn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></a>
+        
         <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
