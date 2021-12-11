@@ -1,5 +1,5 @@
-data = {
-    "Christmas": [{
+{
+    "Christmas": {
         "question1": {
             "question": "Christmas Day not on Christmas day?",
             "answer": "In Eritrea, like in its neighbour Ethiopia, Christmas is celebrated on January 7th, rather than December 25th. This is because the Eritrean Orthodox Tewahedo Church uses the Geez Calendar that is somewhat similar to the Julian Calendar followed by Eastern Orthodox Church."
@@ -24,8 +24,8 @@ data = {
             "question": "A very romantic Christmas Eve? ",
             "answer": "In Japan Christmas Eve is thought of as a romantic day, in which couples spend together and exchange presents. In many ways it resembles Valentine's Day celebrations in the UK and the USA. Young couples like to go for walks to look at the Christmas lights and have a romantic meal in a restaurant."
         }
-    }],
-    "Hannukah": [{
+    },
+    "Hannukah": {
         "question1": {
             "question": "Donut anyone?",
             "answer": "Throughout Hanukkah over 17.5 million (!) jelly donuts are consumed in Israel which is home to just over 9 million people. This is part of celebrating the miracle of the oil lasting eight days, many of the holiday's festive foods are prepared in oil, particularly: the family favorite sufganiyot (or jelly donuts)."
@@ -46,9 +46,9 @@ data = {
             "question": "quiz 5",
             "answer": "answer 5"
         }
-    }],
+    },
 
-    "Yuletide": [{
+    "Yuletide": {
         "question1": {
             "question": "The Kissing Bough anyone?",
             "answer": "At Yuletide, the Pagan tradition, it has often been customary to make a decoration using two hoops, one thrust through the other, bound with evergreens and colourfully decorated. At the bottom of the decoration a bunch of mistletoe is carefully tied, and the whole tableau is suspended in the middle of the room, the centre of attention. Every berry on the mistletoe bears the promise of a kiss, and for every kiss given or taken a berry is removed. When all the berries are gone, the kissing has to stop!"
@@ -69,8 +69,8 @@ data = {
             "question": "ul5",
             "answer": "yul 5"
         }
-    }],
-    "NewYearEve": [{
+    },
+    "NewYearEve": {
         "question1": {
             "question": "new y1",
             "answer": "new y 1"
@@ -91,8 +91,8 @@ data = {
             "question": "new y 5",
             "answer": "new y 5"
         }
-    }],
-    "ChineseNewYear":[{
+    },
+    "ChineseNewYear":{
         "question1": {
             "question": "Is your boyfriend/girlfriend a fake?",
             "answer": "To avoid ackward questions during family visits in the Chinese New Year, some desperate singles resort to hire a fake boyfriend or girlfriend to take home."
@@ -113,8 +113,8 @@ data = {
             "question": "ch 5",
             "answer": "ch 5"
         }
-    }],
-    "Diwali": [{
+    },
+    "Diwali": {
         "question1": {
             "question": "A ‘cracker’ of a time!",
             "answer": "A popular and ubiquitous tradition associated with Diwali is the bursting of firecrackers. However, this is a recent addition to Diwali celebrations, since until the 1900s firecrackers and pyrotechnics were very expensive and were only used by the royals."
@@ -135,5 +135,5 @@ data = {
             "question": "dw 5",
             "answer": "dw 5"
         }
-    }]
+    }
 }
