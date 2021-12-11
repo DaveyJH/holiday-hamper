@@ -99,7 +99,7 @@ nav {
     width: 25%;
     height: 100%;
     position: fixed;
-    top: 80px;
+    top: var(--header-height);
     right: 0;
     box-shadow: -2px 9px 10px 2px darkred;
 }

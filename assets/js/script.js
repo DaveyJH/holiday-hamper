@@ -41,7 +41,6 @@ window.addEventListener('scroll', function () {
 // -------------------------------------------------------------------- Copyright
 
 (function copyrightYear() {
-    var d = new Date();
-    var y = d.getFullYear();
-    document.getElementById("copyright").innerHTML = y;
+    let year = new Date().getFullYear();
+    document.getElementById("copyright").innerHTML = year;
 })();
