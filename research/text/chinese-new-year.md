@@ -63,7 +63,7 @@ quietly leaving the cat asleep and so, the cat slept through the entire race.
 
 [a version of the story](https://www.topmarks.co.uk/ChineseNewYear/ZodiacStory.aspx#:~:text=Long%20ago%2C%20in%20China%2C%20the,the%20zodiac%20named%20after%20them.)
 
-the actual year of the race is disputed and so is the date when the celebrations
+The actual year of the race is disputed and so is the date when the celebrations
 began.
 
 <!-- Sections below are from
