@@ -1,3 +1,7 @@
+// -------------------------------------------------------------------- Global State
+
+const scroll = document.querySelector('.btt-btn');
+
 // -------------------------------------------------------------------- Go To Top Button
 
 window.addEventListener('scroll', function () {

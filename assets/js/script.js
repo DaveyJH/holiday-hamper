@@ -2,7 +2,6 @@
 
 const toggle = document.getElementById("burger-icon");
 const navbar = document.getElementById("menu");
-const scroll = document.querySelector('.btt-btn');
 let open = false;
 
 // -------------------------------------------------------------------- NavBar Toggle
