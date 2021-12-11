@@ -1,6 +1,6 @@
 // -------------------------------------------------------------------- Navbar 
 const toggle = document.querySelector("#burger-icon");
-let navbar = document.getElementById("menu");
+const navbar = document.getElementById("menu");
 let open = false;
 
 toggle.addEventListener("click", toggleNavbar);
@@ -8,14 +8,10 @@ toggle.addEventListener("click", toggleNavbar);
 function toggleNavbar() {
     open = !open;
     open ? closeNavBar() : openNavBar();
-    if (navbar.classList.contains("navbar-toggle")) {
-        navbar.classList.remove("navbar-toggle");
-    } else {
-        navbar.classList.add("navbar-toggle");
-    }
 }
 
 function openNavBar() {
+    navbar.classList.remove("navbar-toggle");
     toggle.innerHTML = 
     `
     <span class="sr-only">Open the navigation menu</span>
@@ -24,6 +20,7 @@ function openNavBar() {
 }
 
 function closeNavBar() {
+    navbar.classList.add("navbar-toggle");
     toggle.innerHTML = 
     `
     <span class="sr-only">Close the navigation menu</span>
