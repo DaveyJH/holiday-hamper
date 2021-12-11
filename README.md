@@ -432,7 +432,10 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 ### Media
 
-* All images have been taken from [Pexels]() and [Unsplash]() 
+* [Star SVG](https://freesvg.org/simple-star-silhouette)
+* [Favicon present image](https://pixabay.com/illustrations/gift-christmas-celebrate-4567561/)
+* [Holiday page background image](https://pixabay.com/illustrations/abstract-heart-cover-card-love-4795495/)
+* All other images have been taken from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
 
 ### Acknowledgements
 
