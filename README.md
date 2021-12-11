@@ -87,15 +87,26 @@ We wanted this project to be as inclusive as possible. As the main holidays in e
 
 ### Color Scheme
 
-* WHAT COLORS USED AND WHY
+* We have stuck with a fairly minimal colour scheme:
+  * Red
+  * Yellow
+  * Black
+  * White
+* We chose these colours to link with the festive theme of the site, as red and yellow are often used in celebration.
+* Black and white were used to ensure good colour contrast across the site.
+* The entire site has a colour contrast that is AA compliant in accordance with the WCAG Colour Contrast Guidelines.
 
 ### Typography
 
-* WHAT FONT AND WHY
+* We have used sans-serif fonts throughout the site, except for the header logo text. This is because sans-serif is accessibility friendly, as it is easily readable to users with dyslexia.
+* [Dancing Script](https://fonts.google.com/specimen/Dancing+Script) has been used for the header logo text, with a fallback font of sans-serif is used as the default backup font in cases where these fonts have difficulty loading. This font was chosen for it's holiday-feel. We decided to go with a non-sans-serif font for the header logo text, as it's not an important piece of text.
 
 ### Imagery
 
-* WHAT IMAGES ARE USED AND WHY
+* Most images used on the site are from the specific holiday that they're linked to.
+* The holiday pages have a black background with sparkles on it, to link with the festive theme, without requiring a different background for every holiday.
+* The favicon is a gift, wrapped in a sparkly blue wrapping paper with a gold bow, to link with the festive theme.
+* The site logo was made by our team, which consists of a picnic hamper, with various holiday-related items inside it.
 
 ### Wireframes
 
@@ -108,8 +119,8 @@ We wanted this project to be as inclusive as possible. As the main holidays in e
   * Logo / Title
   * Menu icon for quick navigation
   * Constistant throughout site
-* Welcome page with stary night image
-  * Individual stars for links to main content
+* Welcome page with fireworks image
+  * Individual sparkling stars for links to main content
   * Short text welcome
   * Eye catching and emotive
   * Small margin below for space for down arrow/show content below fold
@@ -118,14 +129,16 @@ We wanted this project to be as inclusive as possible. As the main holidays in e
   * Name of holiday and brief info
   * Button linking to main content information
   * Small margin below for space for down arrow/show content below fold
+* Full page for each holiday
+  * Full details of the holiday
+  * Multiple holiday related images
 * Send in your holiday form
-  * A few input fields for info (decided when we have better idea of main content pages)
-  * EmailJS
-  * Modal on valid completion
-
-### Audio
-
-* WHAT AUDIO IS USED (IF ANY) AND WHY.
+  * Input fields to retrieve information
+  * Using EmailJS to send the form to the dev team
+* Footer
+  * Constistant throughout site
+  * Copyright information
+  * Links to holiday-related games
 
 [Back to Top](#holiday-hamper)
 
@@ -177,6 +190,18 @@ Google DevTools was used to help us find which code correlated to which feature.
 
 [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to ensure all prefixes for browsers were included correctly.
 
+#### Yoksel
+
+[Yoksel](https://yoksel.github.io/url-encoder/) was used to convert the SVG to a background image for the stars.
+
+#### Favicon.io
+
+[Favicon.io](https://favicon.io/) was used to create the favicon for this site.
+
+#### Remove.bg
+
+[Remove.bg](https://www.remove.bg/) was used to remove the background colour of the image that we used in the favicon.
+
 [Back to Top](#title)
 
 ---
@@ -188,7 +213,7 @@ Google DevTools was used to help us find which code correlated to which feature.
 This site was deployed to GitHub Pages by following these steps:
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. Create a new repository named "christmas-hackathon".
+2. Create a new repository named "holiday-hamper".
 3. Once created, click on "Settings" on the navigation bar under the repository title.
 4. Scroll down to "Pages".
 5. Under "Source", choose which branch to deploy. We chose "main", but this is sometimes shown as "master".
@@ -199,13 +224,13 @@ This site was deployed to GitHub Pages by following these steps:
 ### How to Fork it
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. On GitHub, go to [daveyjh/christmas-hackathon](https://github.com/Abibubble/christmas-hackathon).
+2. On GitHub, go to [daveyjh/holiday-hamper](https://github.com/Abibubble/holiday-hamper).
 3. In the top right, click "Fork".
 
 ### How to Clone it
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. Fork the repository daveyjh/christmas-hackathon using the steps above in [How to Fork it](#how-to-fork-it).
+2. Fork the repository daveyjh/holiday-hamper using the steps above in [How to Fork it](#how-to-fork-it).
 3. Above the file list, click "Code".
 4. Choose if you want to clone using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
@@ -215,7 +240,7 @@ This site was deployed to GitHub Pages by following these steps:
 
 ### Making a Local Clone
 
-1. Log in to [GitHub](www.github.com) and locate the [Repository](https://github.com/Abibubble/REPO) for this site.
+1. Log in to [GitHub](www.github.com) and locate the [Repository](https://github.com/daveyjh/holiday-hamper) for this site.
 2. Under the repository name, above the list of files, click "Code".
 3. Here you can either Clone or Download the repository.
 4. You should clone the repository using HTTPS, clicking on the icon to copy the link.
