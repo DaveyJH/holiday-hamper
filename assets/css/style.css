@@ -39,6 +39,10 @@ a {
     color: var(--black);
 }
 
+.hide {
+    display: none;
+}
+
 /* ---------------------------------------------------------------- Header */
 
 .header {
@@ -385,6 +389,10 @@ input[type=text], textarea {
     margin: 4px 10%;
 }
 
+#form-fail {
+    color: red;
+}
+
 /* -------------------------------------------------------------------- Quiz */
 
 .quizshow-container {
@@ -536,6 +544,66 @@ input[type=text], textarea {
 
 .holiday-info p:last-of-type {
     margin-bottom: 0;
+}
+/* -------------------------------------------------------------------- Modal */
+
+.modal-overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 5;
+}
+
+.modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "button1 button2";
+    background: url("../img/stars.jpg");
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    z-index: 10;
+    border: 2px solid var(--red);
+    box-shadow: 2px 2px 2px 2px var(--red);
+    border-radius: 50px;
+    justify-items: center;
+    text-align: center;
+}
+
+.modal-text {
+	grid-area: header;
+	width: 75%;
+	margin: auto;
+	margin-top: 25px;
+	background-color: rgba(0,0,0,0.6);
+	padding: 20px;
+	border-radius: 25px;
+    border: 2px solid var(--red);
+    box-shadow: 2px 2px 2px var(--red);
+}
+
+.modal-text h2 {
+    color: var(--white);
+}
+
+.modal-btn-yes {
+    grid-area: button1;
+}
+
+.modal-btn-no {
+    grid-area: button2;
+}
+
+.modal-btn-yes,
+.modal-btn-no {
+    height: fit-content;
 }
 
 /* -------------------------------------------------------------------- Footer */
