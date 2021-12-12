@@ -265,7 +265,8 @@ h4 {
 
 /* --------------------------------------------------------------- Buttons */
 
-.more-info {
+.red-button {
+    cursor: pointer;
     width: fit-content;
     padding: 1rem;
     background-color: var(--red);
@@ -329,8 +330,8 @@ h4 {
     color: var(--black);
 }
 
-.more-info:hover,
-.more-info:focus {
+.red-button:hover,
+.red-button:focus {
     background-color: var(--yellow);
     color: var(--red);
 }
@@ -348,7 +349,7 @@ footer a:focus {
     border-radius: 2%;
     width: 100%;
     padding-top: 100px;
-    background: url("../img/suggestion-image.jpg") no-repeat center center/cover;
+    background: url("../img/gingerbread-and-mug.jpg") no-repeat center center/cover;
     border-radius: 5px;
     color: var(--black);
 }
