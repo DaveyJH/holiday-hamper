@@ -282,7 +282,7 @@ h4 {
     font-size: 18px;
     border: none;
     outline: none;
-    color: red;
+    color: var(--red);
     cursor: pointer;
     padding: 1px; 
     border-radius: 4px;
@@ -296,6 +296,9 @@ h4 {
 .btt-btn.active {
     visibility: visible;
     opacity: 1;
+    border: 15px solid #e84d1b;
+    border-radius: 50%;
+    text-shadow: 0 0 5px var(--yellow);
 }
 
 /* ---------------------------------------------------------------- Hover / Focus */
@@ -308,6 +311,7 @@ h4 {
 .btt-btn:hover,
 .btt-btn:focus {
     color: var(--yellow);
+    text-shadow: 0 0 10px red;
 }
 
 .nav-link:hover,
