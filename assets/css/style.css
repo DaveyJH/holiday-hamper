@@ -66,6 +66,7 @@ a {
     display: grid;
     place-self: center;
     font-family: 'Dancing Script', sans-serif;
+    text-shadow: 0 0 5px var(--yellow);
 }
 
 .logo h1 {
@@ -397,6 +398,8 @@ input[type=text], textarea {
 
 .quizshow-container {
     background-color: var(--red);
+    border-bottom: 10px solid var(--trans-yellow);
+    padding-bottom: 20px;
     display: grid;
     color: var(--white);
     width: 100%;
@@ -410,8 +413,14 @@ input[type=text], textarea {
     font-size: 20px;
 }
 
+#slide-number {
+    color: var(--yellow);
+    text-shadow: 0 0 5px var(--white);
+}
+
 #quiz-question {
     padding: 16px;
+    font-size: 24px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -424,7 +433,7 @@ input[type=text], textarea {
 }
 
 #quiz-question a:hover {
-    color: var(--red);
+    color: var(--yellow);
 }
 
 .slideNumber {
