@@ -425,18 +425,30 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 * We were very happy with this score.
 * We lost 8 points on mobile, purely down to the amount of images present on our site.
 * We ensured to keep our CSS tidy, keeping only the selectors that we needed.
+* We ensured all images were sized as well as they could be.
 
 #### Accessibility
 
-* EXPLAIN SCORE AND HOW WE IMPROVED IT IF NECESSARY
+* We were very happy with this score.
+* We made sure to code with accessibility in mind from the very first discussion.
+* All images have descriptive alt text.
+* All tap targets are sized at a minimum of 48px x 48px, with a gap of at least 8px between tap targets.
+* All colour contrasts comply with AA guidelines.
+* Semantic HTML has been used throughout the site.
 
 #### Best Practices
 
-* EXPLAIN SCORE AND HOW WE IMPROVED IT IF NECESSARY
+* We were very happy with this score.
+* All external links are secure.
+* All images are displayed with the correct aspect ratio and resolution.
+* There are no issues in the Devtools Issues panel.
 
 #### SEO
 
-* EXPLAIN SCORE AND HOW WE IMPROVED IT IF NECESSARY
+* We were happy with this score.
+* All relevant meta tags were included.
+* Each page has different meta tags, to relate to the page content.
+* All links have descriptive text.
 
 [Back to Top](#holiday-hamper)
 
