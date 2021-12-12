@@ -121,6 +121,10 @@ nav {
     cursor: pointer;
 }
 
+.bar-icon {
+    text-shadow: 0 0 5px var(--yellow);
+}
+
 /* ---------------------------------------------------------------- Landing Page */
 
 .grid-container-welcome {
