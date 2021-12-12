@@ -127,14 +127,14 @@ nav {
 }
 
 .welcome {
-    font-size: 4em;
+    font-size: 3.5rem;
     color: var(--yellow);
     place-self: end center;
 }
 
 .sub-heading {
     margin-bottom: 20px;
-    font-size: 2em;
+    font-size: 2rem;
     place-self: center center;
 }
 
@@ -143,7 +143,7 @@ nav {
 }
 
 .scroll-arrow {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     color: var(--white);
     place-self: end center;
 }
@@ -180,7 +180,7 @@ nav {
 }
 
 .next-arrow {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     grid-area: next-arrow;
     justify-self: center;
     align-self: end;
@@ -199,15 +199,15 @@ nav {
     justify-self: center;
     color: var(--yellow);
     text-shadow: rgb(0, 0, 0) 0 0 50px;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .holiday-description,
 h3,
 h4 {
-    padding: 1em;
+    padding: 1rem;
     color: #fafafa;
-    border-radius: 0.2em;
+    border-radius: 0.2rem;
     text-shadow: pink 0 0 10px;
     margin-bottom: 20px;
 }
@@ -277,7 +277,7 @@ h4 {
 }
 
 .btt-btn i {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .btt-btn.active {
