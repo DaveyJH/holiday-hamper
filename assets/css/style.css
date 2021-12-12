@@ -226,12 +226,14 @@ h4 {
 }
 
 h3 {
-    font-size: 24px;
+    margin-bottom: .3rem;
+    line-height: 2.4rem;
     padding-bottom: 0;
 }
 
 h4 {
     font-weight: 900;
+    font-size: 1.1rem;
     margin-bottom: 0;
 }
 
@@ -553,6 +555,11 @@ input[type=text], textarea {
     border-radius: 20px;
 }
 
+.holiday-content {
+    margin: auto;
+    padding-top: 15vh;
+}
+
 .holiday-info {
     flex-basis: 60%;
     padding: 0 0 0 50px;
@@ -560,6 +567,8 @@ input[type=text], textarea {
 
 .holiday-info p {
     padding: 0;
+    font-size: 1.2rem;
+    line-height: 1.75rem;
 }
 
 .holiday-info p:last-of-type {
@@ -734,10 +743,12 @@ footer a {
     .holiday-section,
     .holiday-section:nth-of-type(2n) {
         flex-direction: column;
+        padding: 15px;
     }
     .holiday-section .holiday-info,
     .holiday-section:nth-last-of-type(2n) .holiday-info  {
         padding: 0;
+        padding: 5px;
     }
 }
 
@@ -766,6 +777,10 @@ footer a {
         height: var(--header-height);
         left: 15px;
         top: 0;
+    }
+
+    .overlay {
+        padding: 5px;
     }
 }
 
