@@ -1,0 +1,159 @@
+{
+    "Christmas": {
+        "question1": {
+            "question": "Christmas Day not on Christmas day?",
+            "answer": "In Eritrea, like in its neighbour Ethiopia, Christmas is celebrated on January 7th, rather than December 25th. This is because the Eritrean Orthodox Tewahedo Church uses the Geez Calendar that is somewhat similar to the Julian Calendar followed by Eastern Orthodox Church."
+        },
+        "question2": {
+            "question": "Where is giving apples a Christmas tradition?",
+            "answer": "China! And also, some Chinese call the Chrismas tree “a tree of light"
+        },
+        "question3": {
+            "question": "Giant paper lanterns as Christmas decoration?",
+            "answer": "On Christmas Eve, Christians in Goa, India, hang out giant paper lanterns, in the shape of stars, between the houses so that the stars float above you as you walk down the road!"
+        },
+        "question4": {
+            "question": "Where Christmas Eve is not a very 'silent night'?",
+            "answer": "In Haiti lots of houses are open with all lights on until about 3.00am! Children are normally allowed to go out and often the parents don't know were they are in the early morning - the older children are expected to look after the younger ones! And children of all ages are also allowed to drink 'Anisette', which is a slightly alcoholic drink that's made by soaking 'anise' leaves (the spice where star anise comes from) in rum and sweetening it with sugar."
+        },
+        "question5": {
+            "question": "Parades, stret parties and bull runs for Christmas?",
+            "answer": "During December and into January, there are lots of fiestas, parades, rodeos, street parties, bull runs and choral and dance festivals in Costa Rica. On 26th December (Boxing Day) there is an important horseback parade called the Tope. The next on the next day (27th), many towns and cities have 'Carnaval' with a big parade featuring dancing and big floats."
+        },
+        "question6": {
+            "question": "A very romantic Christmas Eve? ",
+            "answer": "In Japan Christmas Eve is thought of as a romantic day, in which couples spend together and exchange presents. In many ways it resembles Valentine's Day celebrations in the UK and the USA. Young couples like to go for walks to look at the Christmas lights and have a romantic meal in a restaurant."
+        }
+    },
+    "Hannukah": {
+        "question1": {
+            "question": "Donut anyone?",
+            "answer": "Throughout Hanukkah over 17.5 million (!) jelly donuts are consumed in Israel which is home to just over 9 million people. This is part of celebrating the miracle of the oil lasting eight days, many of the holiday's festive foods are prepared in oil, particularly: the family favorite sufganiyot (or jelly donuts)."
+        },
+        "question2": {
+            "question": "Why the spinning Dreidel?",
+            "answer": "The famous dreidel, or four-sided spinning top, was invented as a distraction! When the Greek-Syrians had outlawed Jewish studies, the Jews spun dreidels to pretend they were just playing games while they actually engaged with their scripture."
+        },
+        "question3": {
+            "question": "Golden traditions",
+            "answer": "The word hanukkah comes from the Hebrew word Hinuch, or to teach. Many Jews follow a tradition of rewarding their children for learning Torah with golden-wrapped chocolates resembling coins called gelt. They can also be won in the game of Dreidel."
+        },
+        "question4": {
+            "question": "How do you spell Hannukah?",
+            "answer": "You may have seen the holiday spelled like Hanukkah, Hannuka, or Chanukah... the list goes on. The most common version is Hanukkah, but all the spellings are actually accurate. Because there is no correct way to directly translate the Hebrew sounds to English, it could be spelled a variety of different ways, each equally correct."
+        },
+        "question5": {
+            "question": "What is Hannukah?",
+            "answer": "The holiday commemorates the triumph of a band of rebel Jews known as the Maccabees in reclaiming their temple from the Greek-Syrians."
+        },
+        "question6": {
+            "question": "What are 3 traditions of Hannukah?",
+            "answer": "Take part in Chanukah traditions such as lighting the menorah, playing the dreidel game, eating gelt, cooking and baking delicious food, and enjoying the fun of Hanukkah gifts."
+        }
+    },
+
+    "Yuletide": {
+        "question1": {
+            "question": "The Kissing Bough anyone?",
+            "answer": "At Yuletide, the Pagan tradition, it has often been customary to make a decoration using two hoops, one thrust through the other, bound with evergreens and colourfully decorated. At the bottom of the decoration a bunch of mistletoe is carefully tied, and the whole tableau is suspended in the middle of the room, the centre of attention. Every berry on the mistletoe bears the promise of a kiss, and for every kiss given or taken a berry is removed. When all the berries are gone, the kissing has to stop!"
+        },
+        "question2": {
+            "question": "Where do believes intertwine with astronomy?",
+            "answer": "With the end of the longest night the dark is defeated with the Return of the Sun, the return of light, hope and promise. The Goddess gives birth to the Sun/Sun God. The Sun begins to wax and the days grow longer. All that is hidden will begin to emerge. This is the Sun's birthday! And it really is time to celebrate! Thus Yuletide begins."
+        },
+        "question3": {
+            "question": "Why is it called Yuletide?",
+            "answer": "Yuletide, a word used as a synonym for Christmas, is a combination of Yule, from the pagan winter festival Jol, and tide, which here refers to an annual festival or the season of said festival. ... Yuletide is the much older of the two words; its first half, yule, derives from an Old English noun geōl."
+        },
+        "question4": {
+            "question": "Who invented Yuletide?",
+            "answer": "Germanic paganism. Yule is an indigenous winter festival celebrated by the Germanic peoples. The earliest references to it are in the form of month names, where the Yule-tide period lasts somewhere around two months, falling along the end of the modern calendar year between what is now mid-November and early January."
+        },
+        "question5": {
+            "question": "When was the first Yuletide?",
+            "answer": "The first recorded use of the noun Yuletide, according to Wikipedia, was in 1475. The Yuletide season lasted from the end of November to the beginning weeks of January but the feast of Yule lasted three days over the Winter Solstice and marked the beginning of the new year."
+        },
+        "question6": {
+            "question": "What is the purpose of Yuletide?",
+            "answer": "The celebration of Yuletide dates back centuries, and was originally a way to commemorate the winter solstice — the shortest day and longest night of the year."
+        }
+    },
+    "NewYearEve": {
+        "question1": {
+            "question": "What is the oldest New Year celebration?",
+            "answer": "One of the oldest traditions still celebrated today is Chinese New Year, which is believed to have originated over 3,000 years ago during the Shang Dynasty."
+        },
+        "question2": {
+            "question": "Who first started eve of New Year?",
+            "answer": "The earliest recorded festivities in honor of a new year's arrival date back some 4,000 years to ancient Babylon. For the Babylonians, the first new moon following the vernal equinox—the day in late March with an equal amount of sunlight and darkness—heralded the start of a new year."
+        },
+        "question3": {
+            "question": "Why was March 25 New Year's Day?",
+            "answer": "Originally, January 1 was the date of the new year in the Julian calendar, but after the fall of the Roman Empire, the date gradually changed in various parts of Europe to March 25, to conform with Christian festival of the Annunciation. England adopted March 25th as New Year's day in the twelfth century."
+        },
+        "question4": {
+            "question": "Which country sees the New Year last?",
+            "answer": "The last place or places to ring in the New Year will be the tiny outlying islands of the US. Baker Island and Howland Island will see the New Year at 12pm GMT on January 1 but as it's uninhabited, we tend to forget about it."
+        },
+        "question5": {
+            "question": "Which country sees the New Year first?",
+            "answer": "The Pacific island of Tonga is first place to ring in the New Year, celebrated at 10am GMT on December 31, making the tiny island nation the first to head into the New Year and the celebrations will follow on from there all across the globe."
+        },
+        "question6": {
+            "question": "Why do we kiss at midnight on New Year's Eve?",
+            "answer": "The tradition to kiss at midnight isn’t a recent invention. According to old English and German folklore, the first person you come across in the New Year could set the tone for the next 12 months."
+        }
+    },
+    "ChineseNewYear":{
+        "question1": {
+            "question": "Is your boyfriend/girlfriend a fake?",
+            "answer": "To avoid ackward questions during family visits in the Chinese New Year, some desperate singles resort to hire a fake boyfriend or girlfriend to take home."
+        },
+        "question2": {
+            "question": "So when is the Chinese New Year exactly?",
+            "answer": "There’s no set date for Chinese New Year, or The Spring Festival. Unlike western holidays such as Thanksgiving or Christmas, celebration is based on Lunar calendar and can range from January 21 to February 20."
+        },
+        "question3": {
+            "question": "What happens on the 5th day of Chinese New Year?",
+            "answer": "Fifth day, zhengyue 5, 'Birthday of Ox, Cattle'. All businesses will be reopened on that day. Sweeping the floor is not considered bad luck anymore. In northern China, people eat Jiǎozi (dumplings) on the morning of pò wǔ."
+        },
+        "question4": {
+            "question": "Can you shower during Chinese New Year?",
+            "answer": "Leave your hair as it is on the first day of the New Year. The Chinese character for hair is the same first character in the word for prosper. Actually, LNY fundamentalists will tell you taking a shower is also off-limits on the first day for the same reason."
+        },
+        "question5": {
+            "question": "What color should you not wear on Chinese New Year?",
+            "answer": "Do not wear white or black. Red is a lucky color during Chinese New Year. Do not wear white or black clothes as these two colors are associated with mourning traditionally."
+        },
+        "question6": {
+            "question": "Why is it called Chinese New Year?",
+            "answer": "Because the traditional Chinese calendar is mostly based on the changes in the moon, the Chinese New Year is also known in English as the Lunar New Year or Chinese Lunar New Year. This name comes from Luna, an old Latin name for the moon. Another old name for the holiday was Lìchūn, meaning Early Spring."
+        }
+    },
+    "Diwali": {
+        "question1": {
+            "question": "A ‘cracker’ of a time!",
+            "answer": "A popular and ubiquitous tradition associated with Diwali is the bursting of firecrackers. However, this is a recent addition to Diwali celebrations, since until the 1900s firecrackers and pyrotechnics were very expensive and were only used by the royals."
+        },
+        "question2": {
+            "question": "Bet you’d also call it fun?",
+            "answer": "While Diwali is supposed to be a festival that signifies piety and purity, it is also the one day most associated with ‘fun’ for many Indian families. A popular tradition during Diwali in Northern India is that of playing cards and gambling with money in the evening. Only on this day, the family’s elders and youngsters all get together to take part in this fun activity."
+        },
+        "question3": {
+            "question": "The festival occurs on a no-moon night?",
+            "answer": "Diwali falls in the hindu calendar month of Karthik, and to enjoy this festival of lights, which occurs on an amavasya (moonless night), firecrackers are lit and lights are placed on the walls and entrances of the houses."
+        },
+        "question4": {
+            "question": "How did Diwali get its name?",
+            "answer": "The word Diwali comes from the Sanskrit word deepavali, meaning rows of lighted lamps. Houses, shops and public places are decorated with small oil lamps called diyas. People also enjoy fireworks and sweets too, so it's really popular with children."
+        },
+        "question5": {
+            "question": "How long does Diwali last for?",
+            "answer": "Diwali is a massive festival celebrated by millions of people around the world. Each year, the five-day festival is celebrated to mark the triumph of light over darkness and good over evil."
+        },
+        "question6": {
+            "question": "How old is Diwali?",
+            "answer": "Every year around October and November, Hindus around the world celebrate Diwali, or Deepavali—a festival of lights that stretches back more than 2,500 years."
+        }
+    }
+}

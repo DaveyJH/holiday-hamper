@@ -41,7 +41,7 @@
         <header class="header">
             <img src="assets/img/hamper-logo.png" alt="A holiday hamper logo with some fireworks, a present and some candles">
             <a href="index.html" class="logo">
-                <h1>Holiday Hamper</h1>
+                <h1>Holiday <span class="mobile-header-break">Hamper</span></h1>
             </a>
             <nav class="menu" id="menu">
                 <ul class="nav-menu">
@@ -92,6 +92,7 @@
                     <textarea name="how-celebrated" id="how-celebrated" placeholder="How is this holiday celebrated?" rows="4" cols="50" required></textarea>
                     <label for="links">Links</label>
                     <input type="text" placeholder="Can you give us some links to research this holiday further?" name="links" required>
+                    <p id="form-fail"></p>
                     <div class="form-btn">
                         <button class="more-info" type="submit">Submit Holiday</button>
                         <button class="more-info">Cancel</button>
@@ -99,6 +100,23 @@
                 </div>
             </form>
 
+            <aside id="form-modal" class="hide">
+                <div class="modal-overlay"></div>
+                <div class="modal-grid">
+                    <div class="modal-text">
+                        <h2>
+                            Thank you for your suggestion<br>
+                            Would you to suggest another holiday?
+                        </h2>
+                    </div>
+                    <a role="button" href="suggest.html" class="more-info modal-btn-yes tap-target">
+                        Yes
+                    </a>
+                    <a role="button" href="index.html" class="more-info modal-btn-no tap-target">
+                        No
+                    </a>
+                </div>
+            </aside>
         </main>
         <footer id="form-footer">
             <a href="https://abibubble.github.io/icecapades/">Fancy a festive game?</a>

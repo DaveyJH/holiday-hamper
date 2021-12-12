@@ -25,7 +25,6 @@ This site was built by team Happy Holiday Hackers for the [Code Institute](https
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
   * [Features](#features)
-  * [Audio](#audio)
 
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
@@ -407,11 +406,11 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 #### Desktop Lighthouse
 
-![Lighthouse desktop first try](docs/lighthouse.png)
+![Lighthouse desktop first try](docs/lighthouse-desktop.png)
 
 #### Mobile Lighthouse
 
-![Lighthouse mobile first try](docs/lighthousemobile.png)
+![Lighthouse mobile first try](docs/lighthouse-mobile.png)
 
 #### Performance
 

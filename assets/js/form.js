@@ -6,15 +6,19 @@
 const suggestionForm = document.querySelector('#suggestion-content');
 const howCelebrated = document.querySelector('#how-celebrated');
 const textAreas = document.getElementsByTagName('textarea');
+const modal = document.getElementById("form-modal");
+const formFail = document.getElementById("form-fail");
 
 // SEnd email when user clicks submit button
 suggestionForm.addEventListener('submit', function (e) {
     e.preventDefault();
     emailjs.sendForm('service_polycarp', 'polycarp_template', this)
         .then(function () {
-            console.log('EMAIL SUCCESS!');
+            modal.classList.remove("hide");
+            formFail.innerText = "";
         }, function (error) {
-            console.log('EMAIL FAILED...', error);
+            formFail.innerText = "Oh no! Something went wrong! Please try again later."
+            console.log('Form submission failed due to error: ', error);
         });
 });
 
