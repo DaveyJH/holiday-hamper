@@ -7,6 +7,8 @@
     --white: #ffffff;
     --red: #962D32;
     --yellow: #EED55F;
+    --trans-yellow: #EED55F66;
+    --trans-red: #962D3277;
     --header-height: 80px;
 }
 
@@ -200,12 +202,24 @@ nav {
     font-size: 3em;
 }
 
-.holiday-description {
+.holiday-description,
+h3,
+h4 {
     padding: 1em;
     color: #fafafa;
     border-radius: 0.2em;
     text-shadow: pink 0 0 10px;
     margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    padding-bottom: 0;
+}
+
+h4 {
+    font-weight: 900;
+    margin-bottom: 0;
 }
 
 #christmas {
@@ -462,16 +476,10 @@ input[type=text], textarea {
 
 /* -------------------------------------------------------------------- Holiday pages */
 
-.holiday-grid {
+/* .holiday-grid {
     display: grid;
     grid-template-columns: 2fr 3fr;
-}
-
-.holiday-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-}
+} */
 
 .holiday-main {
     background-image: url('../img/stars.jpg');
@@ -487,6 +495,47 @@ input[type=text], textarea {
     max-width: 90%;
     margin: auto;
     background: rgba(0,0,0,0.6);
+}
+
+.holiday-section {
+    padding: 50px;
+    border-radius: 20px;
+    background-color: var(--trans-red);
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.holiday-section:nth-of-type(2n) {
+    background-color: var(--trans-yellow);
+    flex-direction: row-reverse;
+}
+
+.holiday-section:nth-of-type(2n) .holiday-info {
+    padding: 0 50px 0 0;
+}
+
+.holiday-img-container {
+    flex-basis: 40%;
+}
+
+.holiday-img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.holiday-info {
+    flex-basis: 60%;
+    padding: 0 0 0 50px;
+}
+
+.holiday-info p {
+    padding: 0;
+}
+
+.holiday-info p:last-of-type {
+    margin-bottom: 0;
 }
 
 /* -------------------------------------------------------------------- Footer */
@@ -589,6 +638,17 @@ footer a {
 
     .fa-chevron-down {
         animation: bounce 5s ease-in-out infinite;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .holiday-section,
+    .holiday-section:nth-of-type(2n) {
+        flex-direction: column;
+    }
+    .holiday-section .holiday-info,
+    .holiday-section:nth-last-of-type(2n) .holiday-info  {
+        padding: 0;
     }
 }
 
