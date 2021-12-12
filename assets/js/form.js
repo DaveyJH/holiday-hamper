@@ -15,6 +15,7 @@ suggestionForm.addEventListener('submit', function (e) {
     emailjs.sendForm('service_polycarp', 'polycarp_template', this)
         .then(function () {
             modal.classList.remove("hide");
+            formFail.innerText = "";
         }, function (error) {
             formFail.innerText = "Oh no! Something went wrong! Please try again later."
             console.log('Form submission failed due to error: ', error);
