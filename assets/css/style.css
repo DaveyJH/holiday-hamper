@@ -831,4 +831,8 @@ footer a {
     #quiz-question {
         font-size: .9rem;
     }
+
+    .btt-btn {
+        display: none;
+    }
 }
