@@ -288,9 +288,7 @@ h4 {
 .btt-btn.active {
     visibility: visible;
     opacity: 1;
-    border: 15px solid #e84d1b;
-    border-radius: 50%;
-    text-shadow: 0 0 5px var(--yellow);
+    text-shadow: 0 0 10px var(--yellow);
 }
 
 /* ---------------------------------------------------------------- Hover / Focus */
