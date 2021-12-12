@@ -343,25 +343,20 @@ footer a:focus {
 /* ---------------------------------------------------------------- Form */
 
 #form-container {
-    position: relative;
-    background-color: bisque;
+    display: grid;
     padding: 1rem;
     border-radius: 2%;
-    top: 90px;
-    background: url(../img/suggestion-image.jpg) left / 80% auto no-repeat;
+    width: 100%;
+    padding-top: 100px;
+    background: url("../img/suggestion-image.jpg") no-repeat center center/cover;
     border-radius: 5px;
     color: var(--black);
 }
 
 #suggestion-content {
     width: 60%;
-    position: relative;
-    left: 35%;
-    margin-bottom: 20px;
-}
-
-#form-footer {
-    bottom: -80px;
+    height: fit-content;
+    place-self: center;
 }
 
 .form-btn {
@@ -373,11 +368,11 @@ footer a:focus {
 
 .form-header {
     color: var(--black);
-    background-color: bisque;
     margin-bottom: 20px;
 }
 
-input[type=text], textarea {
+input[type=text],
+textarea {
     width: 80%;
     padding: 12px 20px;
     margin: 4px 10%;
@@ -390,15 +385,18 @@ input[type=text], textarea {
 
 .container {
     position: relative;
-    background-color: bisque;
+    background-color: var(--trans-yellow);
     padding: 1rem;
     border-radius: 2%;
     width: 100%;
     margin: 90px 0 1rem 0 auto;
+    font-size: 1.25rem;
 }
 
 .container h2 {
     text-align: center;
+    color: var(--black);
+    text-shadow: 0 0 10px var(--white);
 }
 
 .container label {
@@ -408,6 +406,11 @@ input[type=text], textarea {
 
 #form-fail {
     color: red;
+}
+
+input,
+textarea {
+    background-color: whitesmoke;
 }
 
 /* -------------------------------------------------------------------- Quiz */
@@ -778,6 +781,10 @@ footer a {
 
     .overlay {
         padding: 5px;
+    }
+
+    #suggestion-content {
+        width: 90%;
     }
 }
 
