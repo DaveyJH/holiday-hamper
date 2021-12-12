@@ -262,10 +262,24 @@ For a more detailed version of these steps, go to the [Github Docs](https://docs
 The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the project to ensure there were no syntax errors within the site.
 
 1. W3C Markup Validator
-    * [HTML Results](LINK)
+    * [Landing page](LINK)
+    * [Christmas page](LINK)
+    * [Diwali page](LINK)
+    * [Hanukkah page](LINK)
+    * [New Year's Eve page](LINK)
+    * [Suggestion form page](LINK)
+    * [Yuletide](LINK)
+    * [Chinese New Year](LINK)
 
 2. W3C CSS Validator
-    * [CSS Results](LINK)
+    * [Landing page](LINK)
+    * [Christmas page](LINK)
+    * [Diwali page](LINK)
+    * [Hanukkah page](LINK)
+    * [New Year's Eve page](LINK)
+    * [Suggestion form page](LINK)
+    * [Yuletide](LINK)
+    * [Chinese New Year](LINK)
 
 3. JSHint
     * [JSHint](https://jshint.com/)
@@ -432,7 +446,10 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 ### Media
 
-* All images have been taken from [Pexels]() and [Unsplash]() 
+* [Star SVG](https://freesvg.org/simple-star-silhouette)
+* [Favicon present image](https://pixabay.com/illustrations/gift-christmas-celebrate-4567561/)
+* [Holiday page background image](https://pixabay.com/illustrations/abstract-heart-cover-card-love-4795495/)
+* All other images have been taken from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
 
 ### Acknowledgements
 
