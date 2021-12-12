@@ -1,10 +1,7 @@
-// -------------------------------------------------------------------- Quiz
-
 let quizToDisplay = 1;
 let quiz ; //object to hold the quiz being fetched from json file
 
-// DOM objects 
-
+// -------------------------------------------------------------------- DOM objects
 
 const quizQuestion = document.getElementById("question-text"); //question dom
 const quizAnswer = document.getElementById("quiz-answer"); //quiz answer
@@ -15,12 +12,11 @@ const nextQuiz = document.querySelector("#next-quiz");  //next button
 const prevQuiz = document.querySelector("#prev-quiz"); // previous button
 const totalQuiz = Number(quizContainer[0].dataset.totalquiz); //quiz.length;
 
-
 /**
  * Function to display a quiz data
  * @param {*} quizToDisplay is the question number to display
  */
-const displayQuiz = function (quizToDisplay) {
+const displayQuiz = (quizToDisplay) => {
     const holiday = quizContainer[0].dataset.holiday;
     const quesId = `question${quizToDisplay}`;
     quizQuestion.textContent = quiz[holiday][quesId].question;
@@ -37,17 +33,17 @@ const fetchQuiz = async () => {
         const quizData = await response.json();
         quiz = quizData;
         displayQuiz(1);
-    } catch (err) {
+    } catch(err) {
         console.error(`Couldn't fetch quiz data: ${err}`)
     }
 };
 
-// after document has loaded, call the fetchQuiz to load the quiz data
+//After document has loaded, call the fetchQuiz to load the quiz data
+
 document.addEventListener("DOMContentLoaded", fetchQuiz);
 
-/**
- * Function to respond to next quiz click event
- */
+//Function to respond to next quiz click event
+
 nextQuiz.addEventListener('click', function(){
     let nextNum = ++quizToDisplay;
     if(nextNum > totalQuiz) {
@@ -57,9 +53,8 @@ nextQuiz.addEventListener('click', function(){
     displayQuiz(nextNum);
 });
 
-/**
- * Function to respond to previous quiz click event
- */
+//Function to respond to previous quiz click event
+ 
 prevQuiz.addEventListener('click', function(){
     let prevNum = --quizToDisplay;
     if(prevNum < 1) {
