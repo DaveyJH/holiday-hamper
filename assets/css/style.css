@@ -39,6 +39,10 @@ a {
     color: var(--black);
 }
 
+.hide {
+    display: none;
+}
+
 /* ---------------------------------------------------------------- Header */
 
 .header {
@@ -127,14 +131,14 @@ nav {
 }
 
 .welcome {
-    font-size: 4em;
+    font-size: 3.5rem;
     color: var(--yellow);
     place-self: end center;
 }
 
 .sub-heading {
     margin-bottom: 20px;
-    font-size: 2em;
+    font-size: 2rem;
     place-self: center center;
 }
 
@@ -143,7 +147,7 @@ nav {
 }
 
 .scroll-arrow {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     color: var(--white);
     place-self: end center;
 }
@@ -180,7 +184,7 @@ nav {
 }
 
 .next-arrow {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     grid-area: next-arrow;
     justify-self: center;
     align-self: end;
@@ -199,15 +203,15 @@ nav {
     justify-self: center;
     color: var(--yellow);
     text-shadow: rgb(0, 0, 0) 0 0 50px;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .holiday-description,
 h3,
 h4 {
-    padding: 1em;
+    padding: 1rem;
     color: #fafafa;
-    border-radius: 0.2em;
+    border-radius: 0.2rem;
     text-shadow: pink 0 0 10px;
     margin-bottom: 20px;
 }
@@ -277,7 +281,7 @@ h4 {
 }
 
 .btt-btn i {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .btt-btn.active {
@@ -383,6 +387,10 @@ input[type=text], textarea {
 .container label {
     display: block;
     margin: 4px 10%;
+}
+
+#form-fail {
+    color: red;
 }
 
 /* -------------------------------------------------------------------- Quiz */
@@ -536,6 +544,66 @@ input[type=text], textarea {
 
 .holiday-info p:last-of-type {
     margin-bottom: 0;
+}
+/* -------------------------------------------------------------------- Modal */
+
+.modal-overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 5;
+}
+
+.modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "button1 button2";
+    background: url("../img/stars.jpg");
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    z-index: 10;
+    border: 2px solid var(--red);
+    box-shadow: 2px 2px 2px 2px var(--red);
+    border-radius: 50px;
+    justify-items: center;
+    text-align: center;
+}
+
+.modal-text {
+	grid-area: header;
+	width: 75%;
+	margin: auto;
+	margin-top: 25px;
+	background-color: rgba(0,0,0,0.6);
+	padding: 20px;
+	border-radius: 25px;
+    border: 2px solid var(--red);
+    box-shadow: 2px 2px 2px var(--red);
+}
+
+.modal-text h2 {
+    color: var(--white);
+}
+
+.modal-btn-yes {
+    grid-area: button1;
+}
+
+.modal-btn-no {
+    grid-area: button2;
+}
+
+.modal-btn-yes,
+.modal-btn-no {
+    height: fit-content;
 }
 
 /* -------------------------------------------------------------------- Footer */
