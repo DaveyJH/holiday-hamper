@@ -109,8 +109,7 @@ We wanted this project to be as inclusive as possible. As the main holidays in e
 
 ### Wireframes
 
-* [Here are the wireframes for mobile for this project](docs/wireframes-mobile.png).
-* [Here are the wireframes for desktop for this project](docs/wireframes-desktop.pdf).
+* [Here are the wireframes for this project](docs/wireframes.pdf).
 
 ### Features
 
@@ -393,12 +392,17 @@ Friends, family members, and other developers were asked to review the site and 
 
 ### Solved Bugs
 
-1. WHAT THE BUG IS
-    * WHAT STEPS WE TOOK TO FIX IT
+1. The quiz script was throwing errors on some pages, stating that the JavaScript couldn't find specific elements on the HTML files.
+    * We looked at which pages the errors were being thrown on.
+    * We realised the errors were appearing on the pages that didn't have the quiz elements being included.
+    * We separated the quiz script into a new script file, and only loaded that script on the relevant pages.
+    * Whilst fixing this bug, we also discovered that the back to top button was also causing similar errors to show.
+    * We did the same thing for the back to top button, creating a separate script file for it.
 
 ### Known Bugs
 
-* ANY BUGS LEFT IN THE CODE AFTER FINAL DEPLOYMENT, FOR FIXING IN FUTURE RELEASES
+* The randomised star links occasionally overly on the header, navbar, and text.
+* The navbar links change hover colour, without being clickable. Only the text is clickable.
 
 ### Lighthouse
 
