@@ -759,6 +759,7 @@ footer a {
         flex-direction: column;
         padding: 15px;
     }
+
     .holiday-section .holiday-info,
     .holiday-section:nth-of-type(2n) .holiday-info  {
         padding: 0;
@@ -830,5 +831,9 @@ footer a {
 
     #quiz-question {
         font-size: .9rem;
+    }
+
+    .btt-btn {
+        display: none;
     }
 }
