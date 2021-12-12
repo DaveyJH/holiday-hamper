@@ -442,7 +442,14 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 ### Content
 
-* WHO OWNS THE CONTENT OF THE SITE
+* [National Today](https://nationaltoday.com/): various traditions
+* [Why Christmas](https://www.whychristmas.com): Christmas traditions
+* [iNews](https://inews.co.uk/light-relief/offbeat/yule-what-winter-festival-origins-explained-christmas-celebrations-806267): Christmas traditions
+* [Goddess And Greenman](https://www.goddessandgreenman.co.uk/yule/): Yuletide traditions
+* [Chinese New Year](https://chinesenewyear.net/21-things-you-didnt-know-about-chinese-new-year/): Chinese New Year traditions
+* [The Culture Trip](https://theculturetrip.com/asia/india/articles/15-surprising-facts-you-may-not-know-about-diwali/): Diwali traditions
+* [Town And Country Magazine](https://www.townandcountrymag.com/leisure/arts-and-culture/g13787924/hanukkah-facts-history-story/): Hanukkah traditions
+
 
 ### Media
 
