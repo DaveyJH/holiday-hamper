@@ -156,6 +156,15 @@ nav {
     place-self: end center;
 }
 
+.scroll-arrow i,
+.next-arrow i {
+    text-shadow: 0 0 10px #000;
+}
+
+.next-arrow-black i {
+    text-shadow: 0 0 10px #fff;
+}
+
 /* ---------------------------------------------------------------- Holiday cards */
 
 .grid-container {
