@@ -262,10 +262,24 @@ For a more detailed version of these steps, go to the [Github Docs](https://docs
 The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the project to ensure there were no syntax errors within the site.
 
 1. W3C Markup Validator
-    * [HTML Results](LINK)
+    * [Landing page](LINK)
+    * [Christmas page](LINK)
+    * [Diwali page](LINK)
+    * [Hanukkah page](LINK)
+    * [New Year's Eve page](LINK)
+    * [Suggestion form page](LINK)
+    * [Yuletide](LINK)
+    * [Chinese New Year](LINK)
 
 2. W3C CSS Validator
-    * [CSS Results](LINK)
+    * [Landing page](LINK)
+    * [Christmas page](LINK)
+    * [Diwali page](LINK)
+    * [Hanukkah page](LINK)
+    * [New Year's Eve page](LINK)
+    * [Suggestion form page](LINK)
+    * [Yuletide](LINK)
+    * [Chinese New Year](LINK)
 
 3. JSHint
     * [JSHint](https://jshint.com/)
