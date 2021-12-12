@@ -538,6 +538,60 @@ input[type=text], textarea {
     margin-bottom: 0;
 }
 
+/* -------------------------------------------------------------------- Modal */
+
+/* ---------------------------------------------------- Modal */
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 5;
+}
+
+.modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "button1 button2";
+    background: var(--red);
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    z-index: 10;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 50px;
+}
+
+.modal-text {
+	grid-area: header;
+	width: 75%;
+	margin: auto;
+	margin-top: 25px;
+	background-color: black;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.modal-btn-yes {
+    grid-area: button1;
+}
+
+.modal-btn-no {
+    grid-area: button2;
+}
+
+.modal-grid a {
+    padding-top: 23px;
+}
+
 /* -------------------------------------------------------------------- Footer */
 
 footer {
