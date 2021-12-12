@@ -389,7 +389,7 @@ textarea {
     padding: 1rem;
     border-radius: 2%;
     width: 100%;
-    margin: 90px 0 1rem 0 auto;
+    margin: 50px 0 1rem;
     font-size: 1.25rem;
 }
 
@@ -637,7 +637,7 @@ textarea {
 /* -------------------------------------------------------------------- Footer */
 
 footer {
-    padding-top: 20px 20px;
+    padding-top: 20px;
     width: 100%;
     background: var(--red);
     height: fit-content;
