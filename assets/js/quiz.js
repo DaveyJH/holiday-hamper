@@ -1,66 +1,36 @@
 // -------------------------------------------------------------------- Quiz
 
 let quizToDisplay = 1;
-let quiz ;
-const quizQuestion = document.getElementById("question-text");
-const quizAnswer = document.getElementById("quiz-answer");
-const slideNumber = document.getElementById("slide-number");
+let quiz ; //object to hold the quiz being fetched from json file
+
+// DOM objects 
+
+
+const quizQuestion = document.getElementById("question-text"); //question dom
+const quizAnswer = document.getElementById("quiz-answer"); //quiz answer
+const slideNumber = document.getElementById("slide-number"); //fact * of y
 const quizContainer = document.querySelectorAll(".quizshow-container");
+
+const nextQuiz = document.querySelector("#next-quiz");  //next button
+const prevQuiz = document.querySelector("#prev-quiz"); // previous button
 const totalQuiz = Number(quizContainer[0].dataset.totalquiz); //quiz.length;
 
-// const quizData = [
-//     {
-//         holidayId: 1,  // 1 == christmas
-//         id: 1,
-//         question: "Question 1",
-//         answer: "answer to question 1",
-//     },
-//     {
-//         holidayId: 1,  // 1 == christmas
-//         id: 2,
-//         question: "Question 2",
-//         answer: "answer to question 2",
-//     },
-//     {
-//         holidayId: 1,  // 1 == christmas
-//         id: 3,
-//         question: "Question 3",
-//         answer: "answer to question 3"
-//     },
-//     {
-//         holidayId: 1,  // 1 == christmas
-//         id: 4,
-//         question: "Question 4",
-//         answer: "answer to question 4"
-//     },
-//     {
-//         holidayId: 1,  // 1 == christmas
-//         id: 5,
-//         question: "Question 5",
-//         answer: "answer to question 5"
-//     },
-// ];
 
-const init = () => {
-    fetchQuiz();
-    // quizToDisplay = 1;
-    // displayQuiz(0);
-}
-
-// after document has loaded, call the init function
-document.addEventListener("DOMContentLoaded", init);
-
-
-
-
+/**
+ * Function to display a quiz data
+ * @param {*} quizToDisplay is the question number to display
+ */
 const displayQuiz = function (quizToDisplay) {
     const holiday = quizContainer[0].dataset.holiday;
     const quesId = `question${quizToDisplay}`;
     quizQuestion.textContent = quiz[holiday][quesId].question;
     quizAnswer.textContent =quiz[holiday][quesId].answer;
     slideNumber.textContent = `Fun Fact: ${quizToDisplay} of ${totalQuiz}`;
-}
+};
 
+/**
+ * Function to read the quiz data from external json file
+ */
 const fetchQuiz = async () => {
     try {
         const response = await fetch("../assets/quizData.json");
@@ -70,22 +40,26 @@ const fetchQuiz = async () => {
     } catch (err) {
         console.error(`Couldn't fetch quiz data: ${err}`)
     }
-}
-// quiz.Christmas.question1.answer
+};
 
-const nextQuiz = document.querySelector("#next-quiz");
-const prevQuiz = document.querySelector("#prev-quiz");
+// after document has loaded, call the fetchQuiz to load the quiz data
+document.addEventListener("DOMContentLoaded", fetchQuiz);
 
+/**
+ * Function to respond to next quiz click event
+ */
 nextQuiz.addEventListener('click', function(){
     let nextNum = ++quizToDisplay;
-    console.log("nexthum==="+nextNum);
     if(nextNum > totalQuiz) {
         nextNum = 1;
         quizToDisplay = 1;
     }
     displayQuiz(nextNum);
-})
+});
 
+/**
+ * Function to respond to previous quiz click event
+ */
 prevQuiz.addEventListener('click', function(){
     let prevNum = --quizToDisplay;
     if(prevNum < 1) {
