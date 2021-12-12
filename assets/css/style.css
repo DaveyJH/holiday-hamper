@@ -265,7 +265,8 @@ h4 {
 
 /* --------------------------------------------------------------- Buttons */
 
-.more-info {
+.red-button {
+    cursor: pointer;
     width: fit-content;
     padding: 1rem;
     background-color: var(--red);
