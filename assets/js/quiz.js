@@ -1,7 +1,12 @@
 // -------------------------------------------------------------------- Quiz
 
 let quizToDisplay = 1;
-let quiz = [];
+let quiz ;
+const quizQuestion = document.getElementById("question-text");
+const quizAnswer = document.getElementById("quiz-answer");
+const slideNumber = document.getElementById("slide-number");
+const quizContainer = document.querySelectorAll(".quizshow-container");
+const totalQuiz = Number(quizContainer[0].dataset.totalquiz); //quiz.length;
 
 // const quizData = [
 //     {
@@ -38,32 +43,30 @@ let quiz = [];
 
 const init = () => {
     fetchQuiz();
-    quizToDisplay = 1;
-    displayQuiz(0);
+    // quizToDisplay = 1;
+    // displayQuiz(0);
 }
 
 // after document has loaded, call the init function
 document.addEventListener("DOMContentLoaded", init);
 
-const totalQuiz = 5 ; //quiz.length;
-const quizQuestion = document.getElementById("question-text");
-const quizAnswer = document.getElementById("quiz-answer");
-const slideNumber = document.getElementById("slide-number");
+
 
 
 const displayQuiz = function (quizToDisplay) {
-    // quizQuestion.textContent = quiz[quizToDisplay].question;
-    // quizAnswer.textContent =quiz[quizToDisplay].answer;
-    // slideNumber.textContent = `Fun Fact: ${quizToDisplay+1} of ${totalQuiz}`;
+    const holiday = quizContainer[0].dataset.holiday;
+    const quesId = `question${quizToDisplay}`;
+    quizQuestion.textContent = quiz[holiday][quesId].question;
+    quizAnswer.textContent =quiz[holiday][quesId].answer;
+    slideNumber.textContent = `Fun Fact: ${quizToDisplay} of ${totalQuiz}`;
 }
 
 const fetchQuiz = async () => {
     try {
         const response = await fetch("../assets/quizData.json");
         const quizData = await response.json();
-        console.log("response=="+quizData);
         quiz = quizData;
-        console.log(quiz);
+        displayQuiz(1);
     } catch (err) {
         console.error(`Couldn't fetch quiz data: ${err}`)
     }
@@ -75,11 +78,12 @@ const prevQuiz = document.querySelector("#prev-quiz");
 
 nextQuiz.addEventListener('click', function(){
     let nextNum = ++quizToDisplay;
+    console.log("nexthum==="+nextNum);
     if(nextNum > totalQuiz) {
         nextNum = 1;
         quizToDisplay = 1;
     }
-    displayQuiz(nextNum-1);
+    displayQuiz(nextNum);
 })
 
 prevQuiz.addEventListener('click', function(){
@@ -88,5 +92,5 @@ prevQuiz.addEventListener('click', function(){
         prevNum = totalQuiz;
         quizToDisplay = totalQuiz;
     }
-    displayQuiz(prevNum-1);
+    displayQuiz(prevNum);
 })

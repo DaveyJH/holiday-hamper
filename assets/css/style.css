@@ -397,7 +397,7 @@ input[type=text], textarea {
 }
 
 .mySlide {
-    width: 50%;
+    width: 70%;
     place-self: center;
     font-size: 20px;
 }
@@ -417,7 +417,7 @@ input[type=text], textarea {
 }
 
 #quiz-question a:hover {
-    color: var(--yellow);
+    color: var(--red);
 }
 
 .slideNumber {
