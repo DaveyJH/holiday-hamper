@@ -785,6 +785,14 @@ footer a {
 }
 
 @media screen and (max-width: 450px) {
+    .logo h1 {
+        font-size: 1.9rem;
+    }
+
+    .mobile-header-break {
+        display: block;
+    }
+
     .navbar-toggle {
         width: 100%;
     }
