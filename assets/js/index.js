@@ -19,5 +19,5 @@ function randomPosition(element) {
     setInterval(() => {
         const randomStar = getRandomElement(stars);
         randomPosition(randomStar);
-    }, 5000)
+    }, 5000);
 })();

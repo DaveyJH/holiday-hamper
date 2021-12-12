@@ -2,18 +2,22 @@
 
 const toggle = document.getElementById("burger-icon");
 const navbar = document.getElementById("menu");
-let open = false;
+let navbarOpen = false;
 
 // -------------------------------------------------------------------- NavBar Toggle
 
 toggle.addEventListener("click", toggleNavbar);
 
 function toggleNavbar() {
-    open = !open;
-    open ? closeNavBar() : openNavBar();
+    navbarOpen = !navbarOpen;
+    if (navbarOpen) {
+        closeNavbar();
+    } else {
+        openNavbar();
+    }
 }
 
-function openNavBar() {
+function openNavbar() {
     navbar.classList.remove("navbar-toggle");
     toggle.innerHTML = 
     `
@@ -22,7 +26,7 @@ function openNavBar() {
     `;
 }
 
-function closeNavBar() {
+function closeNavbar() {
     navbar.classList.add("navbar-toggle");
     toggle.innerHTML = 
     `
