@@ -418,9 +418,9 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 #### Performance
 
-* EWe were very happy with this score.
+* We were very happy with this score.
 * We lost 8 points on mobile, purely down to the amount of images present on our site.
-* We ensured to keep our CSS 
+* We ensured to keep our CSS tidy, keeping only the selectors that we needed.
 
 #### Accessibility
 
