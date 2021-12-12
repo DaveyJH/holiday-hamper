@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round:wght@400;500;600;700&display=swap');
 
 /* -------------------------------------------------------------------- Variables */
 
@@ -132,7 +133,8 @@ nav {
 }
 
 .welcome {
-    font-size: 3.5rem;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3rem;
     color: var(--yellow);
     place-self: end center;
 }
@@ -208,6 +210,7 @@ nav {
     justify-self: center;
     color: var(--yellow);
     text-shadow: rgb(0, 0, 0) 0 0 50px;
+    font-family: 'Varela Round', sans-serif;
     font-size: 3rem;
 }
 
@@ -219,6 +222,7 @@ h4 {
     border-radius: 0.2rem;
     text-shadow: pink 0 0 10px;
     margin-bottom: 20px;
+    font-size: 1.5rem;
 }
 
 h3 {
