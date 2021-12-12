@@ -96,6 +96,7 @@ nav {
     height: 10vh;
     line-height: 2.5;
     color: var(--white);
+    display: block;
 }
 
 .menu-bar {
@@ -118,6 +119,10 @@ nav {
     top: 25px;
     right: 25px;
     cursor: pointer;
+}
+
+.bar-icon {
+    text-shadow: 0 0 5px var(--yellow);
 }
 
 /* ---------------------------------------------------------------- Landing Page */
@@ -154,6 +159,15 @@ nav {
     font-size: 2.5rem;
     color: var(--white);
     place-self: end center;
+}
+
+.scroll-arrow i,
+.next-arrow i {
+    text-shadow: 0 0 10px #000;
+}
+
+.next-arrow-black i {
+    text-shadow: 0 0 10px #fff;
 }
 
 /* ---------------------------------------------------------------- Holiday cards */

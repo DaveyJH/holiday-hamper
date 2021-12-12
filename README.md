@@ -200,6 +200,10 @@ Google DevTools was used to help us find which code correlated to which feature.
 
 [Remove.bg](https://www.remove.bg/) was used to remove the background colour of the image that we used in the favicon.
 
+#### Wave
+
+[Wave](https://wave.webaim.org/) was used to check the accessibility of the site.
+
 [Back to Top](#title)
 
 ---
@@ -228,7 +232,7 @@ This site was deployed to GitHub Pages by following these steps:
 ### How to Clone it
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. Fork the repository daveyjh/holiday-hamper using the steps above in [How to Fork it](#how-to-fork-it).
+2. Fork the repository [daveyjh/holiday-hamper](https://github.com/Abibubble/holiday-hamper) using the steps above in [How to Fork it](#how-to-fork-it).
 3. Above the file list, click "Code".
 4. Choose if you want to clone using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
@@ -425,18 +429,30 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 * We were very happy with this score.
 * We lost 8 points on mobile, purely down to the amount of images present on our site.
 * We ensured to keep our CSS tidy, keeping only the selectors that we needed.
+* We ensured all images were sized as well as they could be.
 
 #### Accessibility
 
-* EXPLAIN SCORE AND HOW WE IMPROVED IT IF NECESSARY
+* We were very happy with this score.
+* We made sure to code with accessibility in mind from the very first discussion.
+* All images have descriptive alt text.
+* All tap targets are sized at a minimum of 48px x 48px, with a gap of at least 8px between tap targets.
+* All colour contrasts comply with AA guidelines.
+* Semantic HTML has been used throughout the site.
 
 #### Best Practices
 
-* EXPLAIN SCORE AND HOW WE IMPROVED IT IF NECESSARY
+* We were very happy with this score.
+* All external links are secure.
+* All images are displayed with the correct aspect ratio and resolution.
+* There are no issues in the Devtools Issues panel.
 
 #### SEO
 
-* EXPLAIN SCORE AND HOW WE IMPROVED IT IF NECESSARY
+* We were happy with this score.
+* All relevant meta tags were included.
+* Each page has different meta tags, to relate to the page content.
+* All links have descriptive text.
 
 [Back to Top](#holiday-hamper)
 
@@ -451,7 +467,7 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 ### Content
 
-* [National Today](https://nationaltoday.com/): various traditions
+* [National Today](https://nationaltoday.com/): Various traditions
 * [Why Christmas](https://www.whychristmas.com): Christmas traditions
 * [iNews](https://inews.co.uk/light-relief/offbeat/yule-what-winter-festival-origins-explained-christmas-celebrations-806267): Christmas traditions
 * [Goddess And Greenman](https://www.goddessandgreenman.co.uk/yule/): Yuletide traditions
