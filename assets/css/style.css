@@ -125,11 +125,12 @@ nav {
 .grid-container-welcome {
     display: grid;
     height: 100vh;
+    width: 100%;
     background: url("../img/landing-page.jpg") no-repeat center center/cover;
 }
 
 .landing-overlay h1 {
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .welcome {
@@ -212,6 +213,7 @@ nav {
     text-shadow: rgb(0, 0, 0) 0 0 50px;
     font-family: 'Varela Round', sans-serif;
     font-size: 3rem;
+    line-height: 1.5;
 }
 
 .holiday-description,
@@ -749,7 +751,8 @@ footer a {
         "next-arrow next-arrow";
     }
 
-    .welcome {
+    .welcome,
+    .holiday-name {
         font-size: 2.5rem;
     }
 
@@ -767,5 +770,13 @@ footer a {
 @media screen and (max-width: 450px) {
     .navbar-toggle {
         width: 100%;
+    }
+
+    .grid-container-last {
+        height: 105vh;
+    }
+
+    .grid-container-welcome {
+        padding-top: 2.5rem;
     }
 }
