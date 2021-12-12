@@ -200,6 +200,10 @@ Google DevTools was used to help us find which code correlated to which feature.
 
 [Remove.bg](https://www.remove.bg/) was used to remove the background colour of the image that we used in the favicon.
 
+#### Wave
+
+[Wave](https://wave.webaim.org/) was used to check the accessibility of the site.
+
 [Back to Top](#title)
 
 ---
@@ -228,7 +232,7 @@ This site was deployed to GitHub Pages by following these steps:
 ### How to Clone it
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. Fork the repository daveyjh/holiday-hamper using the steps above in [How to Fork it](#how-to-fork-it).
+2. Fork the repository [daveyjh/holiday-hamper](https://github.com/Abibubble/holiday-hamper) using the steps above in [How to Fork it](#how-to-fork-it).
 3. Above the file list, click "Code".
 4. Choose if you want to clone using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
