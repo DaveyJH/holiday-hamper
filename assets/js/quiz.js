@@ -29,7 +29,7 @@ const displayQuiz = (quizToDisplay) => {
  */
 const fetchQuiz = async () => {
     try {
-        const response = await fetch("../assets/quizData.json");
+        const response = await fetch("assets/json/quizData.json");
         const quizData = await response.json();
         quiz = quizData;
         displayQuiz(1);
