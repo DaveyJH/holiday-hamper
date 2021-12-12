@@ -436,18 +436,15 @@ input[type=text], textarea {
 
 #quiz-question {
     padding: 16px;
-    font-size: 24px;
+    font-size: 1.25rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
 }
-#quiz-question > h2 {
-    font-size: 24px;
-}
+
 #quiz-question a {
     cursor: pointer;
     color: var(--white);
-    font-size: 24px;
 }
 
 #quiz-question a:hover {
@@ -745,7 +742,7 @@ footer a {
         padding: 15px;
     }
     .holiday-section .holiday-info,
-    .holiday-section:nth-last-of-type(2n) .holiday-info  {
+    .holiday-section:nth-of-type(2n) .holiday-info  {
         padding: 0;
         padding: 5px;
     }
@@ -803,5 +800,13 @@ footer a {
 
     .grid-container-welcome {
         padding-top: 2.5rem;
+    }
+
+    .mySlide {
+        width: 90%;
+    }
+
+    #quiz-question {
+        font-size: .9rem;
     }
 }
