@@ -463,7 +463,7 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 ### Content
 
-* [National Today](https://nationaltoday.com/): various traditions
+* [National Today](https://nationaltoday.com/): Various traditions
 * [Why Christmas](https://www.whychristmas.com): Christmas traditions
 * [iNews](https://inews.co.uk/light-relief/offbeat/yule-what-winter-festival-origins-explained-christmas-celebrations-806267): Christmas traditions
 * [Goddess And Greenman](https://www.goddessandgreenman.co.uk/yule/): Yuletide traditions
