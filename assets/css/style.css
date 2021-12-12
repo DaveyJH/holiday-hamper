@@ -744,6 +744,20 @@ footer a {
         "holiday-content holiday-content" 
         "next-arrow next-arrow";
     }
+
+    .welcome {
+        font-size: 2.5rem;
+    }
+
+    .sub-heading {
+        font-size: 1.5rem;
+    }
+
+    .header img {
+        height: var(--header-height);
+        left: 15px;
+        top: 0;
+    }
 }
 
 @media screen and (max-width: 450px) {
