@@ -161,25 +161,25 @@ nav {
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .grid-odds {
     grid-template-areas: 
+    ". ."
     ". holiday-content" 
     "next-arrow next-arrow";
 }
 
 .grid-evens {
-    grid-template-areas: 
+    grid-template-areas:
+    ". ." 
     "holiday-content ." 
     "next-arrow next-arrow";
 }
 
 .holiday-landing-overlay {
     grid-area: holiday-content;
-    align-self: end;
-    margin-top: 25% !important;
 }
 
 .grid-container-holidays {
@@ -217,7 +217,7 @@ nav {
 .holiday-description,
 h3,
 h4 {
-    padding: 1rem;
+    padding-bottom: 1rem;
     color: #fafafa;
     border-radius: 0.2rem;
     text-shadow: pink 0 0 10px;
@@ -748,9 +748,24 @@ footer a {
 
     .grid-odds,
     .grid-evens {
-        grid-template-areas: 
+        grid-template-areas:
+        ". ."  
         "holiday-content holiday-content" 
         "next-arrow next-arrow";
+    }
+
+    .welcome {
+        font-size: 2.5rem;
+    }
+
+    .sub-heading {
+        font-size: 1.5rem;
+    }
+
+    .header img {
+        height: var(--header-height);
+        left: 15px;
+        top: 0;
     }
 }
 
