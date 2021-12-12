@@ -138,6 +138,15 @@ We wanted this project to be as inclusive as possible. As the main holidays in e
   * Copyright information
   * Links to holiday-related games
 
+### Future Features
+
+* An API that calculates the date of the next holiday. This could be used on the home page in a number of ways:
+  * Ordering the holidays.
+  * An indication of what holiday is coming up so people can easily research it.
+  * This also has scope for adding something like 'Diwali in 2022 will be/commence on October 24'.
+* Links to more in-depth resources for each holiday.
+* Google Map API to select holiday by region via clicking on the map.
+
 [Back to Top](#holiday-hamper)
 
 ---
