@@ -125,11 +125,12 @@ nav {
 .grid-container-welcome {
     display: grid;
     height: 100vh;
+    width: 100%;
     background: url("../img/landing-page.jpg") no-repeat center center/cover;
 }
 
 .landing-overlay h1 {
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .welcome {
@@ -212,6 +213,7 @@ nav {
     text-shadow: rgb(0, 0, 0) 0 0 50px;
     font-family: 'Varela Round', sans-serif;
     font-size: 3rem;
+    line-height: 1.5;
 }
 
 .holiday-description,
@@ -222,7 +224,7 @@ h4 {
     border-radius: 0.2rem;
     text-shadow: pink 0 0 10px;
     margin-bottom: 20px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 h3 {
@@ -281,7 +283,7 @@ h4 {
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    font-size: 18px;
+    font-size: 1rem;
     border: none;
     outline: none;
     color: var(--red);
@@ -439,7 +441,9 @@ input[type=text], textarea {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
 }
-
+#quiz-question > h2 {
+    font-size: 24px;
+}
 #quiz-question a {
     cursor: pointer;
     color: var(--white);
@@ -505,11 +509,6 @@ input[type=text], textarea {
 }
 
 /* -------------------------------------------------------------------- Holiday pages */
-
-/* .holiday-grid {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-} */
 
 .holiday-main {
     background-image: url('../img/stars.jpg');
@@ -765,7 +764,8 @@ footer a {
         "next-arrow next-arrow";
     }
 
-    .welcome {
+    .welcome,
+    .holiday-name {
         font-size: 2.5rem;
     }
 
@@ -795,5 +795,13 @@ footer a {
 
     .navbar-toggle {
         width: 100%;
+    }
+
+    .grid-container-last {
+        height: 105vh;
+    }
+
+    .grid-container-welcome {
+        padding-top: 2.5rem;
     }
 }
