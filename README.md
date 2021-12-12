@@ -262,12 +262,12 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 1. W3C Markup Validator
     * [Landing page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2F)
     * [Christmas page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fchristmas.html)
-    * [Diwali page](LINK)
+    * [Diwali page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fdiwali.html)
     * [Hanukkah page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fhanukkah.html)
     * [New Year's Eve page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fnew-year.html)
     * [Yuletide](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fyuletide.html)
     * [Chinese New Year](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fchinese-new-year.html)
-    * [Suggestion form page](LINK)
+    * [Suggestion form page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fsuggest.html)
 
 2. W3C CSS Validator
     * [Landing page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -454,7 +454,6 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 * [Chinese New Year](https://chinesenewyear.net/21-things-you-didnt-know-about-chinese-new-year/): Chinese New Year traditions
 * [The Culture Trip](https://theculturetrip.com/asia/india/articles/15-surprising-facts-you-may-not-know-about-diwali/): Diwali traditions
 * [Town And Country Magazine](https://www.townandcountrymag.com/leisure/arts-and-culture/g13787924/hanukkah-facts-history-story/): Hanukkah traditions
-
 
 ### Media
 
