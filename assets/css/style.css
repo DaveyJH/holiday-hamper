@@ -96,6 +96,7 @@ nav {
     height: 10vh;
     line-height: 2.5;
     color: var(--white);
+    display: block;
 }
 
 .menu-bar {
