@@ -260,24 +260,24 @@ For a more detailed version of these steps, go to the [Github Docs](https://docs
 The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the project to ensure there were no syntax errors within the site.
 
 1. W3C Markup Validator
-    * [Landing page](LINK)
-    * [Christmas page](LINK)
+    * [Landing page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2F)
+    * [Christmas page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fchristmas.html)
     * [Diwali page](LINK)
-    * [Hanukkah page](LINK)
-    * [New Year's Eve page](LINK)
+    * [Hanukkah page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fhanukkah.html)
+    * [New Year's Eve page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fnew-year.html)
+    * [Yuletide](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fyuletide.html)
+    * [Chinese New Year](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fchinese-new-year.html)
     * [Suggestion form page](LINK)
-    * [Yuletide](LINK)
-    * [Chinese New Year](LINK)
 
 2. W3C CSS Validator
-    * [Landing page](LINK)
-    * [Christmas page](LINK)
-    * [Diwali page](LINK)
-    * [Hanukkah page](LINK)
-    * [New Year's Eve page](LINK)
-    * [Suggestion form page](LINK)
-    * [Yuletide](LINK)
-    * [Chinese New Year](LINK)
+    * [Landing page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [Christmas page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fchristmas.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [Diwali page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fdiwali.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [Hanukkah page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fhanukkah.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [New Year's Eve page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fnew-year.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [Yuletide page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fyuletide.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [Chinese New Year page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fchinese-new-year.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [Suggestion form page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fsuggest.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 3. JSHint
     * [JSHint](https://jshint.com/)
@@ -418,7 +418,9 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 
 #### Performance
 
-* EXPLAIN SCORE AND HOW WE IMPROVED IT IF NECESSARY
+* We were very happy with this score.
+* We lost 8 points on mobile, purely down to the amount of images present on our site.
+* We ensured to keep our CSS tidy, keeping only the selectors that we needed.
 
 #### Accessibility
 

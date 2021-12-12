@@ -79,11 +79,11 @@
                 <div class="container">
                     <h2 class="form-header">Are we missing a holiday? Request an addition here</h2>
                     <label for="holiday-name">Name</label>
-                    <input type="text" placeholder="What's the name of the holiday?" name="holiday-name" required>
+                    <input type="text" placeholder="What's the name of the holiday?" name="holiday-name" id="holiday-name" required>
                     <label for="holiday-month">When</label>
-                    <input type="text" placeholder="When is this holiday celebrated?" name="holiday-month" required>
+                    <input type="text" placeholder="When is this holiday celebrated?" name="holiday-month" id="holiday-month" required>
                     <label for="who-celebrates">Who</label>
-                    <input type="text" placeholder="Who celebrates this holiday?" name="who-celebrates" required>
+                    <input type="text" placeholder="Who celebrates this holiday?" name="who-celebrates" id="who-celebrates" required>
                     <label for="holiday-description">Description</label>
                     <textarea name="holiday-description" id="holiday-description" placeholder="Describe this holiday celebration" rows="2" cols="50" required></textarea>
                     <label for="holiday-history">History</label>
@@ -91,7 +91,7 @@
                     <label for="how-celebrated">Celebration</label>
                     <textarea name="how-celebrated" id="how-celebrated" placeholder="How is this holiday celebrated?" rows="2" cols="50" required></textarea>
                     <label for="links">Links</label>
-                    <input type="text" placeholder="Can you give us some links to research this holiday further?" name="links" required>
+                    <input type="text" placeholder="Can you give us some links to research this holiday further?" name="links" id="links" required>
                     <p id="form-fail"></p>
                     <div class="form-btn">
                         <button class="more-info" type="submit">Submit Holiday</button>
@@ -123,7 +123,7 @@
             <p class="copyright">Copyright &copy; Team 9 <span id="copyright"></span></p>
         </footer>
 
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
         <script src="assets/js/form.js"></script>
         <script src="assets/js/script.js"></script>
     </body>
