@@ -279,8 +279,12 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
     * [Chinese New Year page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fchinese-new-year.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
     * [Suggestion form page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaveyjh.github.io%2Fholiday-hamper%2Fsuggest.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-3. JSHint
-    * [JSHint](https://jshint.com/)
+3. [JSHint](https://jshint.com/)
+    * [btt-btn.js script](docs/jshint-btt.png)
+    * [form.js script](docs/jshint-form.png)
+    * [index.js script](docs/jshint-index.png)
+    * [quiz.js script](docs/jshint-quiz.png)
+    * [script.js script](docs/jshint-btt.png)
 
 [Back to Top](#holiday-hamper)
 
@@ -291,7 +295,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 ##### Easy to navigate
 
 * The navigation menu is accessible by a click of the burger icon in the top right corner.
-* Other links to pages on the site can be found under seach small section on the landing page.
+* Other links to pages on the site can be found under each small section on the landing page.
 * A next holiday arrow is included at the bottom of every minor section on the landing page, to take the user to the next holiday section.
 
 ##### Easy to understand the site's purpose
