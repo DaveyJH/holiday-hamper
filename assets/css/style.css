@@ -836,4 +836,8 @@ footer a {
     .btt-btn {
         display: none;
     }
+
+    #burger-icon {
+        right: 15px;
+    }
 }
