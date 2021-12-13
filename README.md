@@ -25,6 +25,7 @@ This site was built by team Happy Holiday Hackers for the [Code Institute](https
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
   * [Features](#features)
+  * [Future Features](#future-features)
 
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
