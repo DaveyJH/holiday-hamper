@@ -153,6 +153,8 @@ nav {
 
 .suggest-btn {
     place-self: start center;
+    z-index: 100;
+    position: relative;
 }
 
 .scroll-arrow {
@@ -735,6 +737,9 @@ footer ul {
     0%,
     100% {
         transform: scale(0) rotate(-90deg);
+        border-radius: 50%;
+        box-shadow: 0 0 15px 5px var(--trans-yellow),
+            inset 0 0 8px 1px var(--trans-yellow);
     }
 
     50% {

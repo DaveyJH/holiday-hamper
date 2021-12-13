@@ -1,6 +1,7 @@
 // -------------------------------------------------------------------- Global State
 
 const stars = document.getElementsByClassName("christmas-star");
+const currentStars = [];
 
 // -------------------------------------------------------------------- Christmas Cards
 
@@ -23,9 +24,24 @@ function randomPosition(element) {
     }
 }
 
-(function randomStars() {
-    setInterval(() => {
-        const randomStar = getRandomElement(stars);
+function generateStar() {
+    if (currentStars.length > stars.length - 2
+        || currentStars.length > 7) // maximum stars for future development
+        {
+            currentStars.shift();
+    }
+    const randomStar = getRandomElement(stars);
+    if (!currentStars.includes(randomStar.href)){
         randomPosition(randomStar);
-    }, 5000);
+        currentStars.push(randomStar.href);
+    }
+}
+
+generateStar(); // initial star so no delay
+
+(function randomStars() {
+    
+    setInterval(() => {
+        generateStar();
+    }, 8000);
 })();
