@@ -12,7 +12,7 @@ function getRandomElement(array) {
 function randomPosition(element) {
     element.style.opacity = 1;
     element.style.top = `${Math.random() * 90 + 10}vh`;
-    element.style.left = `${Math.random() * 90}vw`;
+    element.style.left = `${Math.random() * 80}vw`;
 }
 
 (function randomStars() {

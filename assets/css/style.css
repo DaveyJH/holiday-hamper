@@ -849,4 +849,8 @@ footer a {
     .btt-btn i {
         font-size: 2rem;
     }
+
+    #burger-icon {
+        right: 15px;
+    }
 }
