@@ -416,11 +416,26 @@ Friends, family members, and other developers were asked to review the site and 
     * We separated the quiz script into a new script file, and only loaded that script on the relevant pages.
     * Whilst fixing this bug, we also discovered that the back to top button was also causing similar errors to show.
     * We did the same thing for the back to top button, creating a separate script file for it.
+2. The functionality to close the navbar when the user clicked elsewhere on the page wasn't working.
+    * We noticed that function names for `openNavbar()` and `closeNavbar()` were reversed.
+    * We changed those to the correct order.
+    * We then decided to toggle the class to change the appearance of the menu icon rather than replacing the entire element.
+    * Then we set navbarOpen to false initially, which fixed this bug.
+3. The randomised star links occasionally overlay on the header, navbar, and welcome text.
+    * We realised that the stars sometimes appeared in bad places on the landing apge.
+    * The stars also caused overflow issues on smaller screens.
+    * We used some percentage calcs of the window.innerWidth and window.innerHeight in combination with offsetHeight of the header and stars themselves.
+    * We tested this by removing Math.random() and setting to highest and lowest points.
+    * This fixed this bug.
+    * While we were fixing this bug, we also made the following improvements to the stars:
+      * Set position of stars to maintain until animation had finished.
+      * Stars remain in place for longer.
+      * Stars have shining border.
+      * Suggestion button brought in front using z-index.
 
 ### Known Bugs
 
-* The randomised star links occasionally overly on the header, navbar, and text.
-* The navbar links change hover colour, without being clickable. Only the text is clickable.
+* There are currently no known bugs in this project. If you find one, please contact the dev team.
 
 ### Lighthouse
 
