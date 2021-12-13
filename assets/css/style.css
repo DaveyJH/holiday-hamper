@@ -657,17 +657,57 @@ footer {
     background: var(--red);
     height: fit-content;
     padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    align-content: center;
+    align-items: center;
     position: relative;
     font-size: 20px;
 }
 
+footer .flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+footer .flex a {
+    flex-basis: 25%;
+}
+
+footer .flex p {
+    flex-basis: 50%;
+    padding: 0 2px;
+    border-left: solid 2px var(--yellow);
+    border-right: solid 2px var(--yellow);
+}
+
 footer a {
     color: var(--white);
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+.team {
+    margin: 5px 0;
+}
+
+.circle-photo {
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 1rem;
+    margin: 0 5px;
 }
 
 /* -------------------------------------------------------------------- 404 */
@@ -765,6 +805,24 @@ footer a {
         padding: 0;
         padding: 5px;
     }
+    
+    .circle-photo {
+        height: 50px;
+        border-radius: 50%;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .github-links {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 5%;
+    }
+  
+    footer ul {
+        width: 100%;
+    }
 
     .btt-btn {
         bottom: 70px;
@@ -807,10 +865,25 @@ footer a {
         width: 90%;
     }
 
+    footer .flex:not(.github-links) {
+        flex-direction: column;
+    }
+
+    footer .flex:not(.github-links) a {
+        flex-basis: 100%;
+    }
+    
+    footer .flex:not(.github-links) p {
+        flex-basis: 100%;
+        padding: 0 2px;
+        border-left: none;
+        border-right: none;
+        margin: 5px 0;
+    }
+
     .btt-btn {
         bottom: 100px;
     }
-
 }
 
 @media screen and (max-width: 450px) {
@@ -843,11 +916,11 @@ footer a {
     }
 
     .btt-btn {
-        bottom: 120px;
+        display: none;
     }
 
-    .btt-btn i {
-        font-size: 2rem;
+    #burger-icon {
+        right: 15px;
     }
 
     .btt-btn.active {
