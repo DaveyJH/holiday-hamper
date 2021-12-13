@@ -33,6 +33,7 @@ body {
     margin: 0;
     background-color: whitesmoke;
     color: var(--white);
+    overflow: hidden;
 }
 
 a {
