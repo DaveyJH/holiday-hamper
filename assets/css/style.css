@@ -790,7 +790,7 @@ footer ul {
 @media screen and (prefers-reduced-motion: no-preference) {
     .star {
         will-change: transform;
-        animation: star-spin 8s ease-in-out infinite;
+        animation: star-spin 6.5s ease-in-out infinite;
     }
 
     .fa-chevron-down {
@@ -867,6 +867,10 @@ footer ul {
     }
 
     #suggestion-content {
+        width: 90%;
+    }
+
+    .my-slide {
         width: 90%;
     }
 
