@@ -1,6 +1,7 @@
 // -------------------------------------------------------------------- Global State
 
 const toggle = document.getElementById("burger-icon");
+const menuIcon = toggle.children[1];
 const navbar = document.getElementById("menu");
 let navbarOpen = false;
 
@@ -8,32 +9,46 @@ let navbarOpen = false;
 
 toggle.addEventListener("click", toggleNavbar);
 
-function toggleNavbar() {
+function toggleNavbar(event) {
     navbarOpen = !navbarOpen;
     if (navbarOpen) {
-        closeNavbar();
-    } else {
         openNavbar();
+    } else {
+        closeNavbar();
     }
 }
 
-function openNavbar() {
+function closeNavbar() {
     navbar.classList.remove("navbar-toggle");
-    toggle.innerHTML = 
+    // closeIcon.classList.toggle("hide");
+    menuIcon.classList.toggle("fa-times");
+    menuIcon.classList.toggle("fa-bars");
+    toggle.children[0].outerHTML = 
     `
     <span class="sr-only">Open the navigation menu</span>
-    <i class="fas fa-bars fa-2x tap-target bar-icon"></i>
     `;
 }
 
-function closeNavbar() {
+function openNavbar() {
     navbar.classList.add("navbar-toggle");
-    toggle.innerHTML = 
+    menuIcon.classList.toggle("fa-times");
+    menuIcon.classList.toggle("fa-bars");
+    toggle.children[0].outerHTML = 
     `
     <span class="sr-only">Close the navigation menu</span>
-    <i class="fas fa-times fa-2x tap-target bar-icon"></i>
     `;
 }
+
+function outsideClick(event) {
+    if (navbarOpen && 
+        (event.target.id !== "menu" && !toggle.contains(event.target))) 
+        {
+            navbarOpen = false;
+            closeNavbar();
+    }
+}
+
+document.addEventListener('click', outsideClick);
 
 // -------------------------------------------------------------------- Copyright
 
