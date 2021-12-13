@@ -40,7 +40,8 @@ function openNavbar() {
 
 function outsideClick(event) {
     if (navbarOpen && 
-        (event.target.id !== "menu" && !toggle.contains(event.target))) 
+        event.target.id !== "menu" &&
+        !toggle.contains(event.target)) 
         {
             navbarOpen = false;
             closeNavbar();
