@@ -10,9 +10,17 @@ function getRandomElement(array) {
 }
 
 function randomPosition(element) {
+    const winHeight = window.innerHeight;
+    const winWidth = window.innerWidth;
+    elemHeight = element.offsetHeight + 20;
+    headHeight = document.getElementsByClassName("header")[0].offsetHeight + 57;
+    range = winHeight - (headHeight + elemHeight);
     element.style.opacity = 1;
-    element.style.top = `${Math.random() * 90 + 10}vh`;
-    element.style.left = `${Math.random() * 80}vw`;
+    element.style.top = `${Math.random() * range + headHeight}px`;
+    element.style.left = `${Math.random() * winWidth * 0.775 + winWidth * 0.075}px`;
+    if (window.innerWidth < 600) {
+        element.style.left = `${Math.random() * 80}vw`;
+    }
 }
 
 (function randomStars() {
