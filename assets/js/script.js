@@ -9,7 +9,7 @@ let navbarOpen = false;
 
 toggle.addEventListener("click", toggleNavbar);
 
-function toggleNavbar(event) {
+function toggleNavbar() {
     navbarOpen = !navbarOpen;
     if (navbarOpen) {
         openNavbar();
@@ -20,7 +20,6 @@ function toggleNavbar(event) {
 
 function closeNavbar() {
     navbar.classList.remove("navbar-toggle");
-    // closeIcon.classList.toggle("hide");
     menuIcon.classList.toggle("fa-times");
     menuIcon.classList.toggle("fa-bars");
     toggle.children[0].outerHTML = 
