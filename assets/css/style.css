@@ -295,7 +295,7 @@ h4 {
     visibility: hidden;
     opacity:0;
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 30px;
     z-index: 99;
     font-size: 1rem;
@@ -309,7 +309,7 @@ h4 {
 }
 
 .btt-btn i {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .btt-btn.active {
@@ -765,6 +765,10 @@ footer a {
         padding: 0;
         padding: 5px;
     }
+
+    .btt-btn {
+        bottom: 70px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -802,6 +806,11 @@ footer a {
     #suggestion-content {
         width: 90%;
     }
+
+    .btt-btn {
+        bottom: 100px;
+    }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -834,6 +843,10 @@ footer a {
     }
 
     .btt-btn {
-        display: none;
+        bottom: 120px;
+    }
+
+    .btt-btn i {
+        font-size: 2rem;
     }
 }
