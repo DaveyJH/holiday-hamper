@@ -315,7 +315,7 @@ h4 {
 .btt-btn.active {
     visibility: visible;
     opacity: 1;
-    border: 15px solid #e84d1b;
+    border: 9px solid #e84d1b;
     border-radius: 50%;
     text-shadow: 0 0 5px var(--yellow);
 }
@@ -921,5 +921,9 @@ footer ul {
 
     #burger-icon {
         right: 15px;
+    }
+
+    .btt-btn.active {
+        border: 7px solid #e84d1b;
     }
 }
