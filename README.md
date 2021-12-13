@@ -424,18 +424,18 @@ Friends, family members, and other developers were asked to review the site and 
 3. The randomised star links occasionally overlay on the header, navbar, and welcome text.
     * We realised that the stars sometimes appeared in bad places on the landing apge.
     * The stars also caused overflow issues on smaller screens.
-    * We used some percentage calcs of the window.innerWidth and window.innerHeight in combination with offsetHeight of the header and stars themselves.
-    * We tested this by removing Math.random() and setting to highest and lowest points.
+    * We used some percentage calcs of the `window.innerWidth` and `window.innerHeight` in combination with `offsetHeight` of the header and stars themselves.
+    * We tested this by removing `Math.random()` and setting to highest and lowest points.
     * This fixed this bug.
     * While we were fixing this bug, we also made the following improvements to the stars:
-      * Set position of stars to maintain until animation had finished.
+      * Set position of stars to maintain until animation finishes.
       * Stars remain in place for longer.
-      * Stars have shining border.
-      * Suggestion button brought in front using z-index.
+      * Stars have shining golden border.
+      * Suggestion button brought in front using `z-index`.
 
 ### Known Bugs
 
-* There are currently no known bugs in this project. If you find one, please contact the dev team.
+* There are currently no known bugs in this project. If you find any, please contact the dev team.
 
 ### Lighthouse
 
