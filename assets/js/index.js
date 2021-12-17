@@ -18,14 +18,15 @@ function randomPosition(element) {
     range = winHeight - (headHeight + elemHeight);
     element.style.opacity = 1;
     element.style.top = `${Math.random() * range + headHeight}px`;
-    element.style.left = `${Math.random() * winWidth * 0.775 + winWidth * 0.075}px`;
+    element.style.left = `${
+        Math.random() * winWidth * 0.775 + winWidth * 0.075}px`;
     if (window.innerWidth < 600) {
         element.style.left = `${Math.random() * 80}vw`;
     }
 }
 
 function generateStar() {
-    if (currentStars.length > stars.length - 2
+    if (currentStars.length > stars.length - 3
         || currentStars.length > 7) // maximum stars for future development
         {
             currentStars.shift();
@@ -45,3 +46,18 @@ generateStar(); // initial star so no delay
         generateStar();
     }, 8000);
 })();
+
+/* 
+ * Hide stars and reset position to top left.
+ * This prevents overflow when resizing window.
+ */
+window.addEventListener("resize", () => {
+    while (currentStars.length > 0) {
+        currentStars.shift();
+    }
+    for (let star of stars) {
+        star.style.opacity = 0;
+        star.style.left = 0;
+        star.style.top = 0;
+    }
+});
