@@ -299,7 +299,7 @@ h4 {
     position: fixed;
     bottom: 50px;
     right: 30px;
-    z-index: 99;
+    z-index: 50;
     font-size: 1rem;
     border: none;
     outline: none;
@@ -307,7 +307,7 @@ h4 {
     cursor: pointer;
     padding: 1px; 
     border-radius: 4px;
-    transition: 0.5s;
+    transition: border, text-shadow, opacity, .5s;
 }
 
 .btt-btn i {
